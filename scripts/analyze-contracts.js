@@ -1,0 +1,142 @@
+const axios = require("axios");
+const fs = require("fs");
+const OpenAI = require("openai");
+
+require("dotenv").config();
+
+// initialize OpenAI client
+const openai = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY || "no key found - check your .env file",
+});
+
+async function getContractSource(contractId) {
+  const url = `https://api.hiro.so/extended/v1/contract/${contractId}`;
+  try {
+    const response = await axios.get(url, {
+      timeout: 30000,
+      headers: process.env.HIRO_API_KEY
+        ? {
+            "x-api-key": process.env.HIRO_API_KEY,
+          }
+        : {},
+    });
+    return response.data.source_code;
+  } catch (error) {
+    console.error(`Failed to fetch source for ${contractId}:`, error.message);
+    return null;
+  }
+}
+
+// rough estimate of costs before starting
+async function estimateTotalCost() {
+  // read first contract to get a size estimate
+  const contracts = JSON.parse(fs.readFileSync("popular_contracts.json"));
+  const firstSource = await getContractSource(contracts[0].contract);
+
+  // estimate tokens (very roughly - 1 token ~= 4 chars)
+  const tokensPerContract = Math.ceil(firstSource.length / 4);
+  const outputTokens = 500; // rough estimate for analysis output
+
+  const costPerContract =
+    tokensPerContract * MODEL_COSTS["gpt-4-0125-preview"].input +
+    outputTokens * MODEL_COSTS["gpt-4-0125-preview"].output;
+
+  const totalEstimate = costPerContract * 200;
+
+  console.log(
+    `\nEstimated cost for 200 contracts: $${totalEstimate.toFixed(2)}`
+  );
+  console.log(`(based on first contract size of ${firstSource.length} chars)`);
+
+  // give them a chance to bail
+  console.log("\npress ctrl+c to cancel, or wait 5s to continue...");
+  await new Promise((resolve) => setTimeout(resolve, 5000));
+}
+
+async function analyzeContract(source) {
+  const prompt = `Analyze this Clarity smart contract and provide your response in the following JSON format:
+
+{
+  "summary": "short 1-3 sentence summary of what the contract does",
+  "explanation": "A full, detailed explanation of how the contract works and its implementation details. Include line-by-line education/analysis. Imagine that someone is reading this code to learn more about Clarity. if a block/line of code is referenced, please use the format <L120> for a single line, or <L88-96> for a block.",
+  "tags": ["tag1", "tag2", "etc"] - categorize/tag the contract based on its functionality, for example, "NFT", "fungible-token", "DeFi", "protocol", etc
+}
+
+Contract source:
+${source}`;
+
+  try {
+    const completion = await openai.chat.completions.create({
+      model: "gpt-4-0125-preview",
+      messages: [
+        {
+          role: "system",
+          content:
+            "You are an expert in analyzing Clarity smart contracts for the Stacks blockchain and teaching developers who are new to Clarity how to write it well. Provide clear, technical analysis focusing on the contract's purpose and implementation details. Format your response as valid JSON with the specified fields.",
+        },
+        { role: "user", content: prompt },
+      ],
+      temperature: 0.3,
+      response_format: { type: "json_object" },
+    });
+
+    // parse the json response
+    return JSON.parse(completion.choices[0].message.content);
+  } catch (error) {
+    console.error("OpenAI API error:", error.message);
+    return null;
+  }
+}
+
+async function main() {
+  // read popular contracts
+  const contracts = JSON.parse(fs.readFileSync("popular_contracts.json"));
+  const analyses = [];
+
+  // analyze top 200 contracts
+  for (let i = 0; i < Math.min(200, contracts.length); i++) {
+    const contract = contracts[i];
+    console.log(`\nAnalyzing ${i + 1}/200: ${contract.contract}`);
+
+    const source = await getContractSource(contract.contract);
+    if (!source) {
+      console.log("Failed to fetch source, skipping...");
+      continue;
+    }
+
+    const analysis = await analyzeContract(source);
+    if (!analysis) {
+      console.log("Failed to analyze, skipping...");
+      continue;
+    }
+
+    analyses.push({
+      rank: contract.rank,
+      contract: contract.contract,
+      calls: contract.calls,
+      source,
+      analysis,
+    });
+
+    // save progress after each successful analysis
+    fs.writeFileSync(
+      "contract_analyses.json",
+      JSON.stringify(analyses, null, 2)
+    );
+
+    // wait a bit between requests to avoid rate limits
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+  }
+
+  console.log("\nAnalysis complete! Results saved to contract_analyses.json");
+}
+
+// check for required API key
+if (!process.env.OPENAI_API_KEY) {
+  console.error("Please set OPENAI_API_KEY environment variable");
+  process.exit(1);
+}
+
+await estimateTotalCost();
+
+main().catch(console.error);

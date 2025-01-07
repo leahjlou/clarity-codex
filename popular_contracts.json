@@ -1,0 +1,5662 @@
+[
+  {
+    "rank": 1,
+    "contract": "SP102V8P0F7JX67ARQ77WEA3D3CFB5XW39REDT0AM.amm-pool-v2-01",
+    "calls": 26905
+  },
+  {
+    "rank": 2,
+    "contract": "SP20X3DC5R091J8B6YPQT638J8NR1W83KN6TN5BJY.path-apply_staging",
+    "calls": 23235
+  },
+  {
+    "rank": 3,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.wrapper-alex-v-2-1",
+    "calls": 20083
+  },
+  {
+    "rank": 4,
+    "contract": "SP2QEZ06AGJ3RKJPBV14SY1V5BBFNAW33D96YPGZF.BNS-V2",
+    "calls": 16340
+  },
+  {
+    "rank": 5,
+    "contract": "SP102V8P0F7JX67ARQ77WEA3D3CFB5XW39REDT0AM.token-alex",
+    "calls": 12242
+  },
+  {
+    "rank": 6,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.router-velar-alex-v-1-2",
+    "calls": 9214
+  },
+  {
+    "rank": 7,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.stableswap-stx-ststx-v-1-2",
+    "calls": 6992
+  },
+  {
+    "rank": 8,
+    "contract": "SP1NAZ59R1ED0V6NH9N0EQBEB3MKT48CQCMKC5Q41.swap-router-v21",
+    "calls": 6086
+  },
+  {
+    "rank": 9,
+    "contract": "SP000000000000000000002Q6VF78.pox-4",
+    "calls": 5531
+  },
+  {
+    "rank": 10,
+    "contract": "SP2C2YFP12AJZB4MABJBAJ55XECVS7E4PMMZ89YZR.arkadiko-oracle-v2-3",
+    "calls": 5142
+  },
+  {
+    "rank": 11,
+    "contract": "SP2VCQJGH7PHP2DJK7Z0V48AGBHQAW3R3ZW1QF4N.borrow-helper-v2-0-0",
+    "calls": 4909
+  },
+  {
+    "rank": 12,
+    "contract": "SP1Z92MPDQEWZXW36VX71Q25HKF5K2EPCJ304F275.farming-v3b-logic",
+    "calls": 4867
+  },
+  {
+    "rank": 13,
+    "contract": "SP2VCQJGH7PHP2DJK7Z0V48AGBHQAW3R3ZW1QF4N.borrow-helper-v1-3",
+    "calls": 4341
+  },
+  {
+    "rank": 14,
+    "contract": "SP4SZE494VC2YC5JYG7AYFQ44F5Q4PYV7DVMDPBG.stacking-dao-core-v3",
+    "calls": 4314
+  },
+  {
+    "rank": 15,
+    "contract": "SP001SFSMC2ZY76PD4M68P3WGX154XCH7NE3TYMX.pox4-pools",
+    "calls": 4263
+  },
+  {
+    "rank": 16,
+    "contract": "SP1NAZ59R1ED0V6NH9N0EQBEB3MKT48CQCMKC5Q41.swap-router-v23",
+    "calls": 3512
+  },
+  {
+    "rank": 17,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.univ2-router",
+    "calls": 3210
+  },
+  {
+    "rank": 18,
+    "contract": "SP102V8P0F7JX67ARQ77WEA3D3CFB5XW39REDT0AM.alex-farming",
+    "calls": 3164
+  },
+  {
+    "rank": 19,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.wrapper-velar-multihop-v-1-1",
+    "calls": 3037
+  },
+  {
+    "rank": 20,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.earn-stx-ststx-v-1-2",
+    "calls": 2972
+  },
+  {
+    "rank": 21,
+    "contract": "SM1793C4R5PZ4NS4VQ4WMP7SKKYVH8JZEWSZ9HCCR.xyk-core-v-1-2",
+    "calls": 2414
+  },
+  {
+    "rank": 22,
+    "contract": "SP3SF2T474DXYEJ540GB27CZP3FG7FJ83X9RY4WF6.amm-pool-v2-02",
+    "calls": 2128
+  },
+  {
+    "rank": 23,
+    "contract": "SP3NE50GEXFG9SZGTT51P40X2CKYSZ5CC4ZTZ7A2G.welshcorgicoin-token",
+    "calls": 2003
+  },
+  {
+    "rank": 24,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.wrapper-velar-v-1-1",
+    "calls": 1970
+  },
+  {
+    "rank": 25,
+    "contract": "SP1NAZ59R1ED0V6NH9N0EQBEB3MKT48CQCMKC5Q41.swap-router-v16",
+    "calls": 1729
+  },
+  {
+    "rank": 26,
+    "contract": "SM1793C4R5PZ4NS4VQ4WMP7SKKYVH8JZEWSZ9HCCR.xyk-core-v-1-1",
+    "calls": 1660
+  },
+  {
+    "rank": 27,
+    "contract": "SP2C2YFP12AJZB4MABJBAJ55XECVS7E4PMMZ89YZR.arkadiko-swap-v2-1",
+    "calls": 1575
+  },
+  {
+    "rank": 28,
+    "contract": "SP1E0XBN9T4B10E9QMR7XMFJPMA19D77WY3KP2QKC.farming-campaign-v2-01",
+    "calls": 1437
+  },
+  {
+    "rank": 29,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.wrapper-arkadiko-v-1-1",
+    "calls": 1412
+  },
+  {
+    "rank": 30,
+    "contract": "SP3X4GA49AQY5S2RV46MP1GPCYTPBN4DZ1X35XTBE.swap-router-v16",
+    "calls": 1369
+  },
+  {
+    "rank": 31,
+    "contract": "SP2XD7417HGPRTREMKF748VNEQPDRR0RMANB7X1NK.btc-peg-out-endpoint-v2-01",
+    "calls": 1189
+  },
+  {
+    "rank": 32,
+    "contract": "SP2AA3RQQ8R98CZER4J1SMCSG879A4KM3WH3PM1KW.bns-1718282853306-v1",
+    "calls": 1128
+  },
+  {
+    "rank": 33,
+    "contract": "SPAG3YDTNKR58Z6X1RK74N861MXJ8RCRRE80A11W.balancer-v29-3",
+    "calls": 1106
+  },
+  {
+    "rank": 34,
+    "contract": "SPVD6CE8RW90BGGKJZTKCSMGKS7HP0K8364TFR48.bitcoin-faces-airdrop",
+    "calls": 1100
+  },
+  {
+    "rank": 35,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.wrapper-velar-path-v-1-1",
+    "calls": 1088
+  },
+  {
+    "rank": 36,
+    "contract": "SP1AY6K3PQV5MRT6R4S671NWW2FRVPKM0BR162CT6.leo-token",
+    "calls": 975
+  },
+  {
+    "rank": 37,
+    "contract": "SP3T54N6G4HN7GPBCYMSDKP4W00C45X19GQ4VT13Y.skullcoin-competitive-g1-base",
+    "calls": 967
+  },
+  {
+    "rank": 38,
+    "contract": "SP2N959SER36FZ5QT1CX9BR63W3E8X35WQCMBYYWC.leo-cats",
+    "calls": 931
+  },
+  {
+    "rank": 39,
+    "contract": "SP673Z4BPB4R73359K9HE55F2X91V5BJTN5SXZ5T.meta-peg-out-endpoint-v2-04",
+    "calls": 875
+  },
+  {
+    "rank": 40,
+    "contract": "SP673Z4BPB4R73359K9HE55F2X91V5BJTN5SXZ5T.meta-peg-in-v2-04-swap",
+    "calls": 824
+  },
+  {
+    "rank": 41,
+    "contract": "SM1793C4R5PZ4NS4VQ4WMP7SKKYVH8JZEWSZ9HCCR.xyk-swap-helper-v-1-2",
+    "calls": 803
+  },
+  {
+    "rank": 42,
+    "contract": "SPAG3YDTNKR58Z6X1RK74N861MXJ8RCRRE80A11W.balancer-v2-4",
+    "calls": 790
+  },
+  {
+    "rank": 43,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.router-xyk-velar-v-1-1",
+    "calls": 776
+  },
+  {
+    "rank": 44,
+    "contract": "SP1E0XBN9T4B10E9QMR7XMFJPMA19D77WY3KP2QKC.farming-campaign-v2-02",
+    "calls": 742
+  },
+  {
+    "rank": 45,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.hoot-dex",
+    "calls": 730
+  },
+  {
+    "rank": 46,
+    "contract": "SM1793C4R5PZ4NS4VQ4WMP7SKKYVH8JZEWSZ9HCCR.stableswap-core-v-1-2",
+    "calls": 730
+  },
+  {
+    "rank": 47,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.stableswap-usda-aeusdc-v-1-4",
+    "calls": 720
+  },
+  {
+    "rank": 48,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.router-stableswap-alex-v-1-2",
+    "calls": 692
+  },
+  {
+    "rank": 49,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.univ2-router-api-v1_0_0",
+    "calls": 684
+  },
+  {
+    "rank": 50,
+    "contract": "SP21YTSM60CAY6D011EZVEVNKXVW8FVZE198XEFFP.pox4-fast-pool-v3",
+    "calls": 671
+  },
+  {
+    "rank": 51,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.router-stableswap-velar-v-1-2",
+    "calls": 666
+  },
+  {
+    "rank": 52,
+    "contract": "SM3VDXK3WZZSA84XXFKAFAF15NNZX32CTSG82JFQ4.sbtc-deposit",
+    "calls": 659
+  },
+  {
+    "rank": 53,
+    "contract": "SM1793C4R5PZ4NS4VQ4WMP7SKKYVH8JZEWSZ9HCCR.router-xyk-alex-v-1-3",
+    "calls": 640
+  },
+  {
+    "rank": 54,
+    "contract": "SP804CDG3KBN9M6E00AD744K8DC697G7HBCG520Q.sbtc-yield-rewards",
+    "calls": 598
+  },
+  {
+    "rank": 55,
+    "contract": "SP2C2YFP12AJZB4MABJBAJ55XECVS7E4PMMZ89YZR.arkadiko-stake-registry-v2-1",
+    "calls": 593
+  },
+  {
+    "rank": 56,
+    "contract": "SP102V8P0F7JX67ARQ77WEA3D3CFB5XW39REDT0AM.dual-farming",
+    "calls": 589
+  },
+  {
+    "rank": 57,
+    "contract": "SPNWZ5V2TPWGQGVDR6T7B6RQ4XMGZ4PXTEE0VQ0S.marketplace-v4",
+    "calls": 587
+  },
+  {
+    "rank": 58,
+    "contract": "SP2C2YFP12AJZB4MABJBAJ55XECVS7E4PMMZ89YZR.arkadiko-vaults-operations-v1-2",
+    "calls": 578
+  },
+  {
+    "rank": 59,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.univ2-router",
+    "calls": 576
+  },
+  {
+    "rank": 60,
+    "contract": "SP102V8P0F7JX67ARQ77WEA3D3CFB5XW39REDT0AM.alex-staking-v2",
+    "calls": 570
+  },
+  {
+    "rank": 61,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.multihop",
+    "calls": 568
+  },
+  {
+    "rank": 62,
+    "contract": "SM3KNVZS30WM7F89SXKVVFY4SN9RMPZZ9FX929N0V.lqstx-mint-endpoint-v2-01",
+    "calls": 568
+  },
+  {
+    "rank": 63,
+    "contract": "SP1PW804599BZ46B4A0FYH86ED26XPJA7SFYNK1XS.play",
+    "calls": 544
+  },
+  {
+    "rank": 64,
+    "contract": "SPBKM76FM8T8DEAQ11C9CF9WJKTSMKE140M0VXFM.capy-stxcity-dex",
+    "calls": 531
+  },
+  {
+    "rank": 65,
+    "contract": "SP2X2Z28NXZVJFCJPBR9Q3NBVYBK3GPX8PXA3R83C.odin-tkn",
+    "calls": 515
+  },
+  {
+    "rank": 66,
+    "contract": "SP2AKWJYC7BNY18W1XXKPGP0YVEK63QJG4793Z2D4.uwu-oracle-v1-1-3",
+    "calls": 513
+  },
+  {
+    "rank": 67,
+    "contract": "SP1E0XBN9T4B10E9QMR7XMFJPMA19D77WY3KP2QKC.auto-alex-v3-endpoint-v2-02",
+    "calls": 507
+  },
+  {
+    "rank": 68,
+    "contract": "SP673Z4BPB4R73359K9HE55F2X91V5BJTN5SXZ5T.cross-peg-in-endpoint-v2-04",
+    "calls": 494
+  },
+  {
+    "rank": 69,
+    "contract": "SP1QMFV1W1T3CX70W6V95VWGSBJA3WFMVZRABE1FN.univ2-router",
+    "calls": 493
+  },
+  {
+    "rank": 70,
+    "contract": "SP2XD7417HGPRTREMKF748VNEQPDRR0RMANB7X1NK.cross-peg-out-endpoint-v2-01",
+    "calls": 474
+  },
+  {
+    "rank": 71,
+    "contract": "SP1Z92MPDQEWZXW36VX71Q25HKF5K2EPCJ304F275.stackswap-swap-v5k",
+    "calls": 469
+  },
+  {
+    "rank": 72,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.router-stx-ststx-bitflow-alex-v-1-2",
+    "calls": 461
+  },
+  {
+    "rank": 73,
+    "contract": "SP351ZJK9F5AWZJEEZGZ7NZKSRKA65EWFRR48V9KS.ALL",
+    "calls": 447
+  },
+  {
+    "rank": 74,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-velar-stx-distributor",
+    "calls": 433
+  },
+  {
+    "rank": 75,
+    "contract": "SP1C2K603TGWJGKPT2Z3WWHA0ARM66D352385TTWH.not-punk",
+    "calls": 426
+  },
+  {
+    "rank": 76,
+    "contract": "SP39JCPYF3XTGS663GSY41G9VX04XRBM0KQ2ZZQ14.balancer-v11-1",
+    "calls": 416
+  },
+  {
+    "rank": 77,
+    "contract": "SP11Z0M9SXMXM2BGQHDPT0B9Z03TDE56WFSF6EEX8.gm-stxcity-dex",
+    "calls": 414
+  },
+  {
+    "rank": 78,
+    "contract": "SPNWZ5V2TPWGQGVDR6T7B6RQ4XMGZ4PXTEE0VQ0S.marketplace-bid-v6",
+    "calls": 407
+  },
+  {
+    "rank": 79,
+    "contract": "SP3J9CZ0HNRZX7S5YBAFPT3SJ4KP1PBSRVP3TQAT7.world-peace-stacks-balls",
+    "calls": 405
+  },
+  {
+    "rank": 80,
+    "contract": "SP3CMTKSJQDEPDA735FWTZS517AMHQ13WTQM4CT1A.amm-swap-pool-v1-1",
+    "calls": 383
+  },
+  {
+    "rank": 81,
+    "contract": "SP14J806BWEPQAXVA0G6RYZN7GNA126B7JFRRYTEM.world-peace-stacks-stxcity",
+    "calls": 361
+  },
+  {
+    "rank": 82,
+    "contract": "SP2C2YFP12AJZB4MABJBAJ55XECVS7E4PMMZ89YZR.arkadiko-token",
+    "calls": 357
+  },
+  {
+    "rank": 83,
+    "contract": "SM1793C4R5PZ4NS4VQ4WMP7SKKYVH8JZEWSZ9HCCR.router-xyk-stableswap-v-1-1",
+    "calls": 354
+  },
+  {
+    "rank": 84,
+    "contract": "SP3D6PV2ACBPEKYJTCMH7HEN02KP87QSP8KTEH335.nakapack-nft",
+    "calls": 354
+  },
+  {
+    "rank": 85,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.router-stableswap-xyk-v-1-2",
+    "calls": 352
+  },
+  {
+    "rank": 86,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v200",
+    "calls": 351
+  },
+  {
+    "rank": 87,
+    "contract": "SP20X3DC5R091J8B6YPQT638J8NR1W83KN6TN5BJY.curve-pool-v1_0_0_ststx-0001",
+    "calls": 347
+  },
+  {
+    "rank": 88,
+    "contract": "SPNWZ5V2TPWGQGVDR6T7B6RQ4XMGZ4PXTEE0VQ0S.marketplace-bid-v5",
+    "calls": 343
+  },
+  {
+    "rank": 89,
+    "contract": "SP3SNCBK1ZH05J3SBST16ZXP2AHSPE9H645ZTRVQ6.building-blocks-stxcity-dex",
+    "calls": 341
+  },
+  {
+    "rank": 90,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v204",
+    "calls": 333
+  },
+  {
+    "rank": 91,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.cyclops-liquidity-dexterity",
+    "calls": 325
+  },
+  {
+    "rank": 92,
+    "contract": "SP2TT71CXBRDDYP2P8XMVKRFYKRGSMBWCZ6W6FDGT.notastrategy",
+    "calls": 324
+  },
+  {
+    "rank": 93,
+    "contract": "SP3SMQNVWRBVWC81SRJYFV4X1ZQ7AWWJFBQJMC724.riseofthememefam",
+    "calls": 320
+  },
+  {
+    "rank": 94,
+    "contract": "SP3PB0M970QNX9C948JN2Q4V5Z7A1X893EA4Y2VDB.amm-pool-v2-02",
+    "calls": 315
+  },
+  {
+    "rank": 95,
+    "contract": "SP1A6F9ABHQMVP92GH7T9ZBF029T1WG3SHPNMKT0D.treasury-grant-v3-claim-helper-v2",
+    "calls": 313
+  },
+  {
+    "rank": 96,
+    "contract": "SP3ACD3WC1XTVJ0J3T3532TN4NFABRKMSD2WBBVWV.king-stxcity",
+    "calls": 300
+  },
+  {
+    "rank": 97,
+    "contract": "SP14NS8MVBRHXMM96BQY0727AJ59SWPV7RMHC0NCG.pontis-bridge-v5",
+    "calls": 293
+  },
+  {
+    "rank": 98,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-send",
+    "calls": 293
+  },
+  {
+    "rank": 99,
+    "contract": "SP4VEZSABNV5SXE9GTYMZHK9H08VCZM4V1GWPKEJ.chancla-stxcity-dex",
+    "calls": 290
+  },
+  {
+    "rank": 100,
+    "contract": "SP97M6Z0T8MHKJ6NZE0GS6TRERCG3GW1WVJ4NVGT.aibtcdev-airdrop-1",
+    "calls": 279
+  },
+  {
+    "rank": 101,
+    "contract": "SP2SF8P7AKN8NYHD57T96C51RRV9M0GKRN02BNHD2.blocklist",
+    "calls": 274
+  },
+  {
+    "rank": 102,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.router-stx-ststx-bitflow-arkadiko-v-1-1",
+    "calls": 273
+  },
+  {
+    "rank": 103,
+    "contract": "SP3K8BC0PPEVCV7NZ6QSRWPQ2JE9E5B6N3PA0KBR9.stxdx-wallet-zero",
+    "calls": 272
+  },
+  {
+    "rank": 104,
+    "contract": "SP2892G9YED28VAQWV6B3SRXHC3WY4X1N2YN1X6J3.screenfiends-nft-minter",
+    "calls": 268
+  },
+  {
+    "rank": 105,
+    "contract": "SP1SCEXE6PMGPAC6B4N5P2MDKX8V4GF9QDE1FNNGJ.degenlab-stacking-pool-pox4",
+    "calls": 264
+  },
+  {
+    "rank": 106,
+    "contract": "SP2QEZ06AGJ3RKJPBV14SY1V5BBFNAW33D96YPGZF.zonefile-resolver",
+    "calls": 263
+  },
+  {
+    "rank": 107,
+    "contract": "SP102V8P0F7JX67ARQ77WEA3D3CFB5XW39REDT0AM.migrate-legacy-v2-wl",
+    "calls": 261
+  },
+  {
+    "rank": 108,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-velar-stx-core",
+    "calls": 260
+  },
+  {
+    "rank": 109,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.stacks-believers-stxcity-dex",
+    "calls": 259
+  },
+  {
+    "rank": 110,
+    "contract": "SPV8C2N59MA417HYQNG6372GCV0SEQE01EV4Z1RQ.stacks-invaders-v0",
+    "calls": 258
+  },
+  {
+    "rank": 111,
+    "contract": "SP3NDZ2HXSCT0MZSJGZHYNA382DM6163KYT61524M.stx-faktory-dex",
+    "calls": 254
+  },
+  {
+    "rank": 112,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.univ2-path2",
+    "calls": 254
+  },
+  {
+    "rank": 113,
+    "contract": "SPFDQHA10SPK9X3QPJVA1VPS1R96BANXJWGHW38V.little-twat-collective-stxcity-dex",
+    "calls": 254
+  },
+  {
+    "rank": 114,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-roo-distributor",
+    "calls": 244
+  },
+  {
+    "rank": 115,
+    "contract": "SP3Y2ZSH8P7D50B0VBTSX11S7XSG24M1VB9YFQA4K.bridge",
+    "calls": 240
+  },
+  {
+    "rank": 116,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.dungeon-crawler-v0",
+    "calls": 239
+  },
+  {
+    "rank": 117,
+    "contract": "SP3J9CZ0HNRZX7S5YBAFPT3SJ4KP1PBSRVP3TQAT7.balls-stxcity-dex",
+    "calls": 237
+  },
+  {
+    "rank": 118,
+    "contract": "SP17Z9QG1VZCZT01FYZD5KGVNMZVAXB0W536YMA7C.annoying-delusional-assholes-stxcity-dex",
+    "calls": 237
+  },
+  {
+    "rank": 119,
+    "contract": "SP2BQ0676YV3F7QBJXS1PT7XA975ZG03XEXS9C8TN.stacksai-stxcity-dex",
+    "calls": 234
+  },
+  {
+    "rank": 120,
+    "contract": "SP673Z4BPB4R73359K9HE55F2X91V5BJTN5SXZ5T.btc-peg-in-endpoint-v2-05",
+    "calls": 230
+  },
+  {
+    "rank": 121,
+    "contract": "SP2TTK8YMANQ8P88T2GGXF45R2M53MTMZGMWNQFVC.stupid-oblivious-loser-stxcity-dex",
+    "calls": 230
+  },
+  {
+    "rank": 122,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v201",
+    "calls": 229
+  },
+  {
+    "rank": 123,
+    "contract": "SP1G48FZ4Y7JY8G2Z0N51QTCYGBQ6F4J43J77BQC0.dia-oracle",
+    "calls": 227
+  },
+  {
+    "rank": 124,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-roo-distributor2",
+    "calls": 219
+  },
+  {
+    "rank": 125,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.velar-token",
+    "calls": 216
+  },
+  {
+    "rank": 126,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v180",
+    "calls": 213
+  },
+  {
+    "rank": 127,
+    "contract": "SM1793C4R5PZ4NS4VQ4WMP7SKKYVH8JZEWSZ9HCCR.router-xyk-velar-v-1-3",
+    "calls": 209
+  },
+  {
+    "rank": 128,
+    "contract": "SP20X3DC5R091J8B6YPQT638J8NR1W83KN6TN5BJY.curve-farming-core-v1_1_1_ststx-0001",
+    "calls": 205
+  },
+  {
+    "rank": 129,
+    "contract": "SM3VDXK3WZZSA84XXFKAFAF15NNZX32CTSG82JFQ4.sbtc-token",
+    "calls": 202
+  },
+  {
+    "rank": 130,
+    "contract": "SP1QMFV1W1T3CX70W6V95VWGSBJA3WFMVZRABE1FN.stableswap-stx-ststx-v-1-1",
+    "calls": 202
+  },
+  {
+    "rank": 131,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.redemption-vault-v0",
+    "calls": 200
+  },
+  {
+    "rank": 132,
+    "contract": "SP3X384EHYMSQPRKZE2R61J81V0G11KTMKDZTS8NK.tokenmobiles-43",
+    "calls": 200
+  },
+  {
+    "rank": 133,
+    "contract": "SP3W69VDG9VTZNG7NTW1QNCC1W45SNY98W1JSZBJH.flat-earth-stxcity",
+    "calls": 199
+  },
+  {
+    "rank": 134,
+    "contract": "SP20X3DC5R091J8B6YPQT638J8NR1W83KN6TN5BJY.farming-wstx-roo-distributor3",
+    "calls": 199
+  },
+  {
+    "rank": 135,
+    "contract": "SP1QMFV1W1T3CX70W6V95VWGSBJA3WFMVZRABE1FN.stableswap-ststx-wstx-v1-1",
+    "calls": 196
+  },
+  {
+    "rank": 136,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v144",
+    "calls": 194
+  },
+  {
+    "rank": 137,
+    "contract": "SP673Z4BPB4R73359K9HE55F2X91V5BJTN5SXZ5T.meta-peg-in-endpoint-v2-04",
+    "calls": 192
+  },
+  {
+    "rank": 138,
+    "contract": "SP3NJ4BR35W8002J0PWZY0QNG9FTYZ32H38Z0PV17.rise-of-the-meme",
+    "calls": 191
+  },
+  {
+    "rank": 139,
+    "contract": "SP4SZE494VC2YC5JYG7AYFQ44F5Q4PYV7DVMDPBG.stacking-dao-genesis-nft",
+    "calls": 186
+  },
+  {
+    "rank": 140,
+    "contract": "SP32AEEF6WW5Y0NMJ1S8SBSZDAY8R5J32NBZFPKKZ.nope",
+    "calls": 186
+  },
+  {
+    "rank": 141,
+    "contract": "SP804CDG3KBN9M6E00AD744K8DC697G7HBCG520Q.sbtc-yield-rewards-v2",
+    "calls": 186
+  },
+  {
+    "rank": 142,
+    "contract": "SP2HM9F89Y24KRM6WE4NJ6QN5G929KP3WMJSGESQ4.ccd012-redemption-nyc",
+    "calls": 183
+  },
+  {
+    "rank": 143,
+    "contract": "SPN5AKG35QZSK2M8GAMR4AFX45659RJHDW353HSG.usdh-token-v1",
+    "calls": 178
+  },
+  {
+    "rank": 144,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v181",
+    "calls": 177
+  },
+  {
+    "rank": 145,
+    "contract": "SPN5AKG35QZSK2M8GAMR4AFX45659RJHDW353HSG.staking-v1",
+    "calls": 175
+  },
+  {
+    "rank": 146,
+    "contract": "SPQ5CEHETP8K4Q2FSNNK9ANMPAVBSA9NN86YSN59.welsh-stone",
+    "calls": 174
+  },
+  {
+    "rank": 147,
+    "contract": "SP2VG7S0R4Z8PYNYCAQ04HCBX1MH75VT11VXCWQ6G.built-on-bitcoin-stxcity-dex",
+    "calls": 174
+  },
+  {
+    "rank": 148,
+    "contract": "SP3M31QFF6S96215K4Y2Z9K5SGHJN384NV6YM6VM8.satoshai",
+    "calls": 173
+  },
+  {
+    "rank": 149,
+    "contract": "SP3RQY2KAMTAAZWMAVEMFKC9QBX0MH91010MNBZ9E.ABC",
+    "calls": 172
+  },
+  {
+    "rank": 150,
+    "contract": "SP3HNEXSXJK2RYNG5P6YSEE53FREX645JPJJ5FBFA.meme-stxcity",
+    "calls": 172
+  },
+  {
+    "rank": 151,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.curve-farming-distributor-1-v1_1_0-0001",
+    "calls": 171
+  },
+  {
+    "rank": 152,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.stableswap-usda-aeusdc-v-1-2",
+    "calls": 171
+  },
+  {
+    "rank": 153,
+    "contract": "SP25K3XPVBNWXPMYDXBPSZHGC8APW0Z21CWJ3Y3B1.wen-nakamoto-stxcity",
+    "calls": 170
+  },
+  {
+    "rank": 154,
+    "contract": "SP4SZE494VC2YC5JYG7AYFQ44F5Q4PYV7DVMDPBG.stacking-dao-core-v1",
+    "calls": 170
+  },
+  {
+    "rank": 155,
+    "contract": "SP1Z92MPDQEWZXW36VX71Q25HKF5K2EPCJ304F275.stackswap-swap-router-v1b",
+    "calls": 167
+  },
+  {
+    "rank": 156,
+    "contract": "SP212Y5JKN59YP3GYG07K3S8W5SSGE4KH6B5STXER.sponsor-dex-v01",
+    "calls": 167
+  },
+  {
+    "rank": 157,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.router-stx-ststx-bitflow-velar-v-1-2",
+    "calls": 166
+  },
+  {
+    "rank": 158,
+    "contract": "SPJAKB2ZMXJJJHTDJ6A7Q3A4P714H6CMGPERQ9M7.grinch-stole-christmas-stxcity-dex",
+    "calls": 164
+  },
+  {
+    "rank": 159,
+    "contract": "SP3YY9K5QF54W0KTHKNA3SEPMR1B3GTB75BBPJWH0.rocket-van-stxcity-dex",
+    "calls": 164
+  },
+  {
+    "rank": 160,
+    "contract": "SP1QMFV1W1T3CX70W6V95VWGSBJA3WFMVZRABE1FN.stableswap-usda-aeusdc-v-1-2",
+    "calls": 160
+  },
+  {
+    "rank": 161,
+    "contract": "SPV8C2N59MA417HYQNG6372GCV0SEQE01EV4Z1RQ.rooooons-cash-out",
+    "calls": 159
+  },
+  {
+    "rank": 162,
+    "contract": "SPGYCP878RYFVT03ZT8TWGPKNYTSQB1578VVXHGE.loupsi-dexterity",
+    "calls": 158
+  },
+  {
+    "rank": 163,
+    "contract": "SP17Y3F4K7MTJH4724RMTZFZ2V15AJFWGJSAJP2YZ.amm-swap-pool-v1-1",
+    "calls": 157
+  },
+  {
+    "rank": 164,
+    "contract": "SP3CMTKSJQDEPDA735FWTZS517AMHQ13WTQM4CT1A.stableswap-abtc-xbtc-v2-4",
+    "calls": 157
+  },
+  {
+    "rank": 165,
+    "contract": "SP3E8B51MF5E28BD82FM95VDSQ71VK4KFNZX7ZK2R.frog-faktory-dex",
+    "calls": 156
+  },
+  {
+    "rank": 166,
+    "contract": "SP1BM5Z901962821ZWXSRZVPKFRWF76C6E9AYG0HN.stacks-maxi-biz-ogs",
+    "calls": 155
+  },
+  {
+    "rank": 167,
+    "contract": "SP20KBF1FZAXDEH5D64FVYF9EYD8Y2Q8XPFNF381M.mana",
+    "calls": 155
+  },
+  {
+    "rank": 168,
+    "contract": "SP3D6PV2ACBPEKYJTCMH7HEN02KP87QSP8KTEH335.megapont-ape-club-nft",
+    "calls": 152
+  },
+  {
+    "rank": 169,
+    "contract": "SP3T54N6G4HN7GPBCYMSDKP4W00C45X19GQ4VT13Y.skullcoin-storyline-g1-base",
+    "calls": 150
+  },
+  {
+    "rank": 170,
+    "contract": "SP4SZE494VC2YC5JYG7AYFQ44F5Q4PYV7DVMDPBG.native-stacking-pool-v1",
+    "calls": 146
+  },
+  {
+    "rank": 171,
+    "contract": "SP4SZE494VC2YC5JYG7AYFQ44F5Q4PYV7DVMDPBG.ststx-token",
+    "calls": 146
+  },
+  {
+    "rank": 172,
+    "contract": "SPNWZ5V2TPWGQGVDR6T7B6RQ4XMGZ4PXTEE0VQ0S.change-price-v1",
+    "calls": 145
+  },
+  {
+    "rank": 173,
+    "contract": "SP1JTCR202ECC6333N7ZXD7MK7E3ZTEEE1MJ73C60.name-registrar",
+    "calls": 144
+  },
+  {
+    "rank": 174,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v196",
+    "calls": 143
+  },
+  {
+    "rank": 175,
+    "contract": "SP2XD7417HGPRTREMKF748VNEQPDRR0RMANB7X1NK.migrate-legacy-v2",
+    "calls": 141
+  },
+  {
+    "rank": 176,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v184",
+    "calls": 141
+  },
+  {
+    "rank": 177,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.xyk-staking-sbtc-stx-v-1-1",
+    "calls": 140
+  },
+  {
+    "rank": 178,
+    "contract": "SP2C1WREHGM75C7TGFAEJPFKTFTEGZKF6DFT6E2GE.kangaroo",
+    "calls": 140
+  },
+  {
+    "rank": 179,
+    "contract": "SP2892G9YED28VAQWV6B3SRXHC3WY4X1N2YN1X6J3.screenfiends-nft",
+    "calls": 139
+  },
+  {
+    "rank": 180,
+    "contract": "SPGYCP878RYFVT03ZT8TWGPKNYTSQB1578VVXHGE.isabelle-dexterity",
+    "calls": 139
+  },
+  {
+    "rank": 181,
+    "contract": "SP3C7508XY726X7Z4DECMDAGMD85MYPGF9GE5RQ12.mechaowl-dexterity",
+    "calls": 139
+  },
+  {
+    "rank": 182,
+    "contract": "SP12JCJYJJ31C59MV94SNFFM4687H9A04Q3BHTAJM.NoCodeClarity-Token",
+    "calls": 138
+  },
+  {
+    "rank": 183,
+    "contract": "SP1HMPMXQCHXC5X8D12MJEB6XFW8YQNBQRH1N51HT.univ2-router",
+    "calls": 134
+  },
+  {
+    "rank": 184,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.router-xyk-alex-v-1-2",
+    "calls": 134
+  },
+  {
+    "rank": 185,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-roo-core",
+    "calls": 132
+  },
+  {
+    "rank": 186,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.charismatic-shark-dexterity",
+    "calls": 132
+  },
+  {
+    "rank": 187,
+    "contract": "SP3T54N6G4HN7GPBCYMSDKP4W00C45X19GQ4VT13Y.skullcoin-competitive-g1-phase1",
+    "calls": 131
+  },
+  {
+    "rank": 188,
+    "contract": "SPW2CWKC61DTT1PBD6V0R7P81V5RJ2DX3FYSE8YK.alien-poop-stxcity-dex",
+    "calls": 129
+  },
+  {
+    "rank": 189,
+    "contract": "SPAE4SFGGSKKH7NC49KQCHJFY9159DG24YHQCJVX.xtremely-retarded-people-stxcity-dex",
+    "calls": 129
+  },
+  {
+    "rank": 190,
+    "contract": "SP102V8P0F7JX67ARQ77WEA3D3CFB5XW39REDT0AM.auto-alex-apower-helper-v3",
+    "calls": 128
+  },
+  {
+    "rank": 191,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.charismatic-flow-dexterity",
+    "calls": 128
+  },
+  {
+    "rank": 192,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v149",
+    "calls": 128
+  },
+  {
+    "rank": 193,
+    "contract": "SP2X8WZK0A2X4BJC35JFX231CAHEQER5TMRFQBZ3K.test-dont-buy-stxcity-dex",
+    "calls": 127
+  },
+  {
+    "rank": 194,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v203",
+    "calls": 124
+  },
+  {
+    "rank": 195,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.dmgcrow-dexterity",
+    "calls": 124
+  },
+  {
+    "rank": 196,
+    "contract": "SP3AFTJ38PSZQBXZGNCDGM05GR0SFY7HBPZD2ACR2.rocket-stxcity-dex",
+    "calls": 124
+  },
+  {
+    "rank": 197,
+    "contract": "SP3ACD3WC1XTVJ0J3T3532TN4NFABRKMSD2WBBVWV.king-stxcity-dex",
+    "calls": 123
+  },
+  {
+    "rank": 198,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.curve-pool-v1_1_0-0001",
+    "calls": 121
+  },
+  {
+    "rank": 199,
+    "contract": "SP155VXF22PS9SGV8GAQX3HZAKFHZD1N2JP0KKGPK.sandnigga-muneeb-munigga-stxcity-dex",
+    "calls": 120
+  },
+  {
+    "rank": 200,
+    "contract": "SP2AWE8GJ52MKEAGGBTTNEEXZSM9VF8CTYK7ZCZDC.bucket-coin-stxcity-dex",
+    "calls": 119
+  },
+  {
+    "rank": 201,
+    "contract": "SP2VG7S0R4Z8PYNYCAQ04HCBX1MH75VT11VXCWQ6G.built-on-bitcoin-stxcity",
+    "calls": 118
+  },
+  {
+    "rank": 202,
+    "contract": "SP2C2YFP12AJZB4MABJBAJ55XECVS7E4PMMZ89YZR.arkadiko-stake-pool-xusd-usda-v1-4",
+    "calls": 117
+  },
+  {
+    "rank": 203,
+    "contract": "SP2J6Y09JMFWWZCT4VJX0BA5W7A9HZP5EX96Y6VZY.crow-with-bitcoin-dexterity",
+    "calls": 116
+  },
+  {
+    "rank": 204,
+    "contract": "SP2C2YFP12AJZB4MABJBAJ55XECVS7E4PMMZ89YZR.arkadiko-vaults-manager-v1-1",
+    "calls": 116
+  },
+  {
+    "rank": 205,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.recovery-welsh-dexterity",
+    "calls": 116
+  },
+  {
+    "rank": 206,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v142",
+    "calls": 115
+  },
+  {
+    "rank": 207,
+    "contract": "SP20X3DC5R091J8B6YPQT638J8NR1W83KN6TN5BJY.curve-farming-distributor-1-v1_1_1_ststx",
+    "calls": 112
+  },
+  {
+    "rank": 208,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.recovery-roo-dexterity",
+    "calls": 112
+  },
+  {
+    "rank": 209,
+    "contract": "SP8A9HZ3PKST0S42VM9523Z9NV42SZ026V4K39WH.ccd012-redemption-nyc",
+    "calls": 111
+  },
+  {
+    "rank": 210,
+    "contract": "SPAE4SFGGSKKH7NC49KQCHJFY9159DG24YHQCJVX.xtremely-retarded-people-stxcity",
+    "calls": 111
+  },
+  {
+    "rank": 211,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.router-stx-usda-arkadiko-velar-v-1-1",
+    "calls": 110
+  },
+  {
+    "rank": 212,
+    "contract": "SP15FAANQY1CPYMWSQSNB299AMT0XGCEVCJW23F30.stacky-ai-stxcity-dex",
+    "calls": 109
+  },
+  {
+    "rank": 213,
+    "contract": "SPFDAYS6C5XBH3CEMC6R210P348YXT7W1Q69JKPP.dumb-online-gambling-experts-stxcity-dex",
+    "calls": 109
+  },
+  {
+    "rank": 214,
+    "contract": "SP1C2K603TGWJGKPT2Z3WWHA0ARM66D352385TTWH.welsh-punk",
+    "calls": 108
+  },
+  {
+    "rank": 215,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v193",
+    "calls": 107
+  },
+  {
+    "rank": 216,
+    "contract": "SP1BGK4SZZ8FAMN40YMDCV5KXPVTSRX91VM99NF2G.cryptmas-trees",
+    "calls": 107
+  },
+  {
+    "rank": 217,
+    "contract": "SP2D0C4JW6EVFFK851DX5H8KP9390C5KPY4X5Q4XM.uniw-router",
+    "calls": 106
+  },
+  {
+    "rank": 218,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.univ2-path2",
+    "calls": 104
+  },
+  {
+    "rank": 219,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.router-xyk-arkadiko-v-1-1",
+    "calls": 104
+  },
+  {
+    "rank": 220,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v198",
+    "calls": 104
+  },
+  {
+    "rank": 221,
+    "contract": "SP1GRQA1AAA90RMA6GSGGDM14EK8F8CNC074VTPCK.locker-manager",
+    "calls": 103
+  },
+  {
+    "rank": 222,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.charismatic-corgi-dexterity",
+    "calls": 101
+  },
+  {
+    "rank": 223,
+    "contract": "SP2RNHHQDTHGHPEVX83291K4AQZVGWEJ7WCQQDA9R.giga-pepe-v2",
+    "calls": 101
+  },
+  {
+    "rank": 224,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v147",
+    "calls": 100
+  },
+  {
+    "rank": 225,
+    "contract": "SP2TTK8YMANQ8P88T2GGXF45R2M53MTMZGMWNQFVC.big-nonsense-brigade-stxcity-dex",
+    "calls": 99
+  },
+  {
+    "rank": 226,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-velar-usdc-distributor",
+    "calls": 98
+  },
+  {
+    "rank": 227,
+    "contract": "SPAAZWD8D1RXQG85HDH9NQ90DV8TGXBXS4XY02J3.viking-stacking-v2-3",
+    "calls": 98
+  },
+  {
+    "rank": 228,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.memobots-guardians-of-the-gigaverse",
+    "calls": 98
+  },
+  {
+    "rank": 229,
+    "contract": "SP3K8BC0PPEVCV7NZ6QSRWPQ2JE9E5B6N3PA0KBR9.age000-governance-token",
+    "calls": 97
+  },
+  {
+    "rank": 230,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v183",
+    "calls": 96
+  },
+  {
+    "rank": 231,
+    "contract": "SP3T54N6G4HN7GPBCYMSDKP4W00C45X19GQ4VT13Y.skullcoin-competitive-g1-phase2",
+    "calls": 96
+  },
+  {
+    "rank": 232,
+    "contract": "SP3CMTKSJQDEPDA735FWTZS517AMHQ13WTQM4CT1A.amm-pool-v2-01",
+    "calls": 96
+  },
+  {
+    "rank": 233,
+    "contract": "SP2VCQJGH7PHP2DJK7Z0V48AGBHQAW3R3ZW1QF4N.liquidation-manager-v2-0",
+    "calls": 96
+  },
+  {
+    "rank": 234,
+    "contract": "SP1JBV7TE0490KNVM1VAM19KHZG0CPC9426YCY3ZF.drones-stxcity-dex",
+    "calls": 96
+  },
+  {
+    "rank": 235,
+    "contract": "SM1793C4R5PZ4NS4VQ4WMP7SKKYVH8JZEWSZ9HCCR.xyk-emissions-pool-21-sbtc-v-1-1",
+    "calls": 95
+  },
+  {
+    "rank": 236,
+    "contract": "SP20X3DC5R091J8B6YPQT638J8NR1W83KN6TN5BJY.univ2-farming-core-v1_1_1-0070",
+    "calls": 94
+  },
+  {
+    "rank": 237,
+    "contract": "SP1M8YVQ3KZZJQGGZ3KJ0B8MM9PJ0GHE9HDTBNNXS.swap-2",
+    "calls": 94
+  },
+  {
+    "rank": 238,
+    "contract": "SPNZPTGSBE66R85NZWZMQJ7ZNK514CXV1CWEB2MQ.odn-aggregator",
+    "calls": 94
+  },
+  {
+    "rank": 239,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v148",
+    "calls": 94
+  },
+  {
+    "rank": 240,
+    "contract": "SP2GW18TVQR75W1VT53HYGBRGKFRV5BFYNAF5SS5J.Cerulean-SIP10-Bounties-v1",
+    "calls": 93
+  },
+  {
+    "rank": 241,
+    "contract": "SPGYCP878RYFVT03ZT8TWGPKNYTSQB1578VVXHGE.ordrich-dexterity",
+    "calls": 93
+  },
+  {
+    "rank": 242,
+    "contract": "SPKW6PSNQQ5Y8RQ17BWB0X162XW696NQX1868DNJ.treasure-hunters",
+    "calls": 92
+  },
+  {
+    "rank": 243,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.sharkhoot-lp-dexterity",
+    "calls": 92
+  },
+  {
+    "rank": 244,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v158",
+    "calls": 90
+  },
+  {
+    "rank": 245,
+    "contract": "SM1793C4R5PZ4NS4VQ4WMP7SKKYVH8JZEWSZ9HCCR.router-xyk-stx-ststx-v-1-1",
+    "calls": 90
+  },
+  {
+    "rank": 246,
+    "contract": "SP3T54N6G4HN7GPBCYMSDKP4W00C45X19GQ4VT13Y.skullcoin-competitive-g1-phase3",
+    "calls": 90
+  },
+  {
+    "rank": 247,
+    "contract": "SPV9K21TBFAK4KNRJXF5DFP8N7W46G4V9RCJDC22.buy-with-velar-faktory",
+    "calls": 89
+  },
+  {
+    "rank": 248,
+    "contract": "SP4SZE494VC2YC5JYG7AYFQ44F5Q4PYV7DVMDPBG.stacking-dao-fomo-eoy-v1",
+    "calls": 88
+  },
+  {
+    "rank": 249,
+    "contract": "SP3J9CZ0HNRZX7S5YBAFPT3SJ4KP1PBSRVP3TQAT7.roo-balls",
+    "calls": 87
+  },
+  {
+    "rank": 250,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v168",
+    "calls": 86
+  },
+  {
+    "rank": 251,
+    "contract": "SP2C2YFP12AJZB4MABJBAJ55XECVS7E4PMMZ89YZR.arkadiko-vaults-pool-liq-v1-2",
+    "calls": 86
+  },
+  {
+    "rank": 252,
+    "contract": "SP2XD7417HGPRTREMKF748VNEQPDRR0RMANB7X1NK.token-susdt",
+    "calls": 86
+  },
+  {
+    "rank": 253,
+    "contract": "SP3JCJC38FG5AEP8W0PR262GCPGR9ECB5ZH7NZKFE.murad-stxcity-dex",
+    "calls": 86
+  },
+  {
+    "rank": 254,
+    "contract": "SP2XD7417HGPRTREMKF748VNEQPDRR0RMANB7X1NK.token-abtc",
+    "calls": 84
+  },
+  {
+    "rank": 255,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.flop-mxh-stxcity-dex",
+    "calls": 84
+  },
+  {
+    "rank": 256,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.router-stx-ststx-bitflow-xyk-v-1-1",
+    "calls": 83
+  },
+  {
+    "rank": 257,
+    "contract": "SP3CDR86ATBX10K09KKBPXW22HCEJEBE3Y07E97D4.moon-stxcity-dex",
+    "calls": 81
+  },
+  {
+    "rank": 258,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.naval-s-time-wisdom-piq-stxcity-dex",
+    "calls": 81
+  },
+  {
+    "rank": 259,
+    "contract": "SPQYMRAKZPQPJAADX5JBEFT0FHE3RZZK9F8TYBQ3.dawgpool-stxcity-dex",
+    "calls": 80
+  },
+  {
+    "rank": 260,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v163",
+    "calls": 80
+  },
+  {
+    "rank": 261,
+    "contract": "SP1Q4E6971M7HJ6H8XXDSCAFJ96GEQ02RNN8S55ZZ.doge",
+    "calls": 79
+  },
+  {
+    "rank": 262,
+    "contract": "SP1Q4E6971M7HJ6H8XXDSCAFJ96GEQ02RNN8S55ZZ.bull",
+    "calls": 79
+  },
+  {
+    "rank": 263,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v174",
+    "calls": 78
+  },
+  {
+    "rank": 264,
+    "contract": "SP2J6Y09JMFWWZCT4VJX0BA5W7A9HZP5EX96Y6VZY.ultima-dexterity",
+    "calls": 78
+  },
+  {
+    "rank": 265,
+    "contract": "SP1BX0P4MZ5A3A5JCH0E10YNS170QFR2VQ6TT4NRH.byzantion-market-v7",
+    "calls": 77
+  },
+  {
+    "rank": 266,
+    "contract": "SP16SRR777TVB1WS5XSS9QT3YEZEC9JQFKYZENRAJ.bitcoin-pepe",
+    "calls": 77
+  },
+  {
+    "rank": 267,
+    "contract": "SP14NS8MVBRHXMM96BQY0727AJ59SWPV7RMHC0NCG.pontis-bridge-ROONS",
+    "calls": 76
+  },
+  {
+    "rank": 268,
+    "contract": "SPC7DZ9RSDSKK9ERFENG3DWP52FP13EDE49BZ7RH.pengu-stxcity-dex",
+    "calls": 76
+  },
+  {
+    "rank": 269,
+    "contract": "SP3Y2ZSH8P7D50B0VBTSX11S7XSG24M1VB9YFQA4K.token-aeusdc",
+    "calls": 75
+  },
+  {
+    "rank": 270,
+    "contract": "SPQ5CEHETP8K4Q2FSNNK9ANMPAVBSA9NN86YSN59.stxstone-og-vip-pass",
+    "calls": 75
+  },
+  {
+    "rank": 271,
+    "contract": "SPRSMW1JVCXXM6T1YRBZ4HS65V8RJ7CJMBXCMBBS.racks-ai-stxcity-dex",
+    "calls": 75
+  },
+  {
+    "rank": 272,
+    "contract": "SPGYCP878RYFVT03ZT8TWGPKNYTSQB1578VVXHGE.chorgi-dexterity",
+    "calls": 75
+  },
+  {
+    "rank": 273,
+    "contract": "SPNWZ5V2TPWGQGVDR6T7B6RQ4XMGZ4PXTEE0VQ0S.mojo",
+    "calls": 73
+  },
+  {
+    "rank": 274,
+    "contract": "SPD1R8A962EKB8JEHFQTFNXGZTRR93J0NG5KCM81.gangnam-rose-apt-stxcity-dex",
+    "calls": 73
+  },
+  {
+    "rank": 275,
+    "contract": "SP673Z4BPB4R73359K9HE55F2X91V5BJTN5SXZ5T.liabtc-mint-endpoint",
+    "calls": 73
+  },
+  {
+    "rank": 276,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v194",
+    "calls": 71
+  },
+  {
+    "rank": 277,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.dmgpcha-dexterity",
+    "calls": 70
+  },
+  {
+    "rank": 278,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.curve-farming-core-v1_1_0-0001",
+    "calls": 69
+  },
+  {
+    "rank": 279,
+    "contract": "SP38GBVK5HEJ0MBH4CRJ9HQEW86HX0H9AP1HZ3SVZ.trevors-beard-dex",
+    "calls": 69
+  },
+  {
+    "rank": 280,
+    "contract": "SP23QVH1RTFJ67B8AF8BH8AZNMXMHT0AK32PZ8Q4S.charisma-rules-stxcity-dex",
+    "calls": 68
+  },
+  {
+    "rank": 281,
+    "contract": "SP1CSHTKVHMMQJ7PRQRFYW6SB4QAW6SR3XY2F81PA.stxnft-auctions-v1",
+    "calls": 68
+  },
+  {
+    "rank": 282,
+    "contract": "SPQFACZ5KGYJH3XG8BDWW2VGGRBJ8BPFVEXEVC6M.mstr-on-stacks-stxcity",
+    "calls": 67
+  },
+  {
+    "rank": 283,
+    "contract": "SP1KT90149338B5KY9X8KD1V0TWVN8A594CWQP5PD.nakamobros",
+    "calls": 67
+  },
+  {
+    "rank": 284,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v141",
+    "calls": 67
+  },
+  {
+    "rank": 285,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.anime-demon-girl-dexterity",
+    "calls": 66
+  },
+  {
+    "rank": 286,
+    "contract": "SP1HMPMXQCHXC5X8D12MJEB6XFW8YQNBQRH1N51HT.stableswap-stx-ststx-v-1-1",
+    "calls": 66
+  },
+  {
+    "rank": 287,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.dmgrzr-dexterity",
+    "calls": 66
+  },
+  {
+    "rank": 288,
+    "contract": "SP249RRK1HD531X0ZSMWYKKP4T94YBQT1NSYVFWPQ.contributor",
+    "calls": 65
+  },
+  {
+    "rank": 289,
+    "contract": "SPQ5CEHETP8K4Q2FSNNK9ANMPAVBSA9NN86YSN59.stxmap",
+    "calls": 65
+  },
+  {
+    "rank": 290,
+    "contract": "SP3J9CZ0HNRZX7S5YBAFPT3SJ4KP1PBSRVP3TQAT7.stacks-balls",
+    "calls": 65
+  },
+  {
+    "rank": 291,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.dmgmeme-dexterity",
+    "calls": 65
+  },
+  {
+    "rank": 292,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v169",
+    "calls": 64
+  },
+  {
+    "rank": 293,
+    "contract": "SP1Z92MPDQEWZXW36VX71Q25HKF5K2EPCJ304F275.stackswap-reward-balancer-v1d",
+    "calls": 64
+  },
+  {
+    "rank": 294,
+    "contract": "SP102V8P0F7JX67ARQ77WEA3D3CFB5XW39REDT0AM.operators",
+    "calls": 63
+  },
+  {
+    "rank": 295,
+    "contract": "SP217FZ8AZYTGPKMERWZ6FYRAK4ZZ6YHMJ7XQXGEV.spoints-subscriber-helper",
+    "calls": 63
+  },
+  {
+    "rank": 296,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.charisma-token",
+    "calls": 63
+  },
+  {
+    "rank": 297,
+    "contract": "SP2XD7417HGPRTREMKF748VNEQPDRR0RMANB7X1NK.operators",
+    "calls": 63
+  },
+  {
+    "rank": 298,
+    "contract": "SP2QVKZ2GWP97TW4RNCT8TN65JRJPVAKERHYSS13E.quantumx-stxcity-dex",
+    "calls": 62
+  },
+  {
+    "rank": 299,
+    "contract": "SP2HNF99DQSE38TGG37F0XHZFWYB41975A4W3YQNJ.silly-hype-immense-belief-stxcity-dex",
+    "calls": 62
+  },
+  {
+    "rank": 300,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v143",
+    "calls": 62
+  },
+  {
+    "rank": 301,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v150",
+    "calls": 62
+  },
+  {
+    "rank": 302,
+    "contract": "SP1E0XBN9T4B10E9QMR7XMFJPMA19D77WY3KP2QKC.farming-campaign-v2-01-helper-b",
+    "calls": 61
+  },
+  {
+    "rank": 303,
+    "contract": "SPGNH14RQWAT05PVG8CEXCM7BGC5PPR01XVGQXPZ.pos-coin-stxcity-dex",
+    "calls": 61
+  },
+  {
+    "rank": 304,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.wrapped-charisma",
+    "calls": 61
+  },
+  {
+    "rank": 305,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.earn-usda-aeusdc-v-1-5",
+    "calls": 61
+  },
+  {
+    "rank": 306,
+    "contract": "SP3J9CZ0HNRZX7S5YBAFPT3SJ4KP1PBSRVP3TQAT7.meme-balls",
+    "calls": 60
+  },
+  {
+    "rank": 307,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-stone-core",
+    "calls": 60
+  },
+  {
+    "rank": 308,
+    "contract": "SP2702E5SQHV3BN3YQPQ3BM2HNJH3R7A6N5HFDMP9.dogecast-stxcity-dex",
+    "calls": 60
+  },
+  {
+    "rank": 309,
+    "contract": "SP1E0XBN9T4B10E9QMR7XMFJPMA19D77WY3KP2QKC.treasury-grant-v3",
+    "calls": 59
+  },
+  {
+    "rank": 310,
+    "contract": "SPQ5CEHETP8K4Q2FSNNK9ANMPAVBSA9NN86YSN59.stone-bonding-curve",
+    "calls": 59
+  },
+  {
+    "rank": 311,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.liquid-staked-charisma",
+    "calls": 59
+  },
+  {
+    "rank": 312,
+    "contract": "SP3FA62NRKY41QZEXB787Y53XVSRV7N3TJ3F8GZ45.kanecomplain-stxcity-dex",
+    "calls": 59
+  },
+  {
+    "rank": 313,
+    "contract": "SP1N4EXSR8DP5GRN2XCWZEW9PR32JHNRYW7MVPNTA.PomerenianBoo-Pomboo",
+    "calls": 58
+  },
+  {
+    "rank": 314,
+    "contract": "SM1793C4R5PZ4NS4VQ4WMP7SKKYVH8JZEWSZ9HCCR.xyk-emissions-pool-22-sbtc-v-1-1",
+    "calls": 58
+  },
+  {
+    "rank": 315,
+    "contract": "SP1AQDVJF18XEFVXMWTRAW9TQ0N2DCN0178FKW03R.smoke",
+    "calls": 58
+  },
+  {
+    "rank": 316,
+    "contract": "SPQ5CEHETP8K4Q2FSNNK9ANMPAVBSA9NN86YSN59.stxstone",
+    "calls": 58
+  },
+  {
+    "rank": 317,
+    "contract": "SP3QJ0MM9G8M3DSF5NEX7CEJ99NFDQ81WG17T7RMC.nikoten-stxcity-dex",
+    "calls": 58
+  },
+  {
+    "rank": 318,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.teenage-mutant-ninja-turtles-dexterity",
+    "calls": 58
+  },
+  {
+    "rank": 319,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.univ2-farming-distributor-1-v1_0_0-0009",
+    "calls": 57
+  },
+  {
+    "rank": 320,
+    "contract": "SP20VRJRCZ3FQG7RE4QSPFPQC24J92TKDXJVHWEAW.charisma-phoenix-stxcity-dex",
+    "calls": 57
+  },
+  {
+    "rank": 321,
+    "contract": "SPH4N387J08M6V2CB2VFXSQ4Y13NA85PZ61WX7QR.beyond-the-curve-stxcity-dex",
+    "calls": 57
+  },
+  {
+    "rank": 322,
+    "contract": "SP3J9CZ0HNRZX7S5YBAFPT3SJ4KP1PBSRVP3TQAT7.welsh-corgi-balls",
+    "calls": 56
+  },
+  {
+    "rank": 323,
+    "contract": "SP1H1733V5MZ3SZ9XRW9FKYGEZT0JDGEB8Y634C7R.miamicoin-token-v2",
+    "calls": 56
+  },
+  {
+    "rank": 324,
+    "contract": "SP2RNHHQDTHGHPEVX83291K4AQZVGWEJ7WCQQDA9R.tremp-nfts",
+    "calls": 55
+  },
+  {
+    "rank": 325,
+    "contract": "SP3J9CZ0HNRZX7S5YBAFPT3SJ4KP1PBSRVP3TQAT7.leo-balls",
+    "calls": 55
+  },
+  {
+    "rank": 326,
+    "contract": "SP2Y4R629M6FMK97KF5DQQEETCVWYR8SY50WKWEPZ.xbot-stxcity-dex-proxy",
+    "calls": 55
+  },
+  {
+    "rank": 327,
+    "contract": "SP3SE348DFBQT3PV6YT9B85014W0XAC5CT5Q50FB3.amigo-stxcity-dex",
+    "calls": 54
+  },
+  {
+    "rank": 328,
+    "contract": "SP3R4MHK99JAAM0N3T0CBZRZVSVQFG1N75DQ08JSD.nakamoto",
+    "calls": 54
+  },
+  {
+    "rank": 329,
+    "contract": "SP22BY8NFHMWZ14J61HRP5PQDJZ43J7B32X95S89Z.capy-stxcity-dex",
+    "calls": 54
+  },
+  {
+    "rank": 330,
+    "contract": "SP92DN6798JJED7W3QZHFEAB9Q1BCMCVE2YPMY5F.kenny-fucking-powers-stxcity-dex",
+    "calls": 53
+  },
+  {
+    "rank": 331,
+    "contract": "SP20X3DC5R091J8B6YPQT638J8NR1W83KN6TN5BJY.univ2-farming-core-v1_1_1-0059",
+    "calls": 53
+  },
+  {
+    "rank": 332,
+    "contract": "SP673Z4BPB4R73359K9HE55F2X91V5BJTN5SXZ5T.meta-peg-in-endpoint-v2-04-lisa",
+    "calls": 53
+  },
+  {
+    "rank": 333,
+    "contract": "SPABTT8KW3MHJGB5EANV1HF9AZX7BGA3B2ZXKN5N.unicorn-fart-dust-stxcity-dex",
+    "calls": 53
+  },
+  {
+    "rank": 334,
+    "contract": "SP3J9CZ0HNRZX7S5YBAFPT3SJ4KP1PBSRVP3TQAT7.sbtc-balls",
+    "calls": 52
+  },
+  {
+    "rank": 335,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v173",
+    "calls": 52
+  },
+  {
+    "rank": 336,
+    "contract": "SP2702E5SQHV3BN3YQPQ3BM2HNJH3R7A6N5HFDMP9.dogecast-stxcity",
+    "calls": 52
+  },
+  {
+    "rank": 337,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.xyk-staking-sbtc-bdc-v-1-1",
+    "calls": 51
+  },
+  {
+    "rank": 338,
+    "contract": "SP102V8P0F7JX67ARQ77WEA3D3CFB5XW39REDT0AM.treasury-grant-v2",
+    "calls": 51
+  },
+  {
+    "rank": 339,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-welsh-core",
+    "calls": 51
+  },
+  {
+    "rank": 340,
+    "contract": "SP1C8ZG23WE412GV4GJ32AK82CCR1HYD6T9XRCA61.bitcoin-fractal-stacks-stxcity-dex",
+    "calls": 51
+  },
+  {
+    "rank": 341,
+    "contract": "SP673Z4BPB4R73359K9HE55F2X91V5BJTN5SXZ5T.btc-peg-in-endpoint-v2-05-lisa",
+    "calls": 51
+  },
+  {
+    "rank": 342,
+    "contract": "SP3NRCVMBQFTAAFMGG0NQ58942BCA5WYN7MYPQVGA.chill-guy-stxcity-dex",
+    "calls": 51
+  },
+  {
+    "rank": 343,
+    "contract": "SM26NBC8SFHNW4P1Y4DFH27974P56WN86C92HPEHH.token-lqstx",
+    "calls": 50
+  },
+  {
+    "rank": 344,
+    "contract": "SP9XSD8AP4KW7KV9JGAZZXXTJQH5MYRY70ENQCZB.zest-nft-minter",
+    "calls": 50
+  },
+  {
+    "rank": 345,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.usda-aeusdc-cycle-rewards-helper-v-1-4",
+    "calls": 50
+  },
+  {
+    "rank": 346,
+    "contract": "SP39JCPYF3XTGS663GSY41G9VX04XRBM0KQ2ZZQ14.balancer-v11-12",
+    "calls": 50
+  },
+  {
+    "rank": 347,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.dmgcream-dexterity",
+    "calls": 50
+  },
+  {
+    "rank": 348,
+    "contract": "SPWECF3XYVRBRCN23CJJCX9XKSF8RFWQPAQMWXT.blockstack",
+    "calls": 50
+  },
+  {
+    "rank": 349,
+    "contract": "SP2C2YFP12AJZB4MABJBAJ55XECVS7E4PMMZ89YZR.arkadiko-governance-v4-3",
+    "calls": 50
+  },
+  {
+    "rank": 350,
+    "contract": "SPGYCP878RYFVT03ZT8TWGPKNYTSQB1578VVXHGE.krdoll-dexterity",
+    "calls": 50
+  },
+  {
+    "rank": 351,
+    "contract": "SPD1R8A962EKB8JEHFQTFNXGZTRR93J0NG5KCM81.gangnam-rose-apt-stxcity",
+    "calls": 50
+  },
+  {
+    "rank": 352,
+    "contract": "SP2Y4R629M6FMK97KF5DQQEETCVWYR8SY50WKWEPZ.xbot-velar-path-apply_v1_2_0",
+    "calls": 49
+  },
+  {
+    "rank": 353,
+    "contract": "SP1QMFV1W1T3CX70W6V95VWGSBJA3WFMVZRABE1FN.stableswap-stx-ststx-v1-2",
+    "calls": 49
+  },
+  {
+    "rank": 354,
+    "contract": "SP26PZG61DH667XCX51TZNBHXM4HG4M6B2HWVM47V.charismatic-zil-mobile-legends-dexterity",
+    "calls": 49
+  },
+  {
+    "rank": 355,
+    "contract": "SP1Z92MPDQEWZXW36VX71Q25HKF5K2EPCJ304F275.vstsw-token-v1k",
+    "calls": 48
+  },
+  {
+    "rank": 356,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.univ2-farming-distributor-2-v1_0_0-0009",
+    "calls": 48
+  },
+  {
+    "rank": 357,
+    "contract": "SP1Z92MPDQEWZXW36VX71Q25HKF5K2EPCJ304F275.tokensoft-token-v4k68639zxz",
+    "calls": 48
+  },
+  {
+    "rank": 358,
+    "contract": "SPZC6AZT0GFKNV1M5900Q6X5H19NKDBRC160T53P.fart-coin-stxcity-dex",
+    "calls": 48
+  },
+  {
+    "rank": 359,
+    "contract": "SP28FHT7VGBJ3B0584V1EVHED3MKTE1M8VQJDNB6R.rozar-stxcity-dex",
+    "calls": 48
+  },
+  {
+    "rank": 360,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.stone-mask-dexterity",
+    "calls": 48
+  },
+  {
+    "rank": 361,
+    "contract": "SP8HMQP4Q63V3E6SXXPXZ4WJXA263HBD95QY2AM3.narcotix",
+    "calls": 47
+  },
+  {
+    "rank": 362,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.stableswap-staking-sbtc-pbtc-v-1-1",
+    "calls": 46
+  },
+  {
+    "rank": 363,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.univ2-farming-distributor-1-v1_0_0-0003",
+    "calls": 46
+  },
+  {
+    "rank": 364,
+    "contract": "SP29E1W59QWAZ6V4HS8CERNDV0S7TJ96TYRVAR2HE.coal-stxcity-dex",
+    "calls": 46
+  },
+  {
+    "rank": 365,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-welsh-distributor2",
+    "calls": 45
+  },
+  {
+    "rank": 366,
+    "contract": "SP31BV8VGBSGAR453P6PEQ9SB3AMYMZ1ATBPWDGKY.aggregator-viking",
+    "calls": 45
+  },
+  {
+    "rank": 367,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v188",
+    "calls": 45
+  },
+  {
+    "rank": 368,
+    "contract": "SPGYCP878RYFVT03ZT8TWGPKNYTSQB1578VVXHGE.iownyou-dexterity",
+    "calls": 45
+  },
+  {
+    "rank": 369,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.router-stableswap-usda-aeusdc-v-1-1",
+    "calls": 44
+  },
+  {
+    "rank": 370,
+    "contract": "SP2C2YFP12AJZB4MABJBAJ55XECVS7E4PMMZ89YZR.usda-token",
+    "calls": 44
+  },
+  {
+    "rank": 371,
+    "contract": "SP20X3DC5R091J8B6YPQT638J8NR1W83KN6TN5BJY.univ2-farming-distributor-3-v1_0_0-0003",
+    "calls": 44
+  },
+  {
+    "rank": 372,
+    "contract": "SP1HMPMXQCHXC5X8D12MJEB6XFW8YQNBQRH1N51HT.stableswap-ststx-wstx-v1-1",
+    "calls": 44
+  },
+  {
+    "rank": 373,
+    "contract": "SP3TMGZ7WTT658PA632A3BA4B1GRXBNNEN8XPZQ5X.donald-trump",
+    "calls": 44
+  },
+  {
+    "rank": 374,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-stone-distributor",
+    "calls": 44
+  },
+  {
+    "rank": 375,
+    "contract": "SP3SMQNVWRBVWC81SRJYFV4X1ZQ7AWWJFBQJMC724.fam",
+    "calls": 44
+  },
+  {
+    "rank": 376,
+    "contract": "SP20X3DC5R091J8B6YPQT638J8NR1W83KN6TN5BJY.univ2-farming-distributor-1-v1_1_1-0070",
+    "calls": 43
+  },
+  {
+    "rank": 377,
+    "contract": "SP9XSD8AP4KW7KV9JGAZZXXTJQH5MYRY70ENQCZB.zest-nft",
+    "calls": 43
+  },
+  {
+    "rank": 378,
+    "contract": "SP102V8P0F7JX67ARQ77WEA3D3CFB5XW39REDT0AM.auto-alex-v3-wrapped",
+    "calls": 43
+  },
+  {
+    "rank": 379,
+    "contract": "SP1C8ZG23WE412GV4GJ32AK82CCR1HYD6T9XRCA61.billionaireland-stxcity-dex",
+    "calls": 43
+  },
+  {
+    "rank": 380,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.welsh-unleashed-dexterity",
+    "calls": 43
+  },
+  {
+    "rank": 381,
+    "contract": "SP1NAZ59R1ED0V6NH9N0EQBEB3MKT48CQCMKC5Q41.bns-1733207303049-v1",
+    "calls": 43
+  },
+  {
+    "rank": 382,
+    "contract": "SPAAZWD8D1RXQG85HDH9NQ90DV8TGXBXS4XY02J3.vkng-token",
+    "calls": 42
+  },
+  {
+    "rank": 383,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-leo-core",
+    "calls": 42
+  },
+  {
+    "rank": 384,
+    "contract": "SP2J6Y09JMFWWZCT4VJX0BA5W7A9HZP5EX96Y6VZY.earlycrows-dex",
+    "calls": 42
+  },
+  {
+    "rank": 385,
+    "contract": "SP39859AD7RQ6NYK00EJ8HN1DWE40C576FBDGHPA0.ukrainian-hryvnia-stxcity-dex",
+    "calls": 42
+  },
+  {
+    "rank": 386,
+    "contract": "SP1P0KKJKD72R3FY29DG5E1VMJZQRQ0M2GP4KPA1F.luigi-stxcity-dex",
+    "calls": 42
+  },
+  {
+    "rank": 387,
+    "contract": "SP337XN5M2VA54YNPW72M1N0DSRZJE70S0YJF90M3.young-minds-infinite-creations",
+    "calls": 42
+  },
+  {
+    "rank": 388,
+    "contract": "SPGYCP878RYFVT03ZT8TWGPKNYTSQB1578VVXHGE.charismatic-dollar-dexterity",
+    "calls": 42
+  },
+  {
+    "rank": 389,
+    "contract": "SPQFACZ5KGYJH3XG8BDWW2VGGRBJ8BPFVEXEVC6M.mstr-on-stacks-stxcity-dex",
+    "calls": 41
+  },
+  {
+    "rank": 390,
+    "contract": "SP2J6Y09JMFWWZCT4VJX0BA5W7A9HZP5EX96Y6VZY.charisma-and-this-squad-dexterity",
+    "calls": 41
+  },
+  {
+    "rank": 391,
+    "contract": "SM1793C4R5PZ4NS4VQ4WMP7SKKYVH8JZEWSZ9HCCR.xyk-emissions-pool-23-sbtc-v-1-1",
+    "calls": 41
+  },
+  {
+    "rank": 392,
+    "contract": "SP1MJPVQ6ZE408ZW4JM6HET50S8GYTYRZ7PC6RKH7.edmundfitzgeraldcoin",
+    "calls": 41
+  },
+  {
+    "rank": 393,
+    "contract": "SP3BRXZ9Y7P5YP28PSR8YJT39RT51ZZBSECTCADGR.skullcoin-stxcity",
+    "calls": 41
+  },
+  {
+    "rank": 394,
+    "contract": "SP3QSAJQ4EA8WXEDSRRKMZZ29NH91VZ6C5X88FGZQ.crashpunks-v2",
+    "calls": 41
+  },
+  {
+    "rank": 395,
+    "contract": "SP24KXEBMMTMQ1HWDMT5AFDRRFZ3KPPQXCS8FD75Q.stars7coin-stxcity-dex",
+    "calls": 41
+  },
+  {
+    "rank": 396,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v146",
+    "calls": 41
+  },
+  {
+    "rank": 397,
+    "contract": "SPKBV3CZB15CM3CVMCMRX56WRYKDY5P5CTQQXSN0.belgian-malinois-stxcity-dex",
+    "calls": 40
+  },
+  {
+    "rank": 398,
+    "contract": "SP20X3DC5R091J8B6YPQT638J8NR1W83KN6TN5BJY.univ2-farming-distributor-4-v1_0_0-0003",
+    "calls": 40
+  },
+  {
+    "rank": 399,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.univ2-router-proxy-v1_0_0",
+    "calls": 40
+  },
+  {
+    "rank": 400,
+    "contract": "SP2N3BAG4GBF8NHRPH6AY4YYH1SP6NK5TGCY7RDFA.stacks-mfers",
+    "calls": 40
+  },
+  {
+    "rank": 401,
+    "contract": "SP2Y4R629M6FMK97KF5DQQEETCVWYR8SY50WKWEPZ.xbot-amm-v2-alex-amm-pool-v2-01",
+    "calls": 40
+  },
+  {
+    "rank": 402,
+    "contract": "SP2ZHZRWAGZE2QJKTXYJ2QWKVM3BZ5HC2KC90HN1W.saylor-stxcity",
+    "calls": 40
+  },
+  {
+    "rank": 403,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.iron-ingots-dexterity",
+    "calls": 40
+  },
+  {
+    "rank": 404,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.univ2-farming-distributor-1-v1_0_0-0001",
+    "calls": 39
+  },
+  {
+    "rank": 405,
+    "contract": "SPN5AKG35QZSK2M8GAMR4AFX45659RJHDW353HSG.controller-v1",
+    "calls": 39
+  },
+  {
+    "rank": 406,
+    "contract": "SP3K8BC0PPEVCV7NZ6QSRWPQ2JE9E5B6N3PA0KBR9.age009-token-lock",
+    "calls": 39
+  },
+  {
+    "rank": 407,
+    "contract": "SPZXE76HAF3621C4RQGHJ26ENXGEZV2JWAV2Y10Z.jindo",
+    "calls": 39
+  },
+  {
+    "rank": 408,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.not-pepe-dexterity",
+    "calls": 39
+  },
+  {
+    "rank": 409,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-stone-distributor3",
+    "calls": 39
+  },
+  {
+    "rank": 410,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.xyk-staking-pusdh-roons-v-1-1",
+    "calls": 38
+  },
+  {
+    "rank": 411,
+    "contract": "SP3D6PV2ACBPEKYJTCMH7HEN02KP87QSP8KTEH335.megapont-space-agency",
+    "calls": 38
+  },
+  {
+    "rank": 412,
+    "contract": "SP3R4MHK99JAAM0N3T0CBZRZVSVQFG1N75DQ08JSD.Wsbtc",
+    "calls": 38
+  },
+  {
+    "rank": 413,
+    "contract": "SP2ZY7ETKYAN1M7R4HWQ77Q4CVDVH8PVQ41XS0N0S.unforgettable-pepe",
+    "calls": 38
+  },
+  {
+    "rank": 414,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.lp-index-recovery",
+    "calls": 38
+  },
+  {
+    "rank": 415,
+    "contract": "SP31ADQ3GWMYB1KWVCJGWQPBBXESA6RVMYH003T56.little-twat-collective-stxcity-dex",
+    "calls": 38
+  },
+  {
+    "rank": 416,
+    "contract": "SP1QZT85MFT8HBAG3XEK7K6QY4GGP3MSG5C3H9PQ1.bitcoin-bullfrogs-by-mr-wagmi",
+    "calls": 38
+  },
+  {
+    "rank": 417,
+    "contract": "SP102V8P0F7JX67ARQ77WEA3D3CFB5XW39REDT0AM.token-35",
+    "calls": 38
+  },
+  {
+    "rank": 418,
+    "contract": "SPGYCP878RYFVT03ZT8TWGPKNYTSQB1578VVXHGE.methylphenidate-dexterity",
+    "calls": 38
+  },
+  {
+    "rank": 419,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v205",
+    "calls": 37
+  },
+  {
+    "rank": 420,
+    "contract": "SP3K8BC0PPEVCV7NZ6QSRWPQ2JE9E5B6N3PA0KBR9.brc20-db20",
+    "calls": 37
+  },
+  {
+    "rank": 421,
+    "contract": "SP1HMPMXQCHXC5X8D12MJEB6XFW8YQNBQRH1N51HT.stableswap-usda-aeusdc-v-1-2",
+    "calls": 37
+  },
+  {
+    "rank": 422,
+    "contract": "SP3J9CZ0HNRZX7S5YBAFPT3SJ4KP1PBSRVP3TQAT7.leather-balls",
+    "calls": 37
+  },
+  {
+    "rank": 423,
+    "contract": "SP2JMM3PH9AGMASBD11SHG4HWDS6CTY9MGN6CW48G.BNS-V2",
+    "calls": 37
+  },
+  {
+    "rank": 424,
+    "contract": "SP2XD7417HGPRTREMKF748VNEQPDRR0RMANB7X1NK.migrate-wrapped",
+    "calls": 37
+  },
+  {
+    "rank": 425,
+    "contract": "SP3FGYQZHMFC5HQEHV9XXDC9RP876PNE54JXRF94S.the-secret-stxcity-dex",
+    "calls": 37
+  },
+  {
+    "rank": 426,
+    "contract": "SP1E0XBN9T4B10E9QMR7XMFJPMA19D77WY3KP2QKC.farming-campaign-v2-01-helper",
+    "calls": 36
+  },
+  {
+    "rank": 427,
+    "contract": "SP39JCPYF3XTGS663GSY41G9VX04XRBM0KQ2ZZQ14.balancer-v11-102",
+    "calls": 36
+  },
+  {
+    "rank": 428,
+    "contract": "SP1E0XBN9T4B10E9QMR7XMFJPMA19D77WY3KP2QKC.self-listing-helper-v2-04",
+    "calls": 36
+  },
+  {
+    "rank": 429,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-stone-distributor4",
+    "calls": 36
+  },
+  {
+    "rank": 430,
+    "contract": "SPGWF6FPVXB6GBF5XVEC73ZHW7WT67Q7JMRJTXVK.assman-stxcity-dex",
+    "calls": 36
+  },
+  {
+    "rank": 431,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.velcity-qeo-stxcity-dex",
+    "calls": 36
+  },
+  {
+    "rank": 432,
+    "contract": "SP1KMAA7TPZ5AZZ4W67X74MJNFKMN576604CWNBQS.stxshark",
+    "calls": 35
+  },
+  {
+    "rank": 433,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.charismatic-corgi-liquidity",
+    "calls": 35
+  },
+  {
+    "rank": 434,
+    "contract": "SP3ATFW5VSD0W4N0E3K1E4CGFE8MJXQ9XFFMQ0HBY.elf-on-the-shelf-stxcity-dex",
+    "calls": 35
+  },
+  {
+    "rank": 435,
+    "contract": "SP3R4MHK99JAAM0N3T0CBZRZVSVQFG1N75DQ08JSD.sbtc",
+    "calls": 35
+  },
+  {
+    "rank": 436,
+    "contract": "SP3D6PV2ACBPEKYJTCMH7HEN02KP87QSP8KTEH335.megapont-robot-component-nft",
+    "calls": 35
+  },
+  {
+    "rank": 437,
+    "contract": "SP26QQ5BGSFYSSK6RE33VB97X1V1W96GSXXXHA7CZ.aibtcdev-airdrop-2",
+    "calls": 35
+  },
+  {
+    "rank": 438,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.kstar-lqu-stxcity-dex",
+    "calls": 35
+  },
+  {
+    "rank": 439,
+    "contract": "SPF9CJH74ZMECP024C81BADPSN68824FBR0HZ5Z6.jetbolt-stxcity-dex",
+    "calls": 35
+  },
+  {
+    "rank": 440,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.virtual-roo-dexterity",
+    "calls": 35
+  },
+  {
+    "rank": 441,
+    "contract": "SM1793C4R5PZ4NS4VQ4WMP7SKKYVH8JZEWSZ9HCCR.stableswap-emissions-pool-2-sbtc-v-1-1",
+    "calls": 34
+  },
+  {
+    "rank": 442,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-velar-usdc-core",
+    "calls": 34
+  },
+  {
+    "rank": 443,
+    "contract": "SP4SZE494VC2YC5JYG7AYFQ44F5Q4PYV7DVMDPBG.strategy-v4",
+    "calls": 34
+  },
+  {
+    "rank": 444,
+    "contract": "SPN5AKG35QZSK2M8GAMR4AFX45659RJHDW353HSG.staking-silo-v1",
+    "calls": 34
+  },
+  {
+    "rank": 445,
+    "contract": "SP2RNHHQDTHGHPEVX83291K4AQZVGWEJ7WCQQDA9R.the-xrp-anthem",
+    "calls": 34
+  },
+  {
+    "rank": 446,
+    "contract": "SP10YBC3QRS6S8Q9W4MJSWATA25C8F0GXSRFY4F94.ultimate-sound-money-stxcity-dex",
+    "calls": 34
+  },
+  {
+    "rank": 447,
+    "contract": "SP3T1M18J3VX038KSYPP5G450WVWWG9F9G6GAZA4Q.roobrot-dexterity",
+    "calls": 34
+  },
+  {
+    "rank": 448,
+    "contract": "SP3M5CYMJDWRWN4V7AX19VEY6QS5EJRBCPR9XREXZ.stacksmas-card",
+    "calls": 34
+  },
+  {
+    "rank": 449,
+    "contract": "SP3KQKA8Y2K8KPW591WG53WE3EY8PNR6WD80DS0PX.capy-stxcity-dex",
+    "calls": 34
+  },
+  {
+    "rank": 450,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v134",
+    "calls": 34
+  },
+  {
+    "rank": 451,
+    "contract": "SPE25P42PKRQVR9BCFX60T0XZGJXSZDJGTE98436.bitcoin-mimics",
+    "calls": 34
+  },
+  {
+    "rank": 452,
+    "contract": "SP2D5BGGJ956A635JG7CJQ59FTRFRB0893514EZPJ.dme000-governance-token",
+    "calls": 33
+  },
+  {
+    "rank": 453,
+    "contract": "SP9PK32N4QVEE3N1JNQVJWBM4R36TKHNNKZMN62E.bone-stacks",
+    "calls": 33
+  },
+  {
+    "rank": 454,
+    "contract": "SP3W6KSRX6DTK6YHKH5QWPXHAEK020W5627CFYB5Z.bitcoin-block-867867",
+    "calls": 33
+  },
+  {
+    "rank": 455,
+    "contract": "SP16BQCT9ECZKPX244082SG8P20SY6MQ68XKKCKT9.kenny-coin-stxcity-dex",
+    "calls": 33
+  },
+  {
+    "rank": 456,
+    "contract": "SP3XHQVC8K1TE4EBB202T264AAANCP8DJZ13WFKDP.girls-punks",
+    "calls": 33
+  },
+  {
+    "rank": 457,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.split-swap-v0",
+    "calls": 33
+  },
+  {
+    "rank": 458,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.dungeon-crawler-rc8",
+    "calls": 33
+  },
+  {
+    "rank": 459,
+    "contract": "SPGYCP878RYFVT03ZT8TWGPKNYTSQB1578VVXHGE.chdollar",
+    "calls": 32
+  },
+  {
+    "rank": 460,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.stableswap-stx-ststx-v-1-1",
+    "calls": 32
+  },
+  {
+    "rank": 461,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.catdog-dexterity",
+    "calls": 32
+  },
+  {
+    "rank": 462,
+    "contract": "SP329SB76VXJT6DTFXY1RS4Y451GY6AWM2DGMZ753.op-cat-stxcity-dex",
+    "calls": 32
+  },
+  {
+    "rank": 463,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.maptoken-jlk-stxcity-dex",
+    "calls": 32
+  },
+  {
+    "rank": 464,
+    "contract": "SP2GK0WP1MYKFKK1KSKQHVDQ2CRNB3M5J417HG31D.matrixexposed-stxcity-dex",
+    "calls": 32
+  },
+  {
+    "rank": 465,
+    "contract": "SP2J6Y09JMFWWZCT4VJX0BA5W7A9HZP5EX96Y6VZY.the-lephrechaun-dexterity",
+    "calls": 31
+  },
+  {
+    "rank": 466,
+    "contract": "SP33RS6M5D5FJAN9HGARY5TQW8F7FXZXPXGHX7NV1.fred-stxcity-dex",
+    "calls": 31
+  },
+  {
+    "rank": 467,
+    "contract": "SP125PTPC4P46K9KH6VJEXEXC5FV950RN3NC7CYPZ.pixel-stuff-stoners-club",
+    "calls": 31
+  },
+  {
+    "rank": 468,
+    "contract": "SP2KQYDWF51AJKE5G6FRW95TWW8QQTXVT006QG2CT.manuelita",
+    "calls": 31
+  },
+  {
+    "rank": 469,
+    "contract": "SPVCH4CECAECNXT679538Q39KPC9K7Z7W4Z2Q0ED.choose-dick-stxcity-dex",
+    "calls": 31
+  },
+  {
+    "rank": 470,
+    "contract": "SP15ZAZ69917T2KVWVKMZ1M425M3MXXEPMKW1CPEX.irene-zhao-stxcity-dex",
+    "calls": 31
+  },
+  {
+    "rank": 471,
+    "contract": "SP673Z4BPB4R73359K9HE55F2X91V5BJTN5SXZ5T.meta-peg-in-v2-06-swap",
+    "calls": 30
+  },
+  {
+    "rank": 472,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.xyk-staking-sbtc-dog-v-1-1",
+    "calls": 30
+  },
+  {
+    "rank": 473,
+    "contract": "SM26AQGZBMDPN2NTH0DJWFESFV0NJC744F1GQVZ6Y.btcz-core",
+    "calls": 30
+  },
+  {
+    "rank": 474,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-pepe-distributor",
+    "calls": 30
+  },
+  {
+    "rank": 475,
+    "contract": "SP11Z0M9SXMXM2BGQHDPT0B9Z03TDE56WFSF6EEX8.stacks-tiny-terrors",
+    "calls": 30
+  },
+  {
+    "rank": 476,
+    "contract": "SP2Z2CBMGWB9MQZAF5Z8X56KS69XRV3SJF4WKJ7J9.sweet-yamz-faktory-dex",
+    "calls": 30
+  },
+  {
+    "rank": 477,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.univ2-farming-core-v1_0_0-0003",
+    "calls": 30
+  },
+  {
+    "rank": 478,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v186",
+    "calls": 30
+  },
+  {
+    "rank": 479,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-ten-distributor",
+    "calls": 30
+  },
+  {
+    "rank": 480,
+    "contract": "SP17Z9QG1VZCZT01FYZD5KGVNMZVAXB0W536YMA7C.annoying-delusional-assholes-stxcity",
+    "calls": 30
+  },
+  {
+    "rank": 481,
+    "contract": "SPGYCP878RYFVT03ZT8TWGPKNYTSQB1578VVXHGE.upgraded-shark",
+    "calls": 29
+  },
+  {
+    "rank": 482,
+    "contract": "SM1793C4R5PZ4NS4VQ4WMP7SKKYVH8JZEWSZ9HCCR.xyk-emissions-pool-8-roons-v-1-1",
+    "calls": 29
+  },
+  {
+    "rank": 483,
+    "contract": "SP1QMFV1W1T3CX70W6V95VWGSBJA3WFMVZRABE1FN.stableswap-abtc-xbtc-v2-2",
+    "calls": 29
+  },
+  {
+    "rank": 484,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.dexterity-pool-v1",
+    "calls": 29
+  },
+  {
+    "rank": 485,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.devnull",
+    "calls": 29
+  },
+  {
+    "rank": 486,
+    "contract": "SPSCWDV3RKV5ZRN1FQD84YE1NQFEDJ9R1F4DYQ11.newyorkcitycoin-token-v2",
+    "calls": 29
+  },
+  {
+    "rank": 487,
+    "contract": "SP1GY5JAFE0YYP4DQ9E2JDH7WJATRB4GBZ4G0TSPP.sticks-stxcity-dex",
+    "calls": 29
+  },
+  {
+    "rank": 488,
+    "contract": "SP3YB4JCE0H9QCE63MQ199BM8GXWV24E13G9J381F.lialex-zilong-dexterity",
+    "calls": 29
+  },
+  {
+    "rank": 489,
+    "contract": "SP3X384EHYMSQPRKZE2R61J81V0G11KTMKDZTS8NK.tokenmobiles-40",
+    "calls": 29
+  },
+  {
+    "rank": 490,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v136",
+    "calls": 29
+  },
+  {
+    "rank": 491,
+    "contract": "SP2BRB6P0BK6T35DHTGXCV6MZ5TGRN5E0RKZ1T8B5.gated-pages",
+    "calls": 28
+  },
+  {
+    "rank": 492,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.univ2-farming-core-v1_0_0-0001",
+    "calls": 28
+  },
+  {
+    "rank": 493,
+    "contract": "SM26NBC8SFHNW4P1Y4DFH27974P56WN86C92HPEHH.token-vlqstx",
+    "calls": 28
+  },
+  {
+    "rank": 494,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v157",
+    "calls": 28
+  },
+  {
+    "rank": 495,
+    "contract": "SP2AWE8GJ52MKEAGGBTTNEEXZSM9VF8CTYK7ZCZDC.buckethat-crew",
+    "calls": 28
+  },
+  {
+    "rank": 496,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v171",
+    "calls": 28
+  },
+  {
+    "rank": 497,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-pepe-core",
+    "calls": 28
+  },
+  {
+    "rank": 498,
+    "contract": "SP3QJ0MM9G8M3DSF5NEX7CEJ99NFDQ81WG17T7RMC.ten-announcemetn-free-mint",
+    "calls": 28
+  },
+  {
+    "rank": 499,
+    "contract": "SP1093PXJD0BB7KK6SPJB3TPQDRPE0VVK7PWY1FGR.toad-killer-stxcity-dex",
+    "calls": 28
+  },
+  {
+    "rank": 500,
+    "contract": "SP16SB4KF90XXWMN2Z6KC452WPM7QPWEMN4FC3N9F.solvitur-ambulando-stxcity-dex",
+    "calls": 28
+  },
+  {
+    "rank": 501,
+    "contract": "SPFDAYS6C5XBH3CEMC6R210P348YXT7W1Q69JKPP.dumb-online-gambling-experts-stxcity",
+    "calls": 28
+  },
+  {
+    "rank": 502,
+    "contract": "SPZ2X8P6QTV1SPN5NKP4VVCFPDWWK63RPB9PHCMK.secretsanta",
+    "calls": 28
+  },
+  {
+    "rank": 503,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.dmgprzr-dexterity",
+    "calls": 28
+  },
+  {
+    "rank": 504,
+    "contract": "SP102V8P0F7JX67ARQ77WEA3D3CFB5XW39REDT0AM.claim-recovered",
+    "calls": 27
+  },
+  {
+    "rank": 505,
+    "contract": "SPP3HM2E4JXGT26G1QRWQ2YTR5WT040S5NKXZYFC.nakamojos",
+    "calls": 27
+  },
+  {
+    "rank": 506,
+    "contract": "SP1BMZTS416A3VTMN0SYTRMEJSCHW75RRAKXWF4DZ.inscription",
+    "calls": 27
+  },
+  {
+    "rank": 507,
+    "contract": "SP8A9HZ3PKST0S42VM9523Z9NV42SZ026V4K39WH.ccd007-citycoin-stacking",
+    "calls": 27
+  },
+  {
+    "rank": 508,
+    "contract": "SP1H49625Y264FMMNPN42QT92EQBEWJRT0EGP34FP.sarah-conner-stxcity-dex",
+    "calls": 27
+  },
+  {
+    "rank": 509,
+    "contract": "SPGKGZVTDB4E3C93QY9B0HYSTFMYZWVG9SHGESG4.laika-stxcity-dex",
+    "calls": 27
+  },
+  {
+    "rank": 510,
+    "contract": "SP3GVPDNXGV0TF2SDX9VAS7P93WM21F8KWN2J1TV5.catibles",
+    "calls": 27
+  },
+  {
+    "rank": 511,
+    "contract": "SPXZ32XFJZCT4TRDNE4R3HX3DRX9ZE6B5G2WZNRK.pixel-rozar-stxcity-dex",
+    "calls": 27
+  },
+  {
+    "rank": 512,
+    "contract": "SP13MQ92X6HP6H50ZN6C68R4A05XAY5PRWJQ57XGG.power-to-the-people",
+    "calls": 27
+  },
+  {
+    "rank": 513,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v137",
+    "calls": 27
+  },
+  {
+    "rank": 514,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.virtual-welsh-dexterity",
+    "calls": 27
+  },
+  {
+    "rank": 515,
+    "contract": "SP265WBWD4NH7TVPYQTVD23X3607NNK4484DTXQZ3.longcoin",
+    "calls": 26
+  },
+  {
+    "rank": 516,
+    "contract": "SP18P6VSZKRYX49W6FXTKA7AFB9RR36FB5R2DE6H0.cocaine-stxcity-dex",
+    "calls": 26
+  },
+  {
+    "rank": 517,
+    "contract": "SPQ5CEHETP8K4Q2FSNNK9ANMPAVBSA9NN86YSN59.stx-fractal-stone",
+    "calls": 26
+  },
+  {
+    "rank": 518,
+    "contract": "SPJAKB2ZMXJJJHTDJ6A7Q3A4P714H6CMGPERQ9M7.grinch-stole-christmas-stxcity",
+    "calls": 26
+  },
+  {
+    "rank": 519,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-leo-distributor2",
+    "calls": 26
+  },
+  {
+    "rank": 520,
+    "contract": "SP1V6B4ZR0GYZW3QJDH8FN80J5QFWGZD67BQNJ9TK.stacks-the-marketing-goat-stxcity-dex",
+    "calls": 26
+  },
+  {
+    "rank": 521,
+    "contract": "SP20X3DC5R091J8B6YPQT638J8NR1W83KN6TN5BJY.univ2-farming-distributor-1-v1_1_1-0059",
+    "calls": 25
+  },
+  {
+    "rank": 522,
+    "contract": "SP293EM9SXE8J8SSMA7XRM5AESS52H0M0QDXTF92X.pussy-ju1ce-stxcity-dex",
+    "calls": 25
+  },
+  {
+    "rank": 523,
+    "contract": "SP3J9CZ0HNRZX7S5YBAFPT3SJ4KP1PBSRVP3TQAT7.bucket-balls",
+    "calls": 25
+  },
+  {
+    "rank": 524,
+    "contract": "SP1NXT9A2S1MQ866SYC5DM1Q7P3EZ1Y2566QCKPPZ.bitmap-stx",
+    "calls": 25
+  },
+  {
+    "rank": 525,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v166",
+    "calls": 25
+  },
+  {
+    "rank": 526,
+    "contract": "SP2PW8TMTR6BB73130G6W4RNZBBPTB4B8QT7MN6PK.bitcoin-100k-stxcity-dex",
+    "calls": 25
+  },
+  {
+    "rank": 527,
+    "contract": "SP3YB4JCE0H9QCE63MQ199BM8GXWV24E13G9J381F.hooter-zilong-charisma-dexterity",
+    "calls": 25
+  },
+  {
+    "rank": 528,
+    "contract": "SP102V8P0F7JX67ARQ77WEA3D3CFB5XW39REDT0AM.auto-alex-v3",
+    "calls": 25
+  },
+  {
+    "rank": 529,
+    "contract": "SP2QWYSBQZA5KSWFKCRP2C6YG66MP5N06R8C2E42N.bitcoin-bob-stxcity-dex",
+    "calls": 25
+  },
+  {
+    "rank": 530,
+    "contract": "SP2HNF99DQSE38TGG37F0XHZFWYB41975A4W3YQNJ.whatever-it-fcks-stxcity-dex",
+    "calls": 25
+  },
+  {
+    "rank": 531,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v156",
+    "calls": 25
+  },
+  {
+    "rank": 532,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v128",
+    "calls": 25
+  },
+  {
+    "rank": 533,
+    "contract": "SP20X3DC5R091J8B6YPQT638J8NR1W83KN6TN5BJY.univ2-farming-core-v1_1_1-0063",
+    "calls": 24
+  },
+  {
+    "rank": 534,
+    "contract": "SP1B46TPZD8Y3ETHGZYJAPHD9GHJK81K08WRB127X.nakamoto-dragon-club",
+    "calls": 24
+  },
+  {
+    "rank": 535,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v176",
+    "calls": 24
+  },
+  {
+    "rank": 536,
+    "contract": "SP1H6HY2ZPSFPZF6HBNADAYKQ2FJN75GHVV95YZQ.token-metadata-update-notify",
+    "calls": 24
+  },
+  {
+    "rank": 537,
+    "contract": "SP14VDDN583TB43F06NFV36YRAS0QWQC75QBDFBFR.cp-staking",
+    "calls": 24
+  },
+  {
+    "rank": 538,
+    "contract": "SP3SNCBK1ZH05J3SBST16ZXP2AHSPE9H645ZTRVQ6.building-blocks-stxcity",
+    "calls": 24
+  },
+  {
+    "rank": 539,
+    "contract": "SP1CE3NQXDKCJ2KEFFGCVFA5C196S9F0RRX93HY87.pizza-ninjas-on-sothebys",
+    "calls": 24
+  },
+  {
+    "rank": 540,
+    "contract": "SP2VCQJGH7PHP2DJK7Z0V48AGBHQAW3R3ZW1QF4N.borrow-helper-v2-0",
+    "calls": 24
+  },
+  {
+    "rank": 541,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.quantum-lynx-deployment-bzq-stxcity-dex",
+    "calls": 24
+  },
+  {
+    "rank": 542,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.univ2-farming-core-v1_0_0-0009",
+    "calls": 23
+  },
+  {
+    "rank": 543,
+    "contract": "SPZA22A4D15RKH5G8XDGQ7BPC20Q5JNMH0VQKSR6.core-ststx-earn-v1",
+    "calls": 23
+  },
+  {
+    "rank": 544,
+    "contract": "SP673Z4BPB4R73359K9HE55F2X91V5BJTN5SXZ5T.token-vliabtc",
+    "calls": 23
+  },
+  {
+    "rank": 545,
+    "contract": "SP2346SFHXV54G5VMKNMY8F6N71J8DBWP04SKC0KM.yeti-stxcity-dex",
+    "calls": 23
+  },
+  {
+    "rank": 546,
+    "contract": "SP1ZKR93HX7QC5VNE4H64QHX92XCCDPHMB803FKWC.sordinals-inscribe",
+    "calls": 23
+  },
+  {
+    "rank": 547,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-odintkn-core",
+    "calls": 23
+  },
+  {
+    "rank": 548,
+    "contract": "SP2REJGPWG2ED0NDS9WM85C0KJXB9CP14FPVNFCJ7.magic-bunny-stxcity-dex",
+    "calls": 23
+  },
+  {
+    "rank": 549,
+    "contract": "SP1J3F7HEVJE3DF4VY9CZ7MT0Y0QAXKPKR0463QJP.hangover-stxcity-dex",
+    "calls": 23
+  },
+  {
+    "rank": 550,
+    "contract": "SP2HNF99DQSE38TGG37F0XHZFWYB41975A4W3YQNJ.barron-trump-stxcity-dex",
+    "calls": 23
+  },
+  {
+    "rank": 551,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.khal-qke-stxcity-dex",
+    "calls": 23
+  },
+  {
+    "rank": 552,
+    "contract": "SP5RRVC2P5FMKF4WGQN4ADAB965WKTPRETY3V0TD.capybara-stxcity-dex",
+    "calls": 23
+  },
+  {
+    "rank": 553,
+    "contract": "SP673Z4BPB4R73359K9HE55F2X91V5BJTN5SXZ5T.btc-peg-in-v2-07-swap",
+    "calls": 22
+  },
+  {
+    "rank": 554,
+    "contract": "SP3T54N6G4HN7GPBCYMSDKP4W00C45X19GQ4VT13Y.skullcoin-competitive-g1-phase4",
+    "calls": 22
+  },
+  {
+    "rank": 555,
+    "contract": "SP11Z0M9SXMXM2BGQHDPT0B9Z03TDE56WFSF6EEX8.gm-stxcity",
+    "calls": 22
+  },
+  {
+    "rank": 556,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.dhstx-jwo-stxcity-dex",
+    "calls": 22
+  },
+  {
+    "rank": 557,
+    "contract": "SP125J1ADVYWGWB9NQRCVGKYAG73R17ZNMV17XEJ7.mutant-monkeys",
+    "calls": 22
+  },
+  {
+    "rank": 558,
+    "contract": "SP1T66Z96DND2PH6XPCQH7NBPN57ACB1RXKF7DAPR.stxstx-stxcity-dex",
+    "calls": 22
+  },
+  {
+    "rank": 559,
+    "contract": "SP3K8BC0PPEVCV7NZ6QSRWPQ2JE9E5B6N3PA0KBR9.brc20-trio",
+    "calls": 22
+  },
+  {
+    "rank": 560,
+    "contract": "SP2J6Y09JMFWWZCT4VJX0BA5W7A9HZP5EX96Y6VZY.greenorange-dexterity",
+    "calls": 22
+  },
+  {
+    "rank": 561,
+    "contract": "SP3DX3H4FEYZJZ586MFBS25ZW3HZDMEW92260R2PR.Wrapped-Bitcoin",
+    "calls": 21
+  },
+  {
+    "rank": 562,
+    "contract": "SP3QA18DHJ8Y7SBD47KNEWF7VRA6F672S5GSND2C8.enigma-moonlight-madness",
+    "calls": 21
+  },
+  {
+    "rank": 563,
+    "contract": "SP18J677R5GRD7EKK0S096WVQW19SDPWTC0TCBTGV.project-indigo-the-nakamoto-protocol",
+    "calls": 21
+  },
+  {
+    "rank": 564,
+    "contract": "SP229HYJZF8F2R6BYGJZENTY2MB8W1HRYKXTA9RZR.runedom",
+    "calls": 21
+  },
+  {
+    "rank": 565,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.liquid-staked-odin",
+    "calls": 21
+  },
+  {
+    "rank": 566,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.charisma-rulebook-v0",
+    "calls": 21
+  },
+  {
+    "rank": 567,
+    "contract": "SP6P4EJF0VG8V0RB3TQQKJBHDQKEF6NVRD1KZE3C.satoshibles",
+    "calls": 21
+  },
+  {
+    "rank": 568,
+    "contract": "SPBSST5F8W65WBB55C7K4MK6KPANA8SYK8F9V1AF.dumb-money-stxcity-dex",
+    "calls": 21
+  },
+  {
+    "rank": 569,
+    "contract": "SPCK2258XQFCF8RM4XSJ1Y7SW8E3DWX6X8S1BPV7.pepecoinstx-faktory-dex",
+    "calls": 21
+  },
+  {
+    "rank": 570,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-odintkn-distributor",
+    "calls": 21
+  },
+  {
+    "rank": 571,
+    "contract": "SP2KAF9RF86PVX3NEE27DFV1CQX0T4WGR41X3S45C.hback-whales-nft",
+    "calls": 21
+  },
+  {
+    "rank": 572,
+    "contract": "SP24ANEK96Y51TT99FBCG3PZKMESBQ5G4YZXK1T5K.stx-y",
+    "calls": 21
+  },
+  {
+    "rank": 573,
+    "contract": "SP2CSEKDCQF4JQSMDF727NVVM8EBRC2C4XNKQ1HFA.santa-stxcity-dex",
+    "calls": 21
+  },
+  {
+    "rank": 574,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.tmntcha-dexterity",
+    "calls": 21
+  },
+  {
+    "rank": 575,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v138",
+    "calls": 21
+  },
+  {
+    "rank": 576,
+    "contract": "SP1W7FX8P1G721KQMQ2MA2G1G4WCVVPD9JZMGXK8R.univ2-router",
+    "calls": 20
+  },
+  {
+    "rank": 577,
+    "contract": "SP2J6Y09JMFWWZCT4VJX0BA5W7A9HZP5EX96Y6VZY.lephrecaun-beated-xrp-dexterity",
+    "calls": 20
+  },
+  {
+    "rank": 578,
+    "contract": "SP2BQ0676YV3F7QBJXS1PT7XA975ZG03XEXS9C8TN.stacksai-stxcity",
+    "calls": 20
+  },
+  {
+    "rank": 579,
+    "contract": "SPQAJJ80B5NC0V8FP7XHDTXZ0ZCVNPWX0TMG1NW5.stagafiliza-stxcity-dex",
+    "calls": 20
+  },
+  {
+    "rank": 580,
+    "contract": "SP3EB7YHV5NERS2HMCGSGKNMN0BEH52W9H7YE4T9C.rootraits",
+    "calls": 20
+  },
+  {
+    "rank": 581,
+    "contract": "SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE.send-many-memo",
+    "calls": 20
+  },
+  {
+    "rank": 582,
+    "contract": "SP2EK6MPWJYXM0JE3K19AWCDT0041DFPMJERAPP9Y.stacks-guardians",
+    "calls": 20
+  },
+  {
+    "rank": 583,
+    "contract": "SP2GW18TVQR75W1VT53HYGBRGKFRV5BFYNAF5SS5J.ZADAO-token-whitelist-v1",
+    "calls": 20
+  },
+  {
+    "rank": 584,
+    "contract": "SP2J6Y09JMFWWZCT4VJX0BA5W7A9HZP5EX96Y6VZY.lephrecaun-with-bitcoin-stxcity-dex",
+    "calls": 20
+  },
+  {
+    "rank": 585,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.natures-perfect-predator-dexterity",
+    "calls": 20
+  },
+  {
+    "rank": 586,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v127",
+    "calls": 20
+  },
+  {
+    "rank": 587,
+    "contract": "SP3XK0ZY79ECXVAAKKSCRP7DE0AAQ71JDF3XPD342.beerpcoins-club",
+    "calls": 20
+  },
+  {
+    "rank": 588,
+    "contract": "SP20X3DC5R091J8B6YPQT638J8NR1W83KN6TN5BJY.univ2-farming-core-v1_1_1-0050",
+    "calls": 19
+  },
+  {
+    "rank": 589,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-memegoat-core",
+    "calls": 19
+  },
+  {
+    "rank": 590,
+    "contract": "SP2AWE8GJ52MKEAGGBTTNEEXZSM9VF8CTYK7ZCZDC.bucket-coin-stxcity",
+    "calls": 19
+  },
+  {
+    "rank": 591,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.univ2-farming-distributor-1-v1_0_0-0011",
+    "calls": 19
+  },
+  {
+    "rank": 592,
+    "contract": "SPMWB0BNTFM19PWTNP0SJ2WX3PW5GTTMBS8BGZ5X.mooneb-stxcity-dex",
+    "calls": 19
+  },
+  {
+    "rank": 593,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-memegoat-distributor",
+    "calls": 19
+  },
+  {
+    "rank": 594,
+    "contract": "SP11Z0M9SXMXM2BGQHDPT0B9Z03TDE56WFSF6EEX8.stacks-keys",
+    "calls": 19
+  },
+  {
+    "rank": 595,
+    "contract": "SM2TEWJ03JQH962GAJ3BQMB00BQ8TPW4MBMV3SFQA.wstxmap",
+    "calls": 19
+  },
+  {
+    "rank": 596,
+    "contract": "SP2SHB5Y5K5H0TCWKZMT40G1XR1ZW256DBJM169TC.pontis-bridge-v1",
+    "calls": 19
+  },
+  {
+    "rank": 597,
+    "contract": "SP3FQ324HW8ZJDRS1SWNN0NN13YV3GHZ5C0MBVXEG.bullrun-on-stx-stxcity-dex",
+    "calls": 19
+  },
+  {
+    "rank": 598,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v130",
+    "calls": 19
+  },
+  {
+    "rank": 599,
+    "contract": "SPQ5CEHETP8K4Q2FSNNK9ANMPAVBSA9NN86YSN59.stones-by-alee",
+    "calls": 19
+  },
+  {
+    "rank": 600,
+    "contract": "SPQ9B3SYFV0AFYY96QN5ZJBNGCRRZCCMFHY0M34Z.cowards-acting-big-and-loud-stxcity-dex",
+    "calls": 18
+  },
+  {
+    "rank": 601,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-edmund-core",
+    "calls": 18
+  },
+  {
+    "rank": 602,
+    "contract": "SPZA22A4D15RKH5G8XDGQ7BPC20Q5JNMH0VQKSR6.vault-ststx-earn-v1",
+    "calls": 18
+  },
+  {
+    "rank": 603,
+    "contract": "SPNPWMK1HDWS196MZPCN21Y9VAPHHQYV3EBZGWCK.fartcoin-stxcity-dex",
+    "calls": 18
+  },
+  {
+    "rank": 604,
+    "contract": "SP120FDH7735P0T673D0YJ2AVE1XAJADP8V25WPGC.baby-leo",
+    "calls": 18
+  },
+  {
+    "rank": 605,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v206",
+    "calls": 18
+  },
+  {
+    "rank": 606,
+    "contract": "SPE25P42PKRQVR9BCFX60T0XZGJXSZDJGTE98436.tenmetsu",
+    "calls": 18
+  },
+  {
+    "rank": 607,
+    "contract": "SP14P3T8FCC2RXEAJQQTHX10XFZAJ6SN8X2DWQHAB.fungus-grow-earn-repeat-stxcity-dex",
+    "calls": 18
+  },
+  {
+    "rank": 608,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.xmas-ezj-stxcity-dex",
+    "calls": 18
+  },
+  {
+    "rank": 609,
+    "contract": "SP1JFFSYTSH7VBM54K29ZFS9H4SVB67EA8VT2MYJ9.gus-token",
+    "calls": 18
+  },
+  {
+    "rank": 610,
+    "contract": "SP36AM2CH310NKV3TRAYCGMQHN8899E4XAM6QP8H5.lycan-club-on-stacks",
+    "calls": 18
+  },
+  {
+    "rank": 611,
+    "contract": "SP3ZRRPPW4PXA8M7D69XEC6VSDDAYQCBABGP7WHA7.retardio-stxcity-dex",
+    "calls": 18
+  },
+  {
+    "rank": 612,
+    "contract": "SP32AEEF6WW5Y0NMJ1S8SBSZDAY8R5J32NBZFPKKZ.wrapped-nothing-v8",
+    "calls": 18
+  },
+  {
+    "rank": 613,
+    "contract": "SP16KWQY6ZPXNYT43A4RKXBXMFT3V7ZMV5YYNR1CK.mojo",
+    "calls": 18
+  },
+  {
+    "rank": 614,
+    "contract": "SP3ATFW5VSD0W4N0E3K1E4CGFE8MJXQ9XFFMQ0HBY.make-stacks-great-again-stxcity-dex",
+    "calls": 18
+  },
+  {
+    "rank": 615,
+    "contract": "SP18P831TBGKSGMJEMJM0V29CMKJP650ZT21YJ3XX.werner-dot-btc-s-10000",
+    "calls": 18
+  },
+  {
+    "rank": 616,
+    "contract": "SP1J4M1DAJ2ZSMH5HNRTFJBF3KSVKMJEY6VS99XFC.hare-krishna-stxcity-dex",
+    "calls": 18
+  },
+  {
+    "rank": 617,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v215",
+    "calls": 18
+  },
+  {
+    "rank": 618,
+    "contract": "SP739VRRCMXY223XPR28BWEBTJMA0B27DY8GTKCH.gyatt-bonding-curve",
+    "calls": 18
+  },
+  {
+    "rank": 619,
+    "contract": "SP2XD7417HGPRTREMKF748VNEQPDRR0RMANB7X1NK.token-ssko",
+    "calls": 18
+  },
+  {
+    "rank": 620,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.matcha-latte-dexterity",
+    "calls": 18
+  },
+  {
+    "rank": 621,
+    "contract": "SP248K49Y4TY6FKAHKAHAFWRWB2N9WFX1EC1MY4FN.maga-coin-stxcity-dex",
+    "calls": 18
+  },
+  {
+    "rank": 622,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.stx-city-token-wfn-stxcity-dex",
+    "calls": 18
+  },
+  {
+    "rank": 623,
+    "contract": "SPMYMHHC95YE7EZEF19NNWSZMHXEJ97ZYHJB5NXV.rmfam-nft-swap",
+    "calls": 18
+  },
+  {
+    "rank": 624,
+    "contract": "SP14ZYP25NW67XZQWMCDQCGH9S178JT78QJYE6K37.rapha-faktory-dex",
+    "calls": 17
+  },
+  {
+    "rank": 625,
+    "contract": "SP3F7GQ48JY59521DZEE6KABHBF4Q33PEYJ823ZXQ.xverse-nakamoto",
+    "calls": 17
+  },
+  {
+    "rank": 626,
+    "contract": "SP156CPYZP5VV2C09NWYWQT4CP0T9EWJP76Y18E3T.vintage-ghosts",
+    "calls": 17
+  },
+  {
+    "rank": 627,
+    "contract": "SP1C2K603TGWJGKPT2Z3WWHA0ARM66D352385TTWH.spaghettipunk-club",
+    "calls": 17
+  },
+  {
+    "rank": 628,
+    "contract": "SPQYMRAKZPQPJAADX5JBEFT0FHE3RZZK9F8TYBQ3.dawgpool-stxcity",
+    "calls": 17
+  },
+  {
+    "rank": 629,
+    "contract": "SP2KAF9RF86PVX3NEE27DFV1CQX0T4WGR41X3S45C.wasteland-apes-nft",
+    "calls": 17
+  },
+  {
+    "rank": 630,
+    "contract": "SP277HZA8AGXV42MZKDW5B2NNN61RHQ42MTAHVNB1.stacks-pops-ice-machine-v2",
+    "calls": 17
+  },
+  {
+    "rank": 631,
+    "contract": "SP1CSHTKVHMMQJ7PRQRFYW6SB4QAW6SR3XY2F81PA.crash-punks-boxes",
+    "calls": 17
+  },
+  {
+    "rank": 632,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.stx-bot-friendship-token-wnl-stxcity-dex",
+    "calls": 17
+  },
+  {
+    "rank": 633,
+    "contract": "SP3NQ1B6GMCCB684DKD9VTZ8QGTBT4E4N5QRY3BYB.lion-tiger-zebra",
+    "calls": 17
+  },
+  {
+    "rank": 634,
+    "contract": "SP4Z932V40K5D2GMZ1254VNX4BD8K6EFZJ2XEQQJ.mystery-stxcity-dex",
+    "calls": 17
+  },
+  {
+    "rank": 635,
+    "contract": "SP2FPTH274BXVB1E2HNXBAMGABV5TCSZTFNC16FR3.stupid-token-experiment-stxcity-dex",
+    "calls": 17
+  },
+  {
+    "rank": 636,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.diplomat-s-empire-suo-stxcity-dex",
+    "calls": 17
+  },
+  {
+    "rank": 637,
+    "contract": "SP13MQ92X6HP6H50ZN6C68R4A05XAY5PRWJQ57XGG.sync-dro1d-1nstall-part-2",
+    "calls": 17
+  },
+  {
+    "rank": 638,
+    "contract": "SP1Z92MPDQEWZXW36VX71Q25HKF5K2EPCJ304F275.stackswap-lbtc-staking-logic-v3a",
+    "calls": 16
+  },
+  {
+    "rank": 639,
+    "contract": "SP3K8BC0PPEVCV7NZ6QSRWPQ2JE9E5B6N3PA0KBR9.token-abtc",
+    "calls": 16
+  },
+  {
+    "rank": 640,
+    "contract": "SP4VEZSABNV5SXE9GTYMZHK9H08VCZM4V1GWPKEJ.chancla-stxcity",
+    "calls": 16
+  },
+  {
+    "rank": 641,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v164",
+    "calls": 16
+  },
+  {
+    "rank": 642,
+    "contract": "SP29YRDQA9B9R2Z8ACQJ0KH382C6CVPKAYNP49A0.kongz",
+    "calls": 16
+  },
+  {
+    "rank": 643,
+    "contract": "SP1Z92MPDQEWZXW36VX71Q25HKF5K2EPCJ304F275.stackswap-swap-router-v2a",
+    "calls": 16
+  },
+  {
+    "rank": 644,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.nyr25-pqt-stxcity-dex",
+    "calls": 16
+  },
+  {
+    "rank": 645,
+    "contract": "SP3QJ0MM9G8M3DSF5NEX7CEJ99NFDQ81WG17T7RMC.round-1-fight",
+    "calls": 16
+  },
+  {
+    "rank": 646,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.quiet-confidence",
+    "calls": 16
+  },
+  {
+    "rank": 647,
+    "contract": "SPSCWDV3RKV5ZRN1FQD84YE1NQFEDJ9R1F4DYQ11.newyorkcitycoin-core-v2",
+    "calls": 16
+  },
+  {
+    "rank": 648,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v159",
+    "calls": 16
+  },
+  {
+    "rank": 649,
+    "contract": "SP2SKMAR9WMD9DBJHC4XTQXPZCDNV1258PSJTRGTV.moonlAds-v1",
+    "calls": 16
+  },
+  {
+    "rank": 650,
+    "contract": "SP25VJZHNP84HTKB9T20CGF5JDBB8X17X81RHSTWB.bitcoin-miner-stxcity-dex",
+    "calls": 16
+  },
+  {
+    "rank": 651,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.land-helper-v3",
+    "calls": 16
+  },
+  {
+    "rank": 652,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.mr-president-pepe",
+    "calls": 16
+  },
+  {
+    "rank": 653,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.liquid-staked-pepe",
+    "calls": 16
+  },
+  {
+    "rank": 654,
+    "contract": "SP2MNGD3M6FK5D8GWVCPFTMNMK4V1ZVYF1Q4KCD0S.joe-coin-stxcity-dex",
+    "calls": 16
+  },
+  {
+    "rank": 655,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.redemption-roo-dexterity",
+    "calls": 16
+  },
+  {
+    "rank": 656,
+    "contract": "SP35DJDPDNCYRPMTDW10YCQFA29HWXK2S3W5FKFA7.boom-ghostly-transaction",
+    "calls": 15
+  },
+  {
+    "rank": 657,
+    "contract": "SP3J9CZ0HNRZX7S5YBAFPT3SJ4KP1PBSRVP3TQAT7.the-little-bird",
+    "calls": 15
+  },
+  {
+    "rank": 658,
+    "contract": "SP324QWEMW7R0BCXCHXG20QNJQ9K1Q7J2CYACTDZD.skinny-melons-christmes-2024",
+    "calls": 15
+  },
+  {
+    "rank": 659,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-aeusdc2-core",
+    "calls": 15
+  },
+  {
+    "rank": 660,
+    "contract": "SP12RGNJDCZ3AGVA0EM5W37FK46TMVN1859BFZ08K.bitcoin-chicks",
+    "calls": 15
+  },
+  {
+    "rank": 661,
+    "contract": "SP364J7EDJXRE1FPDZDABP9M58HPY4G88BFCP2HD0.gamma-step",
+    "calls": 15
+  },
+  {
+    "rank": 662,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.lbt-lra-stxcity-dex",
+    "calls": 15
+  },
+  {
+    "rank": 663,
+    "contract": "SP2AKWJYC7BNY18W1XXKPGP0YVEK63QJG4793Z2D4.uwu-stability-module-v1-1-4",
+    "calls": 15
+  },
+  {
+    "rank": 664,
+    "contract": "SP3TJMRQ13QR6V5HGT6AKEK7PP699F4148JZTB9G3.counter",
+    "calls": 15
+  },
+  {
+    "rank": 665,
+    "contract": "SPN7GYFCEVW1HR6CVFW3JGWSW57P1JZCZ3KSQTPT.turtoshi-stxcity",
+    "calls": 15
+  },
+  {
+    "rank": 666,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v213",
+    "calls": 15
+  },
+  {
+    "rank": 667,
+    "contract": "SP2TTK8YMANQ8P88T2GGXF45R2M53MTMZGMWNQFVC.cloak-stxcity-dex",
+    "calls": 15
+  },
+  {
+    "rank": 668,
+    "contract": "SPNWZ5V2TPWGQGVDR6T7B6RQ4XMGZ4PXTEE0VQ0S.marketplace-v2-alt",
+    "calls": 15
+  },
+  {
+    "rank": 669,
+    "contract": "SP1NAZ59R1ED0V6NH9N0EQBEB3MKT48CQCMKC5Q41.swap-router-v18",
+    "calls": 15
+  },
+  {
+    "rank": 670,
+    "contract": "SP3GAHJY2ZQTXFHS4JJPDJNRKTE84E0Y17PMSC4P2.link-stxcity-dex",
+    "calls": 15
+  },
+  {
+    "rank": 671,
+    "contract": "SP2TZK01NKDC89J6TA56SA47SDF7RTHYEQ79AAB9A.Wrapped-USD",
+    "calls": 15
+  },
+  {
+    "rank": 672,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-rock-distributor",
+    "calls": 15
+  },
+  {
+    "rank": 673,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.mew-alg-stxcity-dex",
+    "calls": 15
+  },
+  {
+    "rank": 674,
+    "contract": "SP21G8VV42W0TGC00P03XGWB5BRH6X029CT3ZGYH3.boo-stxcity-dex",
+    "calls": 15
+  },
+  {
+    "rank": 675,
+    "contract": "SP2GW18TVQR75W1VT53HYGBRGKFRV5BFYNAF5SS5J.Cerulean-Marketplace-v1",
+    "calls": 15
+  },
+  {
+    "rank": 676,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.path-apply_v1_2_0",
+    "calls": 15
+  },
+  {
+    "rank": 677,
+    "contract": "SP13MQ92X6HP6H50ZN6C68R4A05XAY5PRWJQ57XGG.tons-of-nothing-stxcity-dex",
+    "calls": 15
+  },
+  {
+    "rank": 678,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.boss-base-token-efm-stxcity-dex",
+    "calls": 15
+  },
+  {
+    "rank": 679,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v135",
+    "calls": 15
+  },
+  {
+    "rank": 680,
+    "contract": "SP1Z92MPDQEWZXW36VX71Q25HKF5K2EPCJ304F275.stackswap-one-step-mint-v5k",
+    "calls": 14
+  },
+  {
+    "rank": 681,
+    "contract": "SP1PGZXB00M5V94GDMW37S2M4T9WYMYD7C9CRZBE1.wolf-stxcity-dex",
+    "calls": 14
+  },
+  {
+    "rank": 682,
+    "contract": "SP4SZE494VC2YC5JYG7AYFQ44F5Q4PYV7DVMDPBG.stacking-pool-signer-chorus-one-v1",
+    "calls": 14
+  },
+  {
+    "rank": 683,
+    "contract": "SP28NB976TJHHGF4218KT194NPWP9N1X3WY516Z1P.hashiko-tsuitachi",
+    "calls": 14
+  },
+  {
+    "rank": 684,
+    "contract": "SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE.send-many",
+    "calls": 14
+  },
+  {
+    "rank": 685,
+    "contract": "SP4XFQ4F46EWYSM5C2JYY5M0SQ7FTT1VPFV4WQ4B.stxcy",
+    "calls": 14
+  },
+  {
+    "rank": 686,
+    "contract": "SP2Z2CBMGWB9MQZAF5Z8X56KS69XRV3SJF4WKJ7J9.bot-trap-stxcity-dex",
+    "calls": 14
+  },
+  {
+    "rank": 687,
+    "contract": "SP1XDNSKHY06AQ2FC2FGWDF9ZPTF2VCDDFE1E3Q82.stacks-streets",
+    "calls": 14
+  },
+  {
+    "rank": 688,
+    "contract": "SP3QJ4Y82AQEX0JGXPRY2DN1T1HVW4QVJCT839W5D.mad-money-stxcity-dex",
+    "calls": 14
+  },
+  {
+    "rank": 689,
+    "contract": "SP1C8ZG23WE412GV4GJ32AK82CCR1HYD6T9XRCA61.digital-twin-gold-stxcity-dex",
+    "calls": 14
+  },
+  {
+    "rank": 690,
+    "contract": "SP3ATFW5VSD0W4N0E3K1E4CGFE8MJXQ9XFFMQ0HBY.catdog-stxcity-dex",
+    "calls": 14
+  },
+  {
+    "rank": 691,
+    "contract": "SP000000000000000000002Q6VF78.bns",
+    "calls": 14
+  },
+  {
+    "rank": 692,
+    "contract": "SP1MASMF30DRR4KDR5TG4RZEEVHBKS1ZX4TJZ8P06.mrbeans-stxcity",
+    "calls": 14
+  },
+  {
+    "rank": 693,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-long-distributor",
+    "calls": 14
+  },
+  {
+    "rank": 694,
+    "contract": "SP1DRJGCATCT2EEYCSVW1B3WN73YTX04HWXDNNVRC.the-weak-hands-stxcity-dex",
+    "calls": 14
+  },
+  {
+    "rank": 695,
+    "contract": "SP2F3XE768JVSHSYVJVM8ZV4NQKMX9R890HH2X6JK.beetle-stxcity-dex",
+    "calls": 14
+  },
+  {
+    "rank": 696,
+    "contract": "SP2C2YFP12AJZB4MABJBAJ55XECVS7E4PMMZ89YZR.arkadiko-liquidation-rewards-ui-v2-3",
+    "calls": 14
+  },
+  {
+    "rank": 697,
+    "contract": "SP0FKX0R96Y6GG0JBY6YFCPZNJT4DQF6STN5RXZT.buzzalot-stxcity-dex",
+    "calls": 14
+  },
+  {
+    "rank": 698,
+    "contract": "SP1KMAA7TPZ5AZZ4W67X74MJNFKMN576604CWNBQS.shark-coin-stxcity",
+    "calls": 14
+  },
+  {
+    "rank": 699,
+    "contract": "SP2HTRCCBDYCGHFFQKR57GSKEGDX0T4YYNPEGNPEH.stacks-extend-pepe-stxcity-dex",
+    "calls": 14
+  },
+  {
+    "rank": 700,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.stupid-bot-mcn-stxcity-dex",
+    "calls": 14
+  },
+  {
+    "rank": 701,
+    "contract": "SPG7YJ4X0KCND509CM00S8Z0WEVW04HP945NT1CB.hawk-tuah-stxcity-dex",
+    "calls": 14
+  },
+  {
+    "rank": 702,
+    "contract": "SPEVNQDN6CH49Y82RXE8CEF1M4XPVXAHZR3YAJYP.south-korea-cto-stxcity-dex",
+    "calls": 14
+  },
+  {
+    "rank": 703,
+    "contract": "SP39JCPYF3XTGS663GSY41G9VX04XRBM0KQ2ZZQ14.balancer-v93-8",
+    "calls": 13
+  },
+  {
+    "rank": 704,
+    "contract": "SP3EBDZJH8Z3N62A20MKCYG37EXZ5R8FR77JFW5BR.satoshi-ais",
+    "calls": 13
+  },
+  {
+    "rank": 705,
+    "contract": "SP4SZE494VC2YC5JYG7AYFQ44F5Q4PYV7DVMDPBG.stacking-pool-signer-infstones-v1",
+    "calls": 13
+  },
+  {
+    "rank": 706,
+    "contract": "SP3RYGG161XJQ8MESCWBM7E3WS99AH4B1N8WE25CY.blockhunt-encounters-act-i",
+    "calls": 13
+  },
+  {
+    "rank": 707,
+    "contract": "SP39859AD7RQ6NYK00EJ8HN1DWE40C576FBDGHPA0.dmg-lp-token",
+    "calls": 13
+  },
+  {
+    "rank": 708,
+    "contract": "SP1NAZ59R1ED0V6NH9N0EQBEB3MKT48CQCMKC5Q41.bns-1734637681153-v1",
+    "calls": 13
+  },
+  {
+    "rank": 709,
+    "contract": "SP34TK7YSEVPT0K1KH0GSG7EGVHQ70KT5V1EW7TQR.mecha-monkeys",
+    "calls": 13
+  },
+  {
+    "rank": 710,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-leo-distributor",
+    "calls": 13
+  },
+  {
+    "rank": 711,
+    "contract": "SP12JCJYJJ31C59MV94SNFFM4687H9A04Q3BHTAJM.nocodeclarity-pass",
+    "calls": 13
+  },
+  {
+    "rank": 712,
+    "contract": "SP3CTAW6MTJJJ741V19PH9RVZHK2QXT7E4EXSBVDN.just-a-chill-guy",
+    "calls": 13
+  },
+  {
+    "rank": 713,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.updog-dexterity",
+    "calls": 13
+  },
+  {
+    "rank": 714,
+    "contract": "SM26NBC8SFHNW4P1Y4DFH27974P56WN86C92HPEHH.operators",
+    "calls": 13
+  },
+  {
+    "rank": 715,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.stackistics-value-token-kmz-stxcity-dex",
+    "calls": 13
+  },
+  {
+    "rank": 716,
+    "contract": "SP2SEWKSSXT4RP8GJ3Y9F1H8EY78GD5P73F8NPTS5.moby-dick-stxcity-dex",
+    "calls": 12
+  },
+  {
+    "rank": 717,
+    "contract": "SP31D40V6DGQ02M1GRZJKKPCTQB8DZKXZVR0CT388.pea-nut",
+    "calls": 12
+  },
+  {
+    "rank": 718,
+    "contract": "SP3J9CZ0HNRZX7S5YBAFPT3SJ4KP1PBSRVP3TQAT7.balls-stxcity",
+    "calls": 12
+  },
+  {
+    "rank": 719,
+    "contract": "SP3K8BC0PPEVCV7NZ6QSRWPQ2JE9E5B6N3PA0KBR9.runes-dog",
+    "calls": 12
+  },
+  {
+    "rank": 720,
+    "contract": "SP3684X4RPQHRJ5YZJHPZ3MWCWQ0X33R87DCXHA1Z.tupac-stxcity-dex",
+    "calls": 12
+  },
+  {
+    "rank": 721,
+    "contract": "SP3A6FJ92AA0MS2F57DG786TFNG8J785B3F8RSQC9.owl-link",
+    "calls": 12
+  },
+  {
+    "rank": 722,
+    "contract": "SP3MVF2KSKMAH3J4KP90RW7GKBW8TEZN596MW6GMV.stxstone-heart",
+    "calls": 12
+  },
+  {
+    "rank": 723,
+    "contract": "SP9M1WKM42DQ69ZP6ZZFWH7MVB6FYPW49NRTS19T.kekius-maximus-stxcity-dex",
+    "calls": 12
+  },
+  {
+    "rank": 724,
+    "contract": "SP1JBV7TE0490KNVM1VAM19KHZG0CPC9426YCY3ZF.drones-stxcity",
+    "calls": 12
+  },
+  {
+    "rank": 725,
+    "contract": "SP4M2C88EE8RQZPYTC4PZ88CE16YGP825EYF6KBQ.stacks-rock",
+    "calls": 12
+  },
+  {
+    "rank": 726,
+    "contract": "SP3N7Y3K01Y24G9JC1XXA13RQXXCY721WAVBMMD38.ballot-vote-with-alex-a-9XdqO",
+    "calls": 12
+  },
+  {
+    "rank": 727,
+    "contract": "SP2SXAPHGFAAN7NYY27XP2CTP6B0ZM0DZXCV8BWSJ.seahorse-stxcity-dex",
+    "calls": 12
+  },
+  {
+    "rank": 728,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.bridge-stx-pbtc-btc-v-1-1",
+    "calls": 12
+  },
+  {
+    "rank": 729,
+    "contract": "SP15RNN0NHNVPZZNM3TC5TWA7C4ZCBA7JJSPHEE87.wifey-stxcity-dex",
+    "calls": 12
+  },
+  {
+    "rank": 730,
+    "contract": "SP2HTRCCBDYCGHFFQKR57GSKEGDX0T4YYNPEGNPEH.red-owl-stxcity-dex",
+    "calls": 12
+  },
+  {
+    "rank": 731,
+    "contract": "SP2HTRCCBDYCGHFFQKR57GSKEGDX0T4YYNPEGNPEH.lol-ai-stxcity-dex",
+    "calls": 12
+  },
+  {
+    "rank": 732,
+    "contract": "SP2HJVJQS0TRBTQ1WAWWN9H9W2HKGDZ7H5EZCEAQC.the-prelude-of-bonfire",
+    "calls": 12
+  },
+  {
+    "rank": 733,
+    "contract": "SP2GG6GF6ESKMPNJYWZ35PF3Q8966MEDHH0AAYX6C.bitcoin-punkz",
+    "calls": 12
+  },
+  {
+    "rank": 734,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.codeship-dua-stxcity-dex",
+    "calls": 12
+  },
+  {
+    "rank": 735,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.burn-zcn-stxcity-dex",
+    "calls": 12
+  },
+  {
+    "rank": 736,
+    "contract": "SP2RTE7F21N6GQ6BBZR7JGGRWAT0T5Q3Z9ZHB9KRS.dumpster-fire-stxcity-dex",
+    "calls": 12
+  },
+  {
+    "rank": 737,
+    "contract": "SP1CKB57B1V4983HC3DTA05825P8RVQSVV9JN404S.nexa-stxcity-dex",
+    "calls": 11
+  },
+  {
+    "rank": 738,
+    "contract": "SP1GR38P4KNCQRC1BD5HC97DP36W2MBZFZ4WC0NET.the-happy-captain--faktory-dex",
+    "calls": 11
+  },
+  {
+    "rank": 739,
+    "contract": "SP2RYWPDCCTN5JTYEMKZVBD1PADX4FCCTXXWVQKYP.untitled",
+    "calls": 11
+  },
+  {
+    "rank": 740,
+    "contract": "SPBKM76FM8T8DEAQ11C9CF9WJKTSMKE140M0VXFM.capy-stxcity",
+    "calls": 11
+  },
+  {
+    "rank": 741,
+    "contract": "SP4SZE494VC2YC5JYG7AYFQ44F5Q4PYV7DVMDPBG.stacking-pool-signer-blockdaemon-v1",
+    "calls": 11
+  },
+  {
+    "rank": 742,
+    "contract": "SP2BG645M86A45K524N6SHS43PXBMD456HCG1P11K.glotch",
+    "calls": 11
+  },
+  {
+    "rank": 743,
+    "contract": "SPMPMA1V6P430M8C91QS1G9XJ95S59JS1TZFZ4Q4.pox4-multi-pool-v1",
+    "calls": 11
+  },
+  {
+    "rank": 744,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.univ2-farming-core-v1_0_0-0011",
+    "calls": 11
+  },
+  {
+    "rank": 745,
+    "contract": "SP20X3DC5R091J8B6YPQT638J8NR1W83KN6TN5BJY.univ2-farming-core-v1_1_1-0026",
+    "calls": 11
+  },
+  {
+    "rank": 746,
+    "contract": "SP1PF5HTB4HQN1RGJH0PCGY718Q652841N4XVVFMF.jing",
+    "calls": 11
+  },
+  {
+    "rank": 747,
+    "contract": "SM3KNVZS30WM7F89SXKVVFY4SN9RMPZZ9FX929N0V.auto-whitelist-mint-helper",
+    "calls": 11
+  },
+  {
+    "rank": 748,
+    "contract": "SP1XDNSKHY06AQ2FC2FGWDF9ZPTF2VCDDFE1E3Q82.stacks-streets-yellow",
+    "calls": 11
+  },
+  {
+    "rank": 749,
+    "contract": "SP2YG90T7GPVJDGXQAJ40Y08NB5ZBV4KVASSAQNE8.arno-carstens-with-gamma",
+    "calls": 11
+  },
+  {
+    "rank": 750,
+    "contract": "SPD13CVTWS99F00S7G61ZYWTZB5EMJD4TP62V83H.baby-dragons",
+    "calls": 11
+  },
+  {
+    "rank": 751,
+    "contract": "SP3PB0M970QNX9C948JN2Q4V5Z7A1X893EA4Y2VDB.amm-pool-v2-01",
+    "calls": 11
+  },
+  {
+    "rank": 752,
+    "contract": "SP2SVPCC4ACK4B2ZHVVPJ5555FQVTZ9YC79J9W60X.retarded-stxcity-dex",
+    "calls": 11
+  },
+  {
+    "rank": 753,
+    "contract": "SP2R41B47FXF6QD9B22D9WH6FTF6CRDMBPDR1AR6Z.ski-mask-cat-stxcity-dex",
+    "calls": 11
+  },
+  {
+    "rank": 754,
+    "contract": "SP3RBBY592MH138X667VYZNHKZREZ71JGDMMPMCDZ.jeetendra-madnani-stxcity-dex",
+    "calls": 11
+  },
+  {
+    "rank": 755,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.lands",
+    "calls": 11
+  },
+  {
+    "rank": 756,
+    "contract": "SP1Z1BXBDN97ZNTXZJ83RD9584WNSX9AA8STKF0KQ.froge-stxcity-dex",
+    "calls": 11
+  },
+  {
+    "rank": 757,
+    "contract": "SP1HJDN9C7B0ZSS9WD8AAS8YRMPE17HBVHHY28J9B.percent-stxcity-dex",
+    "calls": 11
+  },
+  {
+    "rank": 758,
+    "contract": "SP34V64PNDN1535R0DP60EBSXASJHKJ5NH8JPHBQH.mempool",
+    "calls": 11
+  },
+  {
+    "rank": 759,
+    "contract": "SP2SHB5Y5K5H0TCWKZMT40G1XR1ZW256DBJM169TC.pontis-price-oracle",
+    "calls": 11
+  },
+  {
+    "rank": 760,
+    "contract": "SP45RYP4W83SMSCG5C7MZCM1EFVRJY4K6D0E05Z6.walter",
+    "calls": 11
+  },
+  {
+    "rank": 761,
+    "contract": "SP3DGHSW42HV4T5XR999R3MBV02W6KA50W1D85TSV.test-stxcity-dex",
+    "calls": 11
+  },
+  {
+    "rank": 762,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.solanastacks-pcs-stxcity-dex",
+    "calls": 11
+  },
+  {
+    "rank": 763,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.util-multisend2",
+    "calls": 11
+  },
+  {
+    "rank": 764,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.arb-khr-stxcity-dex",
+    "calls": 11
+  },
+  {
+    "rank": 765,
+    "contract": "SP30CQ9PEPF2Z5SSMEFFSKJ08XRMT4WZSZPTX11QX.rite-of-passage",
+    "calls": 11
+  },
+  {
+    "rank": 766,
+    "contract": "SP2BRB6P0BK6T35DHTGXCV6MZ5TGRN5E0RKZ1T8B5.gated-pages-001",
+    "calls": 11
+  },
+  {
+    "rank": 767,
+    "contract": "SPW2CWKC61DTT1PBD6V0R7P81V5RJ2DX3FYSE8YK.alien-poop-stxcity",
+    "calls": 11
+  },
+  {
+    "rank": 768,
+    "contract": "SP345FTTDC4VT580K18ER0MP5PR1ZRP5C3Q0KYA1P.booster-bonding-curve",
+    "calls": 11
+  },
+  {
+    "rank": 769,
+    "contract": "SP3K8BC0PPEVCV7NZ6QSRWPQ2JE9E5B6N3PA0KBR9.brc20-tx20",
+    "calls": 11
+  },
+  {
+    "rank": 770,
+    "contract": "SPX2VZASMK82989TD33HYEC6PT0PX0PN57950RQJ.pudgy-trump-stxcity-dex",
+    "calls": 11
+  },
+  {
+    "rank": 771,
+    "contract": "SP3NT2BTA2AVJTAZH4G7VEWM6FE107W8Q5PBDV1FF.cotton-candy-stxcity-dex",
+    "calls": 11
+  },
+  {
+    "rank": 772,
+    "contract": "SPM28YQQABP21KR395B72Q9KJ6N3EPCT49ZM8SXY.alphainvest-stxcity-dex",
+    "calls": 11
+  },
+  {
+    "rank": 773,
+    "contract": "SP3EJCRT5V10W6JBS8D76J5PXCTF0SD250N1Z1HRS.the-journey",
+    "calls": 11
+  },
+  {
+    "rank": 774,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v132",
+    "calls": 11
+  },
+  {
+    "rank": 775,
+    "contract": "SP3Q982CNNQ00E3FH6853EMTA5FPF1M3ENHH56HMD.dia-oracle",
+    "calls": 11
+  },
+  {
+    "rank": 776,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.redemption-welsh-dexterity",
+    "calls": 11
+  },
+  {
+    "rank": 777,
+    "contract": "SP1JZA75FT9WRPB4RX4B3M3AKERP2S4WF28JXJ58V.sbtc-rollout-stxcity-dex",
+    "calls": 11
+  },
+  {
+    "rank": 778,
+    "contract": "SP20X3DC5R091J8B6YPQT638J8NR1W83KN6TN5BJY.univ2-farming-core-v1_1_1-0084",
+    "calls": 10
+  },
+  {
+    "rank": 779,
+    "contract": "SP1Z92MPDQEWZXW36VX71Q25HKF5K2EPCJ304F275.stsw-token-v4a",
+    "calls": 10
+  },
+  {
+    "rank": 780,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.bridge-stx-sbtc-pbtc-btc-v-1-1",
+    "calls": 10
+  },
+  {
+    "rank": 781,
+    "contract": "SP3S29FMRBDVXGNZDFW0TP21D1ZE34ERZ8KAAQYFN.yakuza-stxcity-dex",
+    "calls": 10
+  },
+  {
+    "rank": 782,
+    "contract": "SP20X3DC5R091J8B6YPQT638J8NR1W83KN6TN5BJY.univ2-farming-distributor-1-v1_1_1-0050",
+    "calls": 10
+  },
+  {
+    "rank": 783,
+    "contract": "SP3X27NM39MR9HM98D8PEWAHE420JK3X090S1382Q.unikind",
+    "calls": 10
+  },
+  {
+    "rank": 784,
+    "contract": "SP4SZE494VC2YC5JYG7AYFQ44F5Q4PYV7DVMDPBG.stacking-pool-signer-despread-v1",
+    "calls": 10
+  },
+  {
+    "rank": 785,
+    "contract": "SP2M8PZPPRSFYJKG84ESH3F36DJ43WPTM2NPRQAST.birdsarefake-stxcity-dex",
+    "calls": 10
+  },
+  {
+    "rank": 786,
+    "contract": "SP1NSCD02EE377W77JA5RHXF9S6RT6A6CA7K039DH.hawk-thua",
+    "calls": 10
+  },
+  {
+    "rank": 787,
+    "contract": "SP2S3EAXSRJBVQ1GQSKTM1D14C1ED8KG9H43KF0FC.Fight",
+    "calls": 10
+  },
+  {
+    "rank": 788,
+    "contract": "SP3D6PV2ACBPEKYJTCMH7HEN02KP87QSP8KTEH335.megapont-gigafactory",
+    "calls": 10
+  },
+  {
+    "rank": 789,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.cha-recovery",
+    "calls": 10
+  },
+  {
+    "rank": 790,
+    "contract": "SM1793C4R5PZ4NS4VQ4WMP7SKKYVH8JZEWSZ9HCCR.xyk-staking-stx-aeusdc-v-1-1",
+    "calls": 10
+  },
+  {
+    "rank": 791,
+    "contract": "SP28HR7Q4SJF7S6PPCG5ECWAT5FWSXBJ4DS4H152V.magic-carpet-ride-stxcity-dex",
+    "calls": 10
+  },
+  {
+    "rank": 792,
+    "contract": "SPYEFSJEKNERY73M0XCS6BACVYA1TYE70TWWWRZE.intellectual-disability-stxcity-dex",
+    "calls": 10
+  },
+  {
+    "rank": 793,
+    "contract": "SP14Y41RVGJQ1X0WF9AF5N2X592KAFB268H7BH289.easy-money-stxcity-dex",
+    "calls": 10
+  },
+  {
+    "rank": 794,
+    "contract": "SP2KAF9RF86PVX3NEE27DFV1CQX0T4WGR41X3S45C.btc-monkeys-bananas",
+    "calls": 10
+  },
+  {
+    "rank": 795,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.red-pill-nft",
+    "calls": 10
+  },
+  {
+    "rank": 796,
+    "contract": "SP1R1DJE5FFWVJQBYDC3B5VQ2M04CQG5XMT6T2XCZ.stx-penguins",
+    "calls": 10
+  },
+  {
+    "rank": 797,
+    "contract": "SP1NWJBKVDA8QS0CP2DZ1DVX6EQX3Z6F2BTC912AK.just-an-egg-with-a-black-eye-stxcity-dex",
+    "calls": 10
+  },
+  {
+    "rank": 798,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-aeusdc2-distributor2",
+    "calls": 10
+  },
+  {
+    "rank": 799,
+    "contract": "SP92DN6798JJED7W3QZHFEAB9Q1BCMCVE2YPMY5F.quantum-schizophrenia-1",
+    "calls": 10
+  },
+  {
+    "rank": 800,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-tremp-distributor",
+    "calls": 10
+  },
+  {
+    "rank": 801,
+    "contract": "SP308FR1T8908G7QP5XNXGVTMH32650A9H8GM5V07.dog-go-to-the-moon-on-stx-stxcity-dex",
+    "calls": 10
+  },
+  {
+    "rank": 802,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.catdog-bss-stxcity-dex",
+    "calls": 10
+  },
+  {
+    "rank": 803,
+    "contract": "SP3AA8Q1P0BC9CXGM3WVMFB0JB36BW5WVFVJY0D1D.babyleo-dex",
+    "calls": 10
+  },
+  {
+    "rank": 804,
+    "contract": "SP38C4PCSDNSXD50PE28BM9NNTQ0J2CZ3D190M1XD.bitmap-stxcity-dex",
+    "calls": 10
+  },
+  {
+    "rank": 805,
+    "contract": "SP1BZ5GECZKZNK7NMFKD32H90G78RMRX1XDSYJWPG.hare-stxcity-dex",
+    "calls": 10
+  },
+  {
+    "rank": 806,
+    "contract": "SP31HTEVQ5VF2H3ANRTQDM900J952YZ6JJA93BXRK.stacks-warlordz",
+    "calls": 10
+  },
+  {
+    "rank": 807,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.nwodn-zrj-stxcity-dex",
+    "calls": 10
+  },
+  {
+    "rank": 808,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v154",
+    "calls": 10
+  },
+  {
+    "rank": 809,
+    "contract": "SP3YY9K5QF54W0KTHKNA3SEPMR1B3GTB75BBPJWH0.rocket-van-stxcity",
+    "calls": 10
+  },
+  {
+    "rank": 810,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v131",
+    "calls": 10
+  },
+  {
+    "rank": 811,
+    "contract": "SPGWF6FPVXB6GBF5XVEC73ZHW7WT67Q7JMRJTXVK.assman-stxcity",
+    "calls": 10
+  },
+  {
+    "rank": 812,
+    "contract": "SP1G4KJ49KM7QFQH0A7F2YXWSNAGFM48MN55S84PM.shariahshib-stxcity-dex",
+    "calls": 10
+  },
+  {
+    "rank": 813,
+    "contract": "SP20X3DC5R091J8B6YPQT638J8NR1W83KN6TN5BJY.univ2-farming-distributor-1-v1_1_1-0029",
+    "calls": 9
+  },
+  {
+    "rank": 814,
+    "contract": "SP7FM7445TXTJEJ54GBCV2GJPCJF887NXJW2BE78.alucinacionez",
+    "calls": 9
+  },
+  {
+    "rank": 815,
+    "contract": "SP3D6PV2ACBPEKYJTCMH7HEN02KP87QSP8KTEH335.steady-lads-msa",
+    "calls": 9
+  },
+  {
+    "rank": 816,
+    "contract": "SP14NS8MVBRHXMM96BQY0727AJ59SWPV7RMHC0NCG.pontis-bridge-pBTC",
+    "calls": 9
+  },
+  {
+    "rank": 817,
+    "contract": "SP1CYPF2DNAN6G4BJAES82E4JFKE6GAB58YP7QJT1.besto-stxcity-dex",
+    "calls": 9
+  },
+  {
+    "rank": 818,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-edmund-distributor",
+    "calls": 9
+  },
+  {
+    "rank": 819,
+    "contract": "SP4SZE494VC2YC5JYG7AYFQ44F5Q4PYV7DVMDPBG.stacking-pool-signer-kiln-v1",
+    "calls": 9
+  },
+  {
+    "rank": 820,
+    "contract": "SPXZB55NWTRQM02QYK7Z6K2PP7F279F640HAYTPG.TwinsPig",
+    "calls": 9
+  },
+  {
+    "rank": 821,
+    "contract": "SP497E7RX3233ATBS2AB9G4WTHB63X5PBSP5VGAQ.boom-nfts",
+    "calls": 9
+  },
+  {
+    "rank": 822,
+    "contract": "SP3D6PV2ACBPEKYJTCMH7HEN02KP87QSP8KTEH335.megapont-robot-nft",
+    "calls": 9
+  },
+  {
+    "rank": 823,
+    "contract": "SP2E1XY41CTKD1FMGFRS3T3ZD1Y1ERR1Z9VR82AM2.too-adorable",
+    "calls": 9
+  },
+  {
+    "rank": 824,
+    "contract": "SP2ZGCAHJ2GFECRG754NP98N4F18CP39HSP8PBNXA.trump-on-stacks",
+    "calls": 9
+  },
+  {
+    "rank": 825,
+    "contract": "SPPK49DG7WR1J5D50GZ4W7DYYWM5MAXSX0ZA9VEJ.FrodoSaylorKeanuPepe10Inu-token-v69",
+    "calls": 9
+  },
+  {
+    "rank": 826,
+    "contract": "SP2KAF9RF86PVX3NEE27DFV1CQX0T4WGR41X3S45C.steady-lads",
+    "calls": 9
+  },
+  {
+    "rank": 827,
+    "contract": "SPFGX4MZ770DA3RE6S5PVQ176QZ3P7VWAG3CKJ0Y.godl-on-stacks-stxcity",
+    "calls": 9
+  },
+  {
+    "rank": 828,
+    "contract": "SP17RQ6EF8P3DWAHBG4630FSXY03RNR9FSX9P4ZQG.hooded-banditz",
+    "calls": 9
+  },
+  {
+    "rank": 829,
+    "contract": "SPCMSPY9J9Y2X9KKMK85AED17TF60PN3AQ9AMAM4.bitcoin-free-fun-monkeys",
+    "calls": 9
+  },
+  {
+    "rank": 830,
+    "contract": "SPNWZ5V2TPWGQGVDR6T7B6RQ4XMGZ4PXTEE0VQ0S.citypacks-001",
+    "calls": 9
+  },
+  {
+    "rank": 831,
+    "contract": "SP3QJ0MM9G8M3DSF5NEX7CEJ99NFDQ81WG17T7RMC.tenmetsu",
+    "calls": 9
+  },
+  {
+    "rank": 832,
+    "contract": "SP3XFP625BYB5QV13MWK51QJRCN53YM9ARB0SPVKT.ordinals-punk-portraits",
+    "calls": 9
+  },
+  {
+    "rank": 833,
+    "contract": "SP3RKRKGAW47KZWMMHNS9RFRDX4VM0W1M8D8PWZXJ.bitcoin-arcade",
+    "calls": 9
+  },
+  {
+    "rank": 834,
+    "contract": "SP22HRXGE843WHBJJFF4WHCAW48FJZWSWMZ9EEWYE.pepepunks-ordinals",
+    "calls": 9
+  },
+  {
+    "rank": 835,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.phx-mxr-stxcity-dex",
+    "calls": 9
+  },
+  {
+    "rank": 836,
+    "contract": "SP2AKWJYC7BNY18W1XXKPGP0YVEK63QJG4793Z2D4.uwu-factory-v1-1-0",
+    "calls": 9
+  },
+  {
+    "rank": 837,
+    "contract": "SP92DN6798JJED7W3QZHFEAB9Q1BCMCVE2YPMY5F.military-grade-meme-factory",
+    "calls": 9
+  },
+  {
+    "rank": 838,
+    "contract": "SP2NAJ9GQGEYV6KZMXQB6JS0D5GCF62MSBAE5PJ5Q.leomilli-stxcity-dex",
+    "calls": 9
+  },
+  {
+    "rank": 839,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.synthetic-welsh",
+    "calls": 9
+  },
+  {
+    "rank": 840,
+    "contract": "SP8HMQP4Q63V3E6SXXPXZ4WJXA263HBD95QY2AM3.sexy",
+    "calls": 9
+  },
+  {
+    "rank": 841,
+    "contract": "SPNWZ5V2TPWGQGVDR6T7B6RQ4XMGZ4PXTEE0VQ0S.monkey-kids-nft",
+    "calls": 9
+  },
+  {
+    "rank": 842,
+    "contract": "SP1K8Y1JDM3MX9HNBS4MGYERRZSADVMZWASAPHPK3.simulation-coin-stxcity",
+    "calls": 9
+  },
+  {
+    "rank": 843,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.charismatic-flow",
+    "calls": 9
+  },
+  {
+    "rank": 844,
+    "contract": "SP27ENRYMEGM9K6TVR7A8JEDTFXN5EA22KPJHVPE1.ghostgm",
+    "calls": 9
+  },
+  {
+    "rank": 845,
+    "contract": "SP30TV0HVAAXY0H4K3JQ0YXC465X6G4GQCE018RSH.metaboy-cartridge-first-odyssey",
+    "calls": 9
+  },
+  {
+    "rank": 846,
+    "contract": "SP2ABNX65BSKVM00ZQZ7K174DFV18CXVGGEMP7Y6X.weed-monsters",
+    "calls": 9
+  },
+  {
+    "rank": 847,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.khoacode-jlz-stxcity-dex",
+    "calls": 9
+  },
+  {
+    "rank": 848,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.nopecha-dexterity",
+    "calls": 9
+  },
+  {
+    "rank": 849,
+    "contract": "SP37EK4FMMEBBQVSA8GQH69W6GWVJG60EJQYK2JZD.tune-stxcity-dex",
+    "calls": 9
+  },
+  {
+    "rank": 850,
+    "contract": "SP2VE0XBQ40HBSJZJQHHB98MCJ1AQYMMHBWXCQAXS.walrus-stxcity-dex",
+    "calls": 9
+  },
+  {
+    "rank": 851,
+    "contract": "SP3PC7G7R7DVBNTH5T8P7AS835WSTZBHNNQR8TPP0.unibit-stxcity-dex",
+    "calls": 9
+  },
+  {
+    "rank": 852,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.mtcs-xqq-stxcity-dex",
+    "calls": 9
+  },
+  {
+    "rank": 853,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.btceth10m-xbk-stxcity-dex",
+    "calls": 9
+  },
+  {
+    "rank": 854,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.skate-ozs-stxcity-dex",
+    "calls": 9
+  },
+  {
+    "rank": 855,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.stx-goat-syl-stxcity-dex",
+    "calls": 9
+  },
+  {
+    "rank": 856,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.xrp-10k-troll-token-ern-stxcity-dex",
+    "calls": 9
+  },
+  {
+    "rank": 857,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v129",
+    "calls": 9
+  },
+  {
+    "rank": 858,
+    "contract": "SP120KFYHN8NTXYS60A3HP7NZP4JABV0EE5839YR3.stx-golden-pepe",
+    "calls": 8
+  },
+  {
+    "rank": 859,
+    "contract": "SP06W0FY7PMW0VZ5A05814C20FCZ7VFR3WSX2QW2.batch-transfer",
+    "calls": 8
+  },
+  {
+    "rank": 860,
+    "contract": "SP376Y7METTJAT372GYDGD225YE20A01GAV7KJFKN.mogul-faktory-dex",
+    "calls": 8
+  },
+  {
+    "rank": 861,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-tremp-core",
+    "calls": 8
+  },
+  {
+    "rank": 862,
+    "contract": "SP20X3DC5R091J8B6YPQT638J8NR1W83KN6TN5BJY.univ2-farming-core-v1_1_1-0029",
+    "calls": 8
+  },
+  {
+    "rank": 863,
+    "contract": "SP1X8ZTAN1JBX148PNJY4D1BPZ1QKCKV3H2SAZ7CN.Krypto",
+    "calls": 8
+  },
+  {
+    "rank": 864,
+    "contract": "SPCEXYM3NBT9H5EZJ6ZGCDJE0NN7HXE3ZAYTVRE2.auras",
+    "calls": 8
+  },
+  {
+    "rank": 865,
+    "contract": "SP4SZE494VC2YC5JYG7AYFQ44F5Q4PYV7DVMDPBG.stacking-pool-signer-hashkey-v1",
+    "calls": 8
+  },
+  {
+    "rank": 866,
+    "contract": "SP4SZE494VC2YC5JYG7AYFQ44F5Q4PYV7DVMDPBG.stacking-pool-signer-alum-labs-v1",
+    "calls": 8
+  },
+  {
+    "rank": 867,
+    "contract": "SP176ZMV706NZGDDX8VSQRGMB7QN33BBDVZ6BMNHD.project-indigo-act1",
+    "calls": 8
+  },
+  {
+    "rank": 868,
+    "contract": "SP1KMAA7TPZ5AZZ4W67X74MJNFKMN576604CWNBQS.dmghoot-lp-token",
+    "calls": 8
+  },
+  {
+    "rank": 869,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.magic-mojo",
+    "calls": 8
+  },
+  {
+    "rank": 870,
+    "contract": "SP2XMGYYTA1KRBKBYJHTW8CFWB2QYZKZE4BMHG3PJ.honorary-mojo",
+    "calls": 8
+  },
+  {
+    "rank": 871,
+    "contract": "SP1VH0AZXCJ9HE8CQJNSAFX2CF6Q038DDTTQZ6C8N.degen-hyena-pack",
+    "calls": 8
+  },
+  {
+    "rank": 872,
+    "contract": "SPYHQS4RFA4N87RDWNPEWYRYK3C6N2Q8S5CY3XG5.starnft",
+    "calls": 8
+  },
+  {
+    "rank": 873,
+    "contract": "SP1C2K603TGWJGKPT2Z3WWHA0ARM66D352385TTWH.bitcoin-bears",
+    "calls": 8
+  },
+  {
+    "rank": 874,
+    "contract": "SP2Y5JQNKWKBRQR4SJHESEFSTDHPPE3YE2ZWDB873.try-again-stxcity-dex",
+    "calls": 8
+  },
+  {
+    "rank": 875,
+    "contract": "SP3XXMS38VTAWTVPE5682XSBFXPTH7XCPEBTX8AN2.dmg-cha",
+    "calls": 8
+  },
+  {
+    "rank": 876,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.univ2-farming-core-v1_0_0-0015",
+    "calls": 8
+  },
+  {
+    "rank": 877,
+    "contract": "SP4SZE494VC2YC5JYG7AYFQ44F5Q4PYV7DVMDPBG.stacking-dao-fomo-v1",
+    "calls": 8
+  },
+  {
+    "rank": 878,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-long-core",
+    "calls": 8
+  },
+  {
+    "rank": 879,
+    "contract": "SP6P4EJF0VG8V0RB3TQQKJBHDQKEF6NVRD1KZE3C.monster-satoshibles",
+    "calls": 8
+  },
+  {
+    "rank": 880,
+    "contract": "SP1C2K603TGWJGKPT2Z3WWHA0ARM66D352385TTWH.spaghettipunk-spoint-market",
+    "calls": 8
+  },
+  {
+    "rank": 881,
+    "contract": "SP8HMQP4Q63V3E6SXXPXZ4WJXA263HBD95QY2AM3.cx-tokens",
+    "calls": 8
+  },
+  {
+    "rank": 882,
+    "contract": "SPAF4RG9V62H4QEEANTGV0N5BEPE3Y1NQP4AHD3D.keeper-1-9wpxxj7ll-v-1-1",
+    "calls": 8
+  },
+  {
+    "rank": 883,
+    "contract": "SP2ESPYE74G94D2HD9X470426W1R6C2P22B4Z1Q5.skullcoin-souls-nft",
+    "calls": 8
+  },
+  {
+    "rank": 884,
+    "contract": "SP3MRT36YWK7R0SKFCQ1TDJB3Y3XBAVRFXPYBQ33E.Something-v420",
+    "calls": 8
+  },
+  {
+    "rank": 885,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v199",
+    "calls": 8
+  },
+  {
+    "rank": 886,
+    "contract": "SP3N7Y3K01Y24G9JC1XXA13RQXXCY721WAVBMMD38.ballot-vote-with-lialex-xXPhH",
+    "calls": 8
+  },
+  {
+    "rank": 887,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.liquid-staked-welsh-v2",
+    "calls": 8
+  },
+  {
+    "rank": 888,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.hooter-the-owl",
+    "calls": 8
+  },
+  {
+    "rank": 889,
+    "contract": "SP3DGHSW42HV4T5XR999R3MBV02W6KA50W1D85TSV.emma-stxcity-dex",
+    "calls": 8
+  },
+  {
+    "rank": 890,
+    "contract": "SP3XJ8Q8K3V0VQHTQ30QK3Q00MRGH70DJZHR9NJ3Y.straight-amber-turtle-1",
+    "calls": 8
+  },
+  {
+    "rank": 891,
+    "contract": "SP2X8WZK0A2X4BJC35JFX231CAHEQER5TMRFQBZ3K.test-dont-buy-stxcity",
+    "calls": 8
+  },
+  {
+    "rank": 892,
+    "contract": "SP162XDG5A7FCD2H6DMZ1YAZKAAMD1VVE0Y873YFS.stacks-wif-hat-stxcity-dex",
+    "calls": 8
+  },
+  {
+    "rank": 893,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.khoa-bcm-stxcity-dex",
+    "calls": 8
+  },
+  {
+    "rank": 894,
+    "contract": "SP22T5YEDXX0VANQ0X5T50VGHVYWW3DZHYEC6QNG7.rock-coin-stxcity-dex",
+    "calls": 8
+  },
+  {
+    "rank": 895,
+    "contract": "SP2D5BGGJ956A635JG7CJQ59FTRFRB0893514EZPJ.vips-stxcity-dex",
+    "calls": 8
+  },
+  {
+    "rank": 896,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.botai-jnl-stxcity-dex",
+    "calls": 8
+  },
+  {
+    "rank": 897,
+    "contract": "SP2Q2H02T2CQXJ0M06R2EP3XNE110C10QKYX8QT9T.the-outside-dev-stxcity-dex",
+    "calls": 8
+  },
+  {
+    "rank": 898,
+    "contract": "SP14NQF8Z8AB5HD6EA52QNMCQCV12TCK21CRSXM4S.stacksai-stxcity-dex",
+    "calls": 8
+  },
+  {
+    "rank": 899,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.legendary-token-yst-stxcity-dex",
+    "calls": 8
+  },
+  {
+    "rank": 900,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.stacks-believers-stxcity",
+    "calls": 8
+  },
+  {
+    "rank": 901,
+    "contract": "SP2Y4R629M6FMK97KF5DQQEETCVWYR8SY50WKWEPZ.xbot-velar-univ2-path2",
+    "calls": 8
+  },
+  {
+    "rank": 902,
+    "contract": "SP2PW8TMTR6BB73130G6W4RNZBBPTB4B8QT7MN6PK.bitcoin-100k-stxcity",
+    "calls": 8
+  },
+  {
+    "rank": 903,
+    "contract": "SP26PZG61DH667XCX51TZNBHXM4HG4M6B2HWVM47V.charismatic-mia-mobile-legends-dexterity",
+    "calls": 8
+  },
+  {
+    "rank": 904,
+    "contract": "SP13MQ92X6HP6H50ZN6C68R4A05XAY5PRWJQ57XGG.sync-dro1d-1nstall-part-1",
+    "calls": 8
+  },
+  {
+    "rank": 905,
+    "contract": "SM1793C4R5PZ4NS4VQ4WMP7SKKYVH8JZEWSZ9HCCR.xyk-emissions-pool-21-sbtc-v-1-2",
+    "calls": 7
+  },
+  {
+    "rank": 906,
+    "contract": "SM1793C4R5PZ4NS4VQ4WMP7SKKYVH8JZEWSZ9HCCR.stableswap-emissions-pool-2-sbtc-v-1-3",
+    "calls": 7
+  },
+  {
+    "rank": 907,
+    "contract": "SP20X3DC5R091J8B6YPQT638J8NR1W83KN6TN5BJY.univ2-farming-distributor-2-v1_1_1-0029",
+    "calls": 7
+  },
+  {
+    "rank": 908,
+    "contract": "SPXW8BXG2S88SX7C1CJ3BVFEGR51SFGRF8DMYC93.pnuts-freedom-farm-stxcity",
+    "calls": 7
+  },
+  {
+    "rank": 909,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.univ2-farming-distributor-1-v1_0_0-0004",
+    "calls": 7
+  },
+  {
+    "rank": 910,
+    "contract": "SP3A294T3SSG8VZXN3DGFC409STB7BQF3Q1M188FQ.the-runes",
+    "calls": 7
+  },
+  {
+    "rank": 911,
+    "contract": "SP8FFZ0X5Q4QR377F6RWTNAYJSCPFDRM0C2F1KBW.stacks-itoshimototsu",
+    "calls": 7
+  },
+  {
+    "rank": 912,
+    "contract": "SP1F5MB40N8XATJRQD9EB4XDCE3VZS7G3ER3EMBVA.stacks-horse-stxcity-dex",
+    "calls": 7
+  },
+  {
+    "rank": 913,
+    "contract": "SP36JQ45NR1WK7X6JVSDKMVFP9YTBYXEVKWSVMD32.thelittlebird",
+    "calls": 7
+  },
+  {
+    "rank": 914,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.xyk-staking-stx-bob-v-1-1",
+    "calls": 7
+  },
+  {
+    "rank": 915,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-blitz-core",
+    "calls": 7
+  },
+  {
+    "rank": 916,
+    "contract": "SP125PTPC4P46K9KH6VJEXEXC5FV950RN3NC7CYPZ.crappy-cryptofox",
+    "calls": 7
+  },
+  {
+    "rank": 917,
+    "contract": "SP3D6PV2ACBPEKYJTCMH7HEN02KP87QSP8KTEH335.mega",
+    "calls": 7
+  },
+  {
+    "rank": 918,
+    "contract": "SPZV5RJN5XTJHA76E0VHEFB0WPEH7E11NZZ4CGBK.restake-self-service-pool-v1",
+    "calls": 7
+  },
+  {
+    "rank": 919,
+    "contract": "SPGGAEQWA7Y9HRZY5T0XJCEYEZ28J6RKCCC1HP9M.let-him-cook-music-3hunnatheartist",
+    "calls": 7
+  },
+  {
+    "rank": 920,
+    "contract": "SP1Z92MPDQEWZXW36VX71Q25HKF5K2EPCJ304F275.comodo-dragon001",
+    "calls": 7
+  },
+  {
+    "rank": 921,
+    "contract": "SP2AKYDTTKYD3F3NH57ZHNTJD0Z1QSJMG6NYT5KJG.claimrewards",
+    "calls": 7
+  },
+  {
+    "rank": 922,
+    "contract": "SP2ZQS03TW4JXZTF8GE0PK5VYW0S6EXA5BKZ3RWDN.lets-pump-stxcity-dex",
+    "calls": 7
+  },
+  {
+    "rank": 923,
+    "contract": "SP2F013N1DQZTKEBCRA416V1WDF7F0W62N91EH04Q.davidow-dave",
+    "calls": 7
+  },
+  {
+    "rank": 924,
+    "contract": "SPXZRA434GRC6Y30GNENC6JTJZ4360GJZ62SAFA1.garbage-stxcity-dex",
+    "calls": 7
+  },
+  {
+    "rank": 925,
+    "contract": "SP3ATFW5VSD0W4N0E3K1E4CGFE8MJXQ9XFFMQ0HBY.make-stacks-great-again-stxcity",
+    "calls": 7
+  },
+  {
+    "rank": 926,
+    "contract": "SPKW6PSNQQ5Y8RQ17BWB0X162XW696NQX1868DNJ.weird-welsh",
+    "calls": 7
+  },
+  {
+    "rank": 927,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.bot-knu-stxcity-dex",
+    "calls": 7
+  },
+  {
+    "rank": 928,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-some-core",
+    "calls": 7
+  },
+  {
+    "rank": 929,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-rock-core",
+    "calls": 7
+  },
+  {
+    "rank": 930,
+    "contract": "SP125J1ADVYWGWB9NQRCVGKYAG73R17ZNMV17XEJ7.mutant-monkeys-staking",
+    "calls": 7
+  },
+  {
+    "rank": 931,
+    "contract": "SP3XXMS38VTAWTVPE5682XSBFXPTH7XCPEBTX8AN2.buy-with-velar-faktory",
+    "calls": 7
+  },
+  {
+    "rank": 932,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.welsh-community-lp",
+    "calls": 7
+  },
+  {
+    "rank": 933,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.stx-hoot-lp-token",
+    "calls": 7
+  },
+  {
+    "rank": 934,
+    "contract": "SP1V5D6BNV5VB5DNGA28RW8P4XD3XNK8QBZSG217A.nakamoto-token-v2",
+    "calls": 7
+  },
+  {
+    "rank": 935,
+    "contract": "SM1793C4R5PZ4NS4VQ4WMP7SKKYVH8JZEWSZ9HCCR.xyk-staking-pbtc-bdc-v-1-1",
+    "calls": 7
+  },
+  {
+    "rank": 936,
+    "contract": "SP2CVN228ZXKMCZJES9MV10MCH1WTY5EZ2QH4GYQX.runes-nakamoto",
+    "calls": 7
+  },
+  {
+    "rank": 937,
+    "contract": "SP34V64PNDN1535R0DP60EBSXASJHKJ5NH8JPHBQH.pixel-nodes",
+    "calls": 7
+  },
+  {
+    "rank": 938,
+    "contract": "SP3GKWW70RNNXHCYHF8S93NSSV9GPR6N6XEX0CRV.hungry-howies",
+    "calls": 7
+  },
+  {
+    "rank": 939,
+    "contract": "SP3QA18DHJ8Y7SBD47KNEWF7VRA6F672S5GSND2C8.dreamgrid",
+    "calls": 7
+  },
+  {
+    "rank": 940,
+    "contract": "SP3QA18DHJ8Y7SBD47KNEWF7VRA6F672S5GSND2C8.le-monde-invisible",
+    "calls": 7
+  },
+  {
+    "rank": 941,
+    "contract": "SP1JQTRW5T7RXTT53S9KQ6CKPZVZ03QSH9NY1YH30.undeads",
+    "calls": 7
+  },
+  {
+    "rank": 942,
+    "contract": "SPRP9FG81K1N9DW4H9K18ESPSAJ1R8TGP1JW4KVC.solmonna",
+    "calls": 7
+  },
+  {
+    "rank": 943,
+    "contract": "SP15FAANQY1CPYMWSQSNB299AMT0XGCEVCJW23F30.stacky-ai-stxcity",
+    "calls": 7
+  },
+  {
+    "rank": 944,
+    "contract": "SP1H8AFVPWYVDCF1D9N1CKAWBNSHVEKFPR1SXXSQ3.asian-girls-are-the-best-stxcity-dex",
+    "calls": 7
+  },
+  {
+    "rank": 945,
+    "contract": "SP3QA18DHJ8Y7SBD47KNEWF7VRA6F672S5GSND2C8.no-hope-this-is-so-bad",
+    "calls": 7
+  },
+  {
+    "rank": 946,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-wstx-some-distributor",
+    "calls": 7
+  },
+  {
+    "rank": 947,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.blusht-kuv-stxcity-dex",
+    "calls": 7
+  },
+  {
+    "rank": 948,
+    "contract": "SP2VCQJGH7PHP2DJK7Z0V48AGBHQAW3R3ZW1QF4N.zststx-v1-2",
+    "calls": 7
+  },
+  {
+    "rank": 949,
+    "contract": "SP673Z4BPB4R73359K9HE55F2X91V5BJTN5SXZ5T.btc-peg-in-v2-05-swap",
+    "calls": 7
+  },
+  {
+    "rank": 950,
+    "contract": "SP2QDMH88MEZ8FFAYHW4B0BTXJRTHX8XBD54FE7HJ.satoshis-stacks-speciality-blend",
+    "calls": 7
+  },
+  {
+    "rank": 951,
+    "contract": "SP2W12MNM4SPV37VZHN4GCDG35G9ACG3FDKK7WF04.MetaBoy",
+    "calls": 7
+  },
+  {
+    "rank": 952,
+    "contract": "SP1VCKYX728TYRBH2144H3VC2VCRX0QJKEFAEDNYR.kolin-ai-stxcity-dex",
+    "calls": 7
+  },
+  {
+    "rank": 953,
+    "contract": "SP6NRW62XJECS6418WE1PWBJJAPRC7D3CDD3CZ6N.belugathecat-stxcity-dex",
+    "calls": 7
+  },
+  {
+    "rank": 954,
+    "contract": "SP1V4TNRGNXF32RJVWX4CQPZRFG6S007VDSFYYRY.trash-stxcity-dex",
+    "calls": 7
+  },
+  {
+    "rank": 955,
+    "contract": "SP1986SF24ES82X7RBZG7EMXE5TS3V53WHJAP1J38.sacabam-stxcity-dex",
+    "calls": 7
+  },
+  {
+    "rank": 956,
+    "contract": "SP1FD33S5AD9MW9C57BN1R4SWMG72M9667J6BZ2P7.celebrating-the-journey-of-welsh",
+    "calls": 7
+  },
+  {
+    "rank": 957,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.kangaroo-vs-capybara-kjg-stxcity-dex",
+    "calls": 7
+  },
+  {
+    "rank": 958,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.centience-stx-collab-yoe-stxcity-dex",
+    "calls": 7
+  },
+  {
+    "rank": 959,
+    "contract": "SPBNMD07T0WD2WJAH6JZJG07GYSF0X413V69J3T9.Ponzy-STACKS",
+    "calls": 7
+  },
+  {
+    "rank": 960,
+    "contract": "SP1CQ5QZSMPE87M3DS9DFP09KJ2V97TBGYG5FNPZK.snaptoken-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 961,
+    "contract": "SP2SHB5Y5K5H0TCWKZMT40G1XR1ZW256DBJM169TC.pontis-bridge-v2",
+    "calls": 6
+  },
+  {
+    "rank": 962,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.univ2-farming-distributor-1-v1_0_0-0015",
+    "calls": 6
+  },
+  {
+    "rank": 963,
+    "contract": "SP17K28PS53M7ZHC312BKAXSA28M4HJBM436YQXCV.happy-welsh-v2",
+    "calls": 6
+  },
+  {
+    "rank": 964,
+    "contract": "SP10X11JHXXGJV2055Z17K5WRW5G42S8AP6CF04S4.surge-stacks",
+    "calls": 6
+  },
+  {
+    "rank": 965,
+    "contract": "SP4SZE494VC2YC5JYG7AYFQ44F5Q4PYV7DVMDPBG.stacking-pool-signer-xverse-v1",
+    "calls": 6
+  },
+  {
+    "rank": 966,
+    "contract": "SP3E8B51MF5E28BD82FM95VDSQ71VK4KFNZX7ZK2R.frog-faktory",
+    "calls": 6
+  },
+  {
+    "rank": 967,
+    "contract": "SP256VGYK7ZFV6S2ZWHGE4PGMDDY8KWT3FD57H98G.pizza",
+    "calls": 6
+  },
+  {
+    "rank": 968,
+    "contract": "SP3HBT7X9SAXJVSFGRHQXW1HZBKS3RDAMY1HC3J11.fox-inu",
+    "calls": 6
+  },
+  {
+    "rank": 969,
+    "contract": "SP207ESW7AKHTPRYAAD9QP8Q1TE1F57D2S8RGPJCC.saints",
+    "calls": 6
+  },
+  {
+    "rank": 970,
+    "contract": "SPQC38PW542EQJ5M11CR25P7BS1CA6QT4TBXGB3M.earn-stx-ststx-v-1-1",
+    "calls": 6
+  },
+  {
+    "rank": 971,
+    "contract": "SP3R45KENHJHN5X83NKHYQ8Z746R4F4JDPTSFCRM4.chillguy-on-stacks-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 972,
+    "contract": "SP28NB976TJHHGF4218KT194NPWP9N1X3WY516Z1P.hashiko-sushi",
+    "calls": 6
+  },
+  {
+    "rank": 973,
+    "contract": "SP3BJ0KSAF04HGFSBKHW4TMJ5MGAAADAHDFPPHF8M.orbit-ai-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 974,
+    "contract": "SP3FKPV0AFQWME4Q77T8E05K2977MMKRFMD1AJ7CV.stx-faktory-dex",
+    "calls": 6
+  },
+  {
+    "rank": 975,
+    "contract": "SP11Q38N4V6ZG9X6T4H19SK5WTWC7Y6HHNMPF0SCM.tater-bits",
+    "calls": 6
+  },
+  {
+    "rank": 976,
+    "contract": "SPJW1XE278YMCEYMXB8ZFGJMH8ZVAAEDP2S2PJYG.stacks-pops",
+    "calls": 6
+  },
+  {
+    "rank": 977,
+    "contract": "SP2KAF9RF86PVX3NEE27DFV1CQX0T4WGR41X3S45C.bitcoin-monkeys",
+    "calls": 6
+  },
+  {
+    "rank": 978,
+    "contract": "SPQA20ZSJY24Y96J80WH29EDWTGGDZXT1PW8KVQK.full-retard-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 979,
+    "contract": "SPJW1XE278YMCEYMXB8ZFGJMH8ZVAAEDP2S2PJYG.stacks-punks-v3",
+    "calls": 6
+  },
+  {
+    "rank": 980,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.catdogcha-dexterity",
+    "calls": 6
+  },
+  {
+    "rank": 981,
+    "contract": "SP1DQJNTE4JWESDQZ1A9MM4KH1B041SBECA96R6NN.garyjizzler-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 982,
+    "contract": "SP3QFV7FJ2HRQNKFDTDYNTQSZ3RQAPJD7T66WEJYE.staciks-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 983,
+    "contract": "SP22HRXGE843WHBJJFF4WHCAW48FJZWSWMZ9EEWYE.x-punks-ordinals",
+    "calls": 6
+  },
+  {
+    "rank": 984,
+    "contract": "SP2BRB6P0BK6T35DHTGXCV6MZ5TGRN5E0RKZ1T8B5.gated-001",
+    "calls": 6
+  },
+  {
+    "rank": 985,
+    "contract": "SP13MQ92X6HP6H50ZN6C68R4A05XAY5PRWJQ57XGG.pussy-ju1ce-protocol-nft-badge",
+    "calls": 6
+  },
+  {
+    "rank": 986,
+    "contract": "SP102V8P0F7JX67ARQ77WEA3D3CFB5XW39REDT0AM.token-amm-pool-v2-01",
+    "calls": 6
+  },
+  {
+    "rank": 987,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.marketplace-v6",
+    "calls": 6
+  },
+  {
+    "rank": 988,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.wndr-ifc-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 989,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.stxscan-yuq-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 990,
+    "contract": "SP1HMPMXQCHXC5X8D12MJEB6XFW8YQNBQRH1N51HT.stableswap-stx-ststx-v1-2",
+    "calls": 6
+  },
+  {
+    "rank": 991,
+    "contract": "SP13MQ92X6HP6H50ZN6C68R4A05XAY5PRWJQ57XGG.circvs-staximvs-welcome-2-clown-town",
+    "calls": 6
+  },
+  {
+    "rank": 992,
+    "contract": "SP39JCPYF3XTGS663GSY41G9VX04XRBM0KQ2ZZQ14.balancer-v9-14",
+    "calls": 6
+  },
+  {
+    "rank": 993,
+    "contract": "SP3K8BC0PPEVCV7NZ6QSRWPQ2JE9E5B6N3PA0KBR9.auto-alex-buyback-helper",
+    "calls": 6
+  },
+  {
+    "rank": 994,
+    "contract": "SP2GW18TVQR75W1VT53HYGBRGKFRV5BFYNAF5SS5J.Cerulean-NFT-Bounties-v1",
+    "calls": 6
+  },
+  {
+    "rank": 995,
+    "contract": "SP3QA18DHJ8Y7SBD47KNEWF7VRA6F672S5GSND2C8.collection-de-prestige",
+    "calls": 6
+  },
+  {
+    "rank": 996,
+    "contract": "SP22X0D0E4E2VC2WBFES7661EAATWAETSQAXY814B.ghost",
+    "calls": 6
+  },
+  {
+    "rank": 997,
+    "contract": "SP1JV4MDFWKQKBRSHDC43N417Y2BH1DFX05T792W4.stackers-society",
+    "calls": 6
+  },
+  {
+    "rank": 998,
+    "contract": "SP16MD6YJN25PKRKTA347PKEP62C95RWFKNXG241W.stacks-goose",
+    "calls": 6
+  },
+  {
+    "rank": 999,
+    "contract": "SP2VR0HHRE5691611G59T72AJ6727KV12FQ95T87N.send-it-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 1000,
+    "contract": "SP37AN9PHYMHPC0VJ4N7MZNXQDCFYVGYGFYFCNVC9.goddess-of-abalone-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 1001,
+    "contract": "SPA0SZQ6KCCYMJV5XVKSNM7Y1DGDXH39A11ZX2Y8.gamestop",
+    "calls": 6
+  },
+  {
+    "rank": 1002,
+    "contract": "SP2VB3NNJK6AFEBGXHG6A5A76BXXX3YG3MKM4XGX1.bagpuss-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 1003,
+    "contract": "SP3J9CZ0HNRZX7S5YBAFPT3SJ4KP1PBSRVP3TQAT7.stacks-blockworks",
+    "calls": 6
+  },
+  {
+    "rank": 1004,
+    "contract": "SP35G0C2NHXFP1ATJW17YYTFKNEF1DY73R0XB2KG9.melaunch-alex-amm-pool-v2-01",
+    "calls": 6
+  },
+  {
+    "rank": 1005,
+    "contract": "SP2R41B47FXF6QD9B22D9WH6FTF6CRDMBPDR1AR6Z.megan-fox-coin-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 1006,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.fomo-igf-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 1007,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.bcity-gkh-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 1008,
+    "contract": "SP324QWEMW7R0BCXCHXG20QNJQ9K1Q7J2CYACTDZD.greenfi",
+    "calls": 6
+  },
+  {
+    "rank": 1009,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.mdog-kds-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 1010,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.dexterity-token",
+    "calls": 6
+  },
+  {
+    "rank": 1011,
+    "contract": "SPQYFMS32D5KC1NT7YF5TA67TZ1Y64F97WQSZJ2P.ross-william-ulbricht-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 1012,
+    "contract": "SP1KXQM5Y17Y1YG5QYQ59HC9KVMK45P9DBR5MG7M6.wally-the-alligator-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 1013,
+    "contract": "SP2HJVJQS0TRBTQ1WAWWN9H9W2HKGDZ7H5EZCEAQC.the-ascent",
+    "calls": 6
+  },
+  {
+    "rank": 1014,
+    "contract": "SP8VR93SAYY6TSSAXRR6CC8ETRH0AQZW7GXTSQW4.by-dewayn-d-martian",
+    "calls": 6
+  },
+  {
+    "rank": 1015,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.momflop-qar-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 1016,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.zestdao-token-thw-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 1017,
+    "contract": "SP2D0C4JW6EVFFK851DX5H8KP9390C5KPY4X5Q4XM.univ-router-v2",
+    "calls": 6
+  },
+  {
+    "rank": 1018,
+    "contract": "SP1T66Z96DND2PH6XPCQH7NBPN57ACB1RXKF7DAPR.stx-sucks-to-xist-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 1019,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.random-funny-meme-token-qjf-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 1020,
+    "contract": "SPRSMW1JVCXXM6T1YRBZ4HS65V8RJ7CJMBXCMBBS.racks-ai-stxcity",
+    "calls": 6
+  },
+  {
+    "rank": 1021,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.dogeson-spt-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 1022,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.solanabitcoinbridge-ygs-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 1023,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.farming-ststx-aeusdc-core",
+    "calls": 6
+  },
+  {
+    "rank": 1024,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v145",
+    "calls": 6
+  },
+  {
+    "rank": 1025,
+    "contract": "SP377R6M98T0AC4MJZZFQ80DQX6AB1RFAY1WQK2D6.art-pieces-by-pk",
+    "calls": 6
+  },
+  {
+    "rank": 1026,
+    "contract": "SP1QZT85MFT8HBAG3XEK7K6QY4GGP3MSG5C3H9PQ1.mr-wagmis-arrowheads-volume-1",
+    "calls": 6
+  },
+  {
+    "rank": 1027,
+    "contract": "SP34FTZZ866B14EB8S4X2D42HQ5B3MPPK4T6532Y1.make-sigle-great-again-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 1028,
+    "contract": "SP1NAZ59R1ED0V6NH9N0EQBEB3MKT48CQCMKC5Q41.swap-router-v17",
+    "calls": 6
+  },
+  {
+    "rank": 1029,
+    "contract": "SP358JBH8FRAF33V83010X1FAFFRK7W3ANJY6HPQ7.numbers",
+    "calls": 6
+  },
+  {
+    "rank": 1030,
+    "contract": "SP2QGQ3R0RH96SEGEV6YBK8QDPF7CQ0ATC2E7FH67.welsh-moon-stxcity-dex",
+    "calls": 6
+  },
+  {
+    "rank": 1031,
+    "contract": "SP156CPYZP5VV2C09NWYWQT4CP0T9EWJP76Y18E3T.animated-welsh-corgi",
+    "calls": 5
+  },
+  {
+    "rank": 1032,
+    "contract": "SP3S2565C4DP2MGR3CMANMGYDCDA314Q258CG2R7C.geek-faktory-dex",
+    "calls": 5
+  },
+  {
+    "rank": 1033,
+    "contract": "SP1W7FX8P1G721KQMQ2MA2G1G4WCVVPD9JZMGXK8R.staking-wstx-aeusdc-v3",
+    "calls": 5
+  },
+  {
+    "rank": 1034,
+    "contract": "SP371690BDHK9WRH3KXXRWNK62YR8N1P5JSYGQKRM.clive-stxcity",
+    "calls": 5
+  },
+  {
+    "rank": 1035,
+    "contract": "SPN5AKG35QZSK2M8GAMR4AFX45659RJHDW353HSG.minting-otc-v1",
+    "calls": 5
+  },
+  {
+    "rank": 1036,
+    "contract": "SP2C2YFP12AJZB4MABJBAJ55XECVS7E4PMMZ89YZR.arkadiko-liquidation-rewards-ui-v2-1",
+    "calls": 5
+  },
+  {
+    "rank": 1037,
+    "contract": "SP1Y5YSTAHZ88XYK1VPDH24GY0HPX5J4JECTMY4A1.univ2-farming-core-v1_0_0-0004",
+    "calls": 5
+  },
+  {
+    "rank": 1038,
+    "contract": "SPAE1DZE3HPH909EARZ0FYY8KBR9JN7J3PE2G8QG.mojo",
+    "calls": 5
+  },
+  {
+    "rank": 1039,
+    "contract": "SPN378SMRYPZNVD759V4Z98DWZMA9Z3B9HT7HTMZ.stx-c-punks",
+    "calls": 5
+  },
+  {
+    "rank": 1040,
+    "contract": "SP1M6H5XSQXD4V7CFXE3GKARKZE49J2CFTN26K7V1.vaults",
+    "calls": 5
+  },
+  {
+    "rank": 1041,
+    "contract": "SP15F9BC75PQWMGEJDYEWJN4T4DSBX412MJA83TER.stackin-psilocybin",
+    "calls": 5
+  },
+  {
+    "rank": 1042,
+    "contract": "SP3K8BC0PPEVCV7NZ6QSRWPQ2JE9E5B6N3PA0KBR9.token-apower",
+    "calls": 5
+  },
+  {
+    "rank": 1043,
+    "contract": "SP4SZE494VC2YC5JYG7AYFQ44F5Q4PYV7DVMDPBG.stacking-pool-signer-luganodes-v1",
+    "calls": 5
+  },
+  {
+    "rank": 1044,
+    "contract": "SPGYCP878RYFVT03ZT8TWGPKNYTSQB1578VVXHGE.unstakeccc",
+    "calls": 5
+  },
+  {
+    "rank": 1045,
+    "contract": "SP3EB7YHV5NERS2HMCGSGKNMN0BEH52W9H7YE4T9C.btc-ghosts",
+    "calls": 5
+  },
+  {
+    "rank": 1046,
+    "contract": "SP23M03FMHMF5822GPAH88YERAK7KQ63KRP619MBS.bitcoin-checks",
+    "calls": 5
+  },
+  {
+    "rank": 1047,
+    "contract": "SP7S3EY6FS1PJHJN6S3NV71RYQ7CKGABE5SDAT9N.supacoinstx-faktory-dex",
+    "calls": 5
+  },
+  {
+    "rank": 1048,
+    "contract": "SM3KNVZS30WM7F89SXKVVFY4SN9RMPZZ9FX929N0V.public-pools-strategy-manager-v2",
+    "calls": 5
+  },
+  {
+    "rank": 1049,
+    "contract": "SPBNZD0NMBJVRYJZ3SJ4MTRSZ3FEMGGTV2YM5MFV.moist-sock-bonding-curve",
+    "calls": 5
+  },
+  {
+    "rank": 1050,
+    "contract": "SP3AFTJ38PSZQBXZGNCDGM05GR0SFY7HBPZD2ACR2.rocket-stxcity",
+    "calls": 5
+  },
+  {
+    "rank": 1051,
+    "contract": "SP8HMQP4Q63V3E6SXXPXZ4WJXA263HBD95QY2AM3.the-smiley-collection",
+    "calls": 5
+  },
+  {
+    "rank": 1052,
+    "contract": "SP34V64PNDN1535R0DP60EBSXASJHKJ5NH8JPHBQH.stacks-satoshis",
+    "calls": 5
+  },
+  {
+    "rank": 1053,
+    "contract": "SP2X0TZ59D5SZ8ACQ6YMCHHNR2ZN51Z32E2CJ173.the-explorer-guild",
+    "calls": 5
+  },
+  {
+    "rank": 1054,
+    "contract": "SP3N7Y3K01Y24G9JC1XXA13RQXXCY721WAVBMMD38.alex-anniversary-series",
+    "calls": 5
+  },
+  {
+    "rank": 1055,
+    "contract": "SP2F4QC563WN0A0949WPH5W1YXVC4M1R46QKE0G14.memegoatstx",
+    "calls": 5
+  },
+  {
+    "rank": 1056,
+    "contract": "SP364J7EDJXRE1FPDZDABP9M58HPY4G88BFCP2HD0.lounge-with-longstreet",
+    "calls": 5
+  },
+  {
+    "rank": 1057,
+    "contract": "SP127263XG6REJ1H6YSNWCEKM9E6XBZ03F4MYR1S5.stacks-duck",
+    "calls": 5
+  },
+  {
+    "rank": 1058,
+    "contract": "SP1W7X92JG1BYPKG15KTS6398XN4D4HJP9TTXMQ38.multi-send",
+    "calls": 5
+  },
+  {
+    "rank": 1059,
+    "contract": "SP39859AD7RQ6NYK00EJ8HN1DWE40C576FBDGHPA0.stx-lp-token",
+    "calls": 5
+  },
+  {
+    "rank": 1060,
+    "contract": "SP3PGDSH8P2VJA5RX4BY0GBP867Y4C9955KX97A4V.blitz",
+    "calls": 5
+  },
+  {
+    "rank": 1061,
+    "contract": "SP3YXRZYQZYJ7T8SFJ52YXNSEW7JFSGP6FDMCGCDP.meme-stxcity-dex",
+    "calls": 5
+  },
+  {
+    "rank": 1062,
+    "contract": "SP3S2565C4DP2MGR3CMANMGYDCDA314Q258CG2R7C.peptolovebot-faktory-dex",
+    "calls": 5
+  },
+  {
+    "rank": 1063,
+    "contract": "SP3NAJRMR7F04RK8WG2F48MSQ4ETH3JH1F9MV4F50.retarded-labs-usd",
+    "calls": 5
+  },
+  {
+    "rank": 1064,
+    "contract": "SP2C2YFP12AJZB4MABJBAJ55XECVS7E4PMMZ89YZR.arkadiko-diko-incinerator-v1",
+    "calls": 5
+  },
+  {
+    "rank": 1065,
+    "contract": "SP3RYGG161XJQ8MESCWBM7E3WS99AH4B1N8WE25CY.bitslimes",
+    "calls": 5
+  },
+  {
+    "rank": 1066,
+    "contract": "SP2J4TG4H9KYMTTG267KMR82JDM20WHET6XNR0PWQ.bitcoin-owlz",
+    "calls": 5
+  },
+  {
+    "rank": 1067,
+    "contract": "SP32P7T7VSRKN8D1B9S6WYT8ZS4XAD6ZZJGBVSMRF.Boreden-Retriever-Token",
+    "calls": 5
+  },
+  {
+    "rank": 1068,
+    "contract": "SP2RYM8YVNZHH747HMY6EK2R0BZANHC110X9AJNHV.to-the-moon-stxcity-dex",
+    "calls": 5
+  },
+  {
+    "rank": 1069,
+    "contract": "SP32AEEF6WW5Y0NMJ1S8SBSZDAY8R5J32NBZFPKKZ.not-lockup",
+    "calls": 5
+  },
+  {
+    "rank": 1070,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.synthetic-stx",
+    "calls": 5
+  },
+  {
+    "rank": 1071,
+    "contract": "SP28NB976TJHHGF4218KT194NPWP9N1X3WY516Z1P.Hashiko",
+    "calls": 5
+  },
+  {
+    "rank": 1072,
+    "contract": "SPQ5CEHETP8K4Q2FSNNK9ANMPAVBSA9NN86YSN59.stxstone-ordinal-abandoned-v3",
+    "calls": 5
+  },
+  {
+    "rank": 1073,
+    "contract": "SP3XXMS38VTAWTVPE5682XSBFXPTH7XCPEBTX8AN2.focus-faktory-dex",
+    "calls": 5
+  },
+  {
+    "rank": 1074,
+    "contract": "SP13MQ92X6HP6H50ZN6C68R4A05XAY5PRWJQ57XGG.dont-do-drugz-v4-alcoholic-monkey",
+    "calls": 5
+  },
+  {
+    "rank": 1075,
+    "contract": "SP355B7SVQQCJMZJN73V05Z97MF3YFZH274Q3AZG6.counter",
+    "calls": 5
+  },
+  {
+    "rank": 1076,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.tom-and-jerry-token-rbv-stxcity-dex",
+    "calls": 5
+  },
+  {
+    "rank": 1077,
+    "contract": "SP3X384EHYMSQPRKZE2R61J81V0G11KTMKDZTS8NK.tokenmobiles-15",
+    "calls": 5
+  },
+  {
+    "rank": 1078,
+    "contract": "SP1M4WKKYPGFJ82FMVCM0JR7T2SQN2K2VYEGW5MXQ.sats-monkeys",
+    "calls": 5
+  },
+  {
+    "rank": 1079,
+    "contract": "SP1XPG9QFX5M95G36SGN9R8YJ4KJ0JB7ZXNH892N6.bitcoin-unleashed-amsterdam",
+    "calls": 5
+  },
+  {
+    "rank": 1080,
+    "contract": "SP2YDDGT0AV11MNKHKB1DW5FK1XSN5M3S1P5QG86P.bitty-cat",
+    "calls": 5
+  },
+  {
+    "rank": 1081,
+    "contract": "SP20PH0DGKC576ERKCR2VT21NRP5YPK291N2X93MX.riddimz-online-karaoke",
+    "calls": 5
+  },
+  {
+    "rank": 1082,
+    "contract": "SP3X384EHYMSQPRKZE2R61J81V0G11KTMKDZTS8NK.tokenmobiles-48",
+    "calls": 5
+  },
+  {
+    "rank": 1083,
+    "contract": "SPV9K21TBFAK4KNRJXF5DFP8N7W46G4V9RCJDC22.cat-pepe-faktory-dex",
+    "calls": 5
+  },
+  {
+    "rank": 1084,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.anonymous-welsh-cvlt",
+    "calls": 5
+  },
+  {
+    "rank": 1085,
+    "contract": "SP3PDBM9Y7GQX930KS528JZHS332NWAEA5W08ACVC.leo-cats-v2",
+    "calls": 5
+  },
+  {
+    "rank": 1086,
+    "contract": "SP386T3KHA99D7T2WYW4P046Q1RFAZDJ95AEKAWF9.munuub",
+    "calls": 5
+  },
+  {
+    "rank": 1087,
+    "contract": "SPC743GZ4Y1CPNXTSB1J3NRF9NTRPMN2K9J32W0X.mctrump-fries-stxcity-dex",
+    "calls": 5
+  },
+  {
+    "rank": 1088,
+    "contract": "SP1Z92MPDQEWZXW36VX71Q25HKF5K2EPCJ304F275.tokensoft-token-v4kfxflkglu",
+    "calls": 5
+  },
+  {
+    "rank": 1089,
+    "contract": "SP38A71YB31ABB9TKN1ATZANGQ0N5924ETX4NDDSQ.brain",
+    "calls": 5
+  },
+  {
+    "rank": 1090,
+    "contract": "SPQCQPWMMVECE6C721TFFTW3HNV9S9C083Q8SA8V.burger",
+    "calls": 5
+  },
+  {
+    "rank": 1091,
+    "contract": "SP13MQ92X6HP6H50ZN6C68R4A05XAY5PRWJQ57XGG.the-rot-childs-collect-shun",
+    "calls": 5
+  },
+  {
+    "rank": 1092,
+    "contract": "SP3T1M18J3VX038KSYPP5G450WVWWG9F9G6GAZA4Q.mecha-meme",
+    "calls": 5
+  },
+  {
+    "rank": 1093,
+    "contract": "SP14NS8MVBRHXMM96BQY0727AJ59SWPV7RMHC0NCG.pontis-bridge-fee-manager-btc-2",
+    "calls": 5
+  },
+  {
+    "rank": 1094,
+    "contract": "SP000000000000000000002Q6VF78.cost-voting",
+    "calls": 5
+  },
+  {
+    "rank": 1095,
+    "contract": "SP2SY571GC9GSJEHSW1W7M9KF1EACC5NZ60KPRDBQ.whisker-stxcity-dex",
+    "calls": 5
+  },
+  {
+    "rank": 1096,
+    "contract": "SP2CA0TRR1JV29HCAG1V3MP3QD8YB4MCW325FZWQN.stacks-deng-stxcity-dex",
+    "calls": 5
+  },
+  {
+    "rank": 1097,
+    "contract": "SP8HMQP4Q63V3E6SXXPXZ4WJXA263HBD95QY2AM3.game-on-coins",
+    "calls": 5
+  },
+  {
+    "rank": 1098,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.sbtc-ktn-stxcity-dex",
+    "calls": 5
+  },
+  {
+    "rank": 1099,
+    "contract": "SP2ZNGJ85ENDY6QRHQ5P2D4FXKGZWCKTB2T0Z55KS.blue-pill-nft",
+    "calls": 5
+  },
+  {
+    "rank": 1100,
+    "contract": "SP2FB951H8AM8RHJYKCZ46GYCSQC6DTQJYFY0KQ27.gamma-coin",
+    "calls": 5
+  },
+  {
+    "rank": 1101,
+    "contract": "SP2FDWY9JK0XZW8PM53EGZSKNWYGSQM65DKW2CR8J.grinch-stxcity-dex",
+    "calls": 5
+  },
+  {
+    "rank": 1102,
+    "contract": "SPSCB8RZF2KQ6H30X6V1XZ1HSJYGRA1RNWWG8Z0F.space-is-fake-and-gay-stxcity-dex",
+    "calls": 5
+  },
+  {
+    "rank": 1103,
+    "contract": "SP13MQ92X6HP6H50ZN6C68R4A05XAY5PRWJQ57XGG.dont-do-drugz-v1-just-say-blow",
+    "calls": 5
+  },
+  {
+    "rank": 1104,
+    "contract": "SPNWZ5V2TPWGQGVDR6T7B6RQ4XMGZ4PXTEE0VQ0S.nft-oracle-v2",
+    "calls": 5
+  },
+  {
+    "rank": 1105,
+    "contract": "SP27BB1Y2DGSXZHS7G9YHKTSH6KQ6BD3QG0AN3CR9.vibes-token",
+    "calls": 5
+  },
+  {
+    "rank": 1106,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.cgpt-rsc-stxcity-dex",
+    "calls": 5
+  },
+  {
+    "rank": 1107,
+    "contract": "SP14VDDN583TB43F06NFV36YRAS0QWQC75QBDFBFR.snow-token",
+    "calls": 5
+  },
+  {
+    "rank": 1108,
+    "contract": "SPAF4RG9V62H4QEEANTGV0N5BEPE3Y1NQP4AHD3D.keeper-1-l41ao8ep8-v-1-1",
+    "calls": 5
+  },
+  {
+    "rank": 1109,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.air-hfc-stxcity-dex",
+    "calls": 5
+  },
+  {
+    "rank": 1110,
+    "contract": "SP2HTRCCBDYCGHFFQKR57GSKEGDX0T4YYNPEGNPEH.squid-game-stxcity-dex",
+    "calls": 5
+  },
+  {
+    "rank": 1111,
+    "contract": "SP324QWEMW7R0BCXCHXG20QNJQ9K1Q7J2CYACTDZD.crypto-christmas",
+    "calls": 5
+  },
+  {
+    "rank": 1112,
+    "contract": "SP295MNE41DC74QYCPRS8N37YYMC06N6Q3T5P1YC2.sandwich-stxcity-dex",
+    "calls": 5
+  },
+  {
+    "rank": 1113,
+    "contract": "SP3A294T3SSG8VZXN3DGFC409STB7BQF3Q1M188FQ.hashiko-magic-rug-stxcity-dex",
+    "calls": 5
+  },
+  {
+    "rank": 1114,
+    "contract": "SP3X384EHYMSQPRKZE2R61J81V0G11KTMKDZTS8NK.tokenmobiles-16",
+    "calls": 5
+  },
+  {
+    "rank": 1115,
+    "contract": "SP3QA18DHJ8Y7SBD47KNEWF7VRA6F672S5GSND2C8.cryptocanvas",
+    "calls": 5
+  },
+  {
+    "rank": 1116,
+    "contract": "SP1PE2JGXV4V151BC95REVF6GFH12CBFQ5X7C4BA6.cancel-first-series-edition",
+    "calls": 5
+  },
+  {
+    "rank": 1117,
+    "contract": "SP22GHCK5W3EK5VC1PEB3VVCBVFRQNTQXV9306QA0.metacine",
+    "calls": 5
+  },
+  {
+    "rank": 1118,
+    "contract": "SP295MNE41DC74QYCPRS8N37YYMC06N6Q3T5P1YC2.rayg-stxcity-dex",
+    "calls": 5
+  },
+  {
+    "rank": 1119,
+    "contract": "SP20X3DC5R091J8B6YPQT638J8NR1W83KN6TN5BJY.batch-mint",
+    "calls": 5
+  },
+  {
+    "rank": 1120,
+    "contract": "SP2SKMAR9WMD9DBJHC4XTQXPZCDNV1258PSJTRGTV.moonlabs-genesis",
+    "calls": 5
+  },
+  {
+    "rank": 1121,
+    "contract": "SP329SB76VXJT6DTFXY1RS4Y451GY6AWM2DGMZ753.op-cat-stxcity",
+    "calls": 5
+  },
+  {
+    "rank": 1122,
+    "contract": "SP1MYD1DXPVEKXFD2P9ZA8QVDZA4MXK212QW2A160.opk",
+    "calls": 5
+  },
+  {
+    "rank": 1123,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.stxpd-xtt-stxcity-dex",
+    "calls": 5
+  },
+  {
+    "rank": 1124,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.solstacks-qwa-stxcity-dex",
+    "calls": 5
+  },
+  {
+    "rank": 1125,
+    "contract": "SP32BCNMVZ237CC7CHV53GVXHFY8TKVCF1Q2PC59J.mrbeast-rye-stxcity-dex",
+    "calls": 5
+  },
+  {
+    "rank": 1126,
+    "contract": "SP2SPEA70H0NW5VC200CZ80DRW2BHS7T2B37F6FT8.mazukamba",
+    "calls": 5
+  },
+  {
+    "rank": 1127,
+    "contract": "SP1QVMRPEN58CWKPP8H2YD185MXP62T9N2H2XZ3C7.women-tribe-nft",
+    "calls": 5
+  },
+  {
+    "rank": 1128,
+    "contract": "SP25VWGTPR19E344S4ENTHQT8651216EPNABRYE51.project-indigo-equipment",
+    "calls": 5
+  },
+  {
+    "rank": 1129,
+    "contract": "SP3JASPNNQH43AH4YGCWQ3F2VCRHMFY69H0NZSZ6X.swap-helper-v133",
+    "calls": 5
+  },
+  {
+    "rank": 1130,
+    "contract": "SP1EJ799Q4EJ511FP9C7J71ESA4920QJV7CQHGA61.market18",
+    "calls": 5
+  },
+  {
+    "rank": 1131,
+    "contract": "SP2QGQ3R0RH96SEGEV6YBK8QDPF7CQ0ATC2E7FH67.this-is-welsh-2-stxcity-dex",
+    "calls": 5
+  },
+  {
+    "rank": 1132,
+    "contract": "SP306GW4ZQVNEZ2TMECB18XR78KRANYY2F63XM87T.baby-leo",
+    "calls": 5
+  }
+]
