@@ -1,7 +1,17 @@
 "use client";
 
-import { useState, useEffect, use } from "react";
-import { Box, Container, Text, Spinner, Code } from "@chakra-ui/react";
+import { useState, useEffect, use, useRef } from "react";
+import { Text, Flex, Box, Link } from "@chakra-ui/react";
+import Editor, { Monaco, useMonaco } from "@monaco-editor/react";
+import { autocomplete, hover } from "@/app/components/editor/autocomplete";
+import { defineTheme } from "@/app/components/editor/define-theme";
+import { liftOff } from "@/app/components/editor/init";
+import { claritySyntax } from "@/app/components/editor/clarity-syntax";
+import { configLanguage } from "@/app/components/editor/language";
+import { Contract } from "@/app/types/contract";
+import { ArrowLeft, FileCode } from "@phosphor-icons/react";
+import CopyButton from "@/app/components/CopyButton";
+import Tag from "@/app/components/Tag";
 
 export default function ContractDetailPage({
   params,
@@ -9,73 +19,185 @@ export default function ContractDetailPage({
   params: Promise<{ contractAddress: string }>;
 }) {
   const resolvedParams = use(params);
-  const contractAddress = resolvedParams.contractAddress;
+  const contractAddress = decodeURIComponent(resolvedParams.contractAddress);
 
-  const [sourceCode, setSourceCode] = useState("");
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const [contract, setContract] = useState<Contract | null>(null);
 
   useEffect(() => {
-    const fetchContractSource = async () => {
-      if (!contractAddress) return;
-
+    const loadContract = async () => {
       try {
-        setLoading(true);
-        // Split the contract address into components
-        const [address, name] = decodeURIComponent(
-          contractAddress as string
-        ).split(".");
-
-        const response = await fetch(
-          `https://api.hiro.so/v2/contracts/source/${address}/${name}`
-        );
-
-        if (!response.ok) {
-          throw new Error("Failed to fetch contract source");
-        }
-
+        const response = await fetch("/api/contracts");
         const data = await response.json();
-        setSourceCode(data.source);
-      } catch (err: any) {
-        console.error("Error fetching contract source:", err);
-        setError(err.message);
-      } finally {
-        setLoading(false);
+        setContract(data.find((c: Contract) => c.contract === contractAddress));
+      } catch (error) {
+        console.error("Error loading contracts:", error);
       }
     };
 
-    fetchContractSource();
+    loadContract();
   }, [contractAddress]);
 
-  if (!contractAddress) {
-    return null;
-  }
+  const monaco = useMonaco();
+  const monacoEditor = useRef<any>(null);
+
+  const handleEditorWillMount = async (monacoInstance: Monaco) => {
+    configLanguage(monacoInstance);
+    hover(monacoInstance);
+    autocomplete(monacoInstance);
+    defineTheme(monacoInstance);
+    await liftOff(monacoInstance, claritySyntax);
+  };
+
+  const availableHeight = window.innerHeight - 189 - 32;
+  const editorHeight = availableHeight > 600 ? availableHeight : 600;
+  const editorWidth =
+    window.innerWidth > 800
+      ? (window.innerWidth - 48) * 0.6
+      : window.innerWidth - 32;
 
   return (
-    <Container maxW="container.xl" py={8}>
-      <Text fontSize="2xl" mb={6}>
-        Contract: {decodeURIComponent(contractAddress as string)}
+    <Flex direction="column">
+      <Link href="/" mb="6">
+        <Flex gap="1" align="center">
+          <ArrowLeft size="14px" />
+          <Flex
+            gap="1"
+            align="center"
+            borderBottom="2px solid"
+            borderColor="gray.200"
+            fontSize="sm"
+          >
+            Back to list
+          </Flex>
+        </Flex>
+      </Link>
+      <Flex gap="2" align="center" color="gray.500">
+        <FileCode size="18px" />
+        <Box
+          textTransform="uppercase"
+          fontSize="xs"
+          fontWeight="bold"
+          letterSpacing="wide"
+        >
+          Stacks Smart Contract
+        </Box>
+      </Flex>
+      <Text fontSize="3xl" mt="-1" fontWeight="bold" fontFamily="mono" mb="1">
+        {contractAddress.split(".")[1]}
       </Text>
 
-      {loading && (
-        <Box textAlign="center" py={8}>
-          <Spinner size="xl" />
-        </Box>
-      )}
+      <Flex gap="3">
+        {contract && (
+          <Editor
+            height={editorHeight}
+            width={editorWidth}
+            defaultLanguage="clarity"
+            value={contract.source}
+            beforeMount={handleEditorWillMount}
+            onMount={(editor) => {
+              monacoEditor.current = editor;
+              editor.updateOptions({
+                wordSeparators: "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+              });
+            }}
+            theme="vs-dark"
+            keepCurrentModel
+            options={{
+              readOnly: true,
+              fontLigatures: true,
+              minimap: {
+                enabled: false,
+              },
+              folding: true,
+              automaticLayout: true,
+              padding: {
+                top: 16,
+              },
+            }}
+          />
+        )}
+        {contract ? (
+          <Flex
+            direction="column"
+            width="40%"
+            maxHeight={`${editorHeight}px`}
+            overflowY="auto"
+            pr="3"
+            gap="6"
+          >
+            {/* Contract address */}
+            <Flex direction="column">
+              <Box
+                textTransform="uppercase"
+                fontSize="xs"
+                fontWeight="bold"
+                letterSpacing="wide"
+              >
+                Contract Address
+              </Box>
+              <Flex gap="1" fontSize="sm" align="center">
+                <Link
+                  target="_blank"
+                  href={`https://explorer.hiro.so/txid/${contract.contract}?chain=mainnet`}
+                  color="blue.500"
+                  textDecor="underline"
+                  textUnderlineOffset="5px"
+                >
+                  {contract?.contract}
+                </Link>
+                <CopyButton content={contract?.contract} />
+              </Flex>
+            </Flex>
 
-      {error && (
-        <Box p={4} bg="red.100" color="red.700" borderRadius="md">
-          Error loading contract source: {error}
-        </Box>
-      )}
+            {/* Summary */}
+            <Flex direction="column" gap="1">
+              <Box
+                textTransform="uppercase"
+                fontSize="xs"
+                fontWeight="bold"
+                letterSpacing="wide"
+              >
+                Summary
+              </Box>
+              <Flex fontSize="sm" align="center">
+                {contract?.analysis.summary}
+              </Flex>
+            </Flex>
 
-      {!loading && !error && (
-        <Box bg="gray.50" p={6} borderRadius="md" overflowX="auto">
-          <Code display="block" whiteSpace="pre" fontSize="sm">
-            {sourceCode}
-          </Code>
-        </Box>
-      )}
-    </Container>
+            {/* Keywords */}
+            <Flex direction="column" gap="1">
+              <Box
+                textTransform="uppercase"
+                fontSize="xs"
+                fontWeight="bold"
+                letterSpacing="wide"
+              >
+                Keywords
+              </Box>
+              <Flex>
+                {contract.analysis.tags.map((tag) => (
+                  <Tag tag={tag} key={tag} />
+                ))}
+              </Flex>
+            </Flex>
+
+            {/* Full explanation */}
+            <Flex direction="column" gap="1">
+              <Box
+                textTransform="uppercase"
+                fontSize="xs"
+                fontWeight="bold"
+                letterSpacing="wide"
+              >
+                Details
+              </Box>
+              <Flex whiteSpace="pre-line" fontSize="sm">
+                {contract?.analysis.explanation}
+              </Flex>
+            </Flex>
+          </Flex>
+        ) : null}
+      </Flex>
+    </Flex>
   );
 }

@@ -7,10 +7,14 @@ import { Contract } from "./types/contract";
 import { FileCode } from "@phosphor-icons/react";
 import TagTypeahead from "./components/TagTypeahead";
 import Tag from "./components/Tag";
+import { Autocomplete, TextField } from "@mui/material";
 
 export default function ContractsPage() {
-  const [contracts, setContracts] = useState<Contract[]>([]);
+  const [contracts, setContracts] = useState<Contract[] | null>(null);
   const [allTags, setAllTags] = useState<string[]>([]);
+  const [filteredContractName, setFilteredContractName] = useState<
+    string | undefined | null
+  >("");
   const [tagsFilterValue, setTagsFilterValue] = useState<string[]>([]);
 
   useEffect(() => {
@@ -38,26 +42,50 @@ export default function ContractsPage() {
 
   return (
     <Flex direction="column" gap="8">
-      <TagTypeahead
-        allTags={allTags}
-        value={tagsFilterValue}
-        onChange={setTagsFilterValue}
-      />
       <Flex direction="column" gap="4">
+        <Autocomplete
+          options={contracts?.map((contract) => contract.contract) || []}
+          value={filteredContractName}
+          onChange={(e, option) => {
+            setFilteredContractName(option);
+          }}
+          renderInput={(params) => (
+            <TextField
+              {...params}
+              label="Search by Contract Name/Address"
+              placeholder="Search Contracts"
+            />
+          )}
+        />
+        <TagTypeahead
+          allTags={allTags}
+          value={tagsFilterValue}
+          onChange={setTagsFilterValue}
+        />
+      </Flex>
+      <Flex direction="column" gap="4">
+        {contracts && contracts.length === 0 ? (
+          <Box>No contracts found</Box>
+        ) : null}
         {contracts
-          .filter((contract) => {
+          ?.filter((contract) => {
+            // Name filter takes priority
+            if (filteredContractName)
+              return contract.contract === filteredContractName;
+
             if (!tagsFilterValue || tagsFilterValue?.length === 0) return true;
             return tagsFilterValue.some((tag) =>
               contract.analysis.tags.includes(tag)
             );
           })
-          .map((contract) => (
+          ?.map((contract) => (
             <LinkBox
               key={contract.rank}
               p={4}
-              borderWidth={2}
+              borderWidth="1px"
+              borderColor="gray.300"
               borderRadius="md"
-              _hover={{ bg: "gray.100", borderColor: "gray.400" }}
+              _hover={{ bg: "gray.100", borderColor: "gray.900" }}
             >
               <LinkOverlay
                 as={Link}

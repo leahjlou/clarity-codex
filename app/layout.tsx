@@ -34,12 +34,12 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Provider forcedTheme="light">
-          <Container maxW="container.lg" py={8}>
+          <Container maxW="container.lg" py={4}>
             <Flex
               direction={{ base: "column", md: "row" }}
               justify="space-between"
               align="start"
-              mb={6}
+              mb={4}
               gap={{ base: 4, md: 0 }}
             >
               <Flex direction="column" gap="1">
@@ -48,8 +48,8 @@ export default function RootLayout({
                     CLARITY CODEX
                   </Heading>
                 </Link>
-                <Text color="gray.500">
-                  Browse & learn from real-world Stacks smart contracts.
+                <Text color="gray.500" fontSize="sm">
+                  Browse & learn about real-world Stacks smart contracts.
                 </Text>
               </Flex>
 

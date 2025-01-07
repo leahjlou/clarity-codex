@@ -27,27 +27,11 @@ const TagTypeahead = ({
       renderInput={(params) => (
         <TextField
           {...params}
-          label="Find Contracts with Keywords"
+          label="Find by Keyword"
           placeholder="Search Keywords"
         />
       )}
-      // renderInput={(params) => (
-      //   <Input {...params} />
-      // <TextField
-      //   {...params}
-      //   variant="filled"
-      //   label="freeSolo"
-      //   placeholder="Favorites"
-      // />
-      // )}
     />
-
-    // <Typeahead
-    //   multiple
-    //   options={allTags}
-    //   selected={value}
-    //   onChange={onChange}
-    // />
   );
 };
 

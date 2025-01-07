@@ -4,7 +4,7 @@ import { Box, Flex, Link } from "@chakra-ui/react";
 
 export default function AboutPage() {
   return (
-    <Flex maxW="600px" direction="column" gap="4">
+    <Flex maxW="600px" mx="auto" direction="column" gap="4">
       <Box>
         <strong>Clarity Codex</strong> is an index of the most popular smart
         contracts on the{" "}
@@ -16,12 +16,12 @@ export default function AboutPage() {
         >
           Stacks Blockchain
         </Link>
-        , along with descriptions, full line-by-line explanations, and
-        categories.
+        , along with descriptions, full line-by-line explanations, & keywords.
       </Box>
       <Box>
         These popularity rankings are based on a recent sample of contract call
-        transactions. The last snapshot was taken on{" "}
+        transactions. The more calls to the contract, the more popular it is
+        considered to be. The last snapshot was taken on{" "}
         <strong>January 7, 2025</strong>.
       </Box>
       <Box>
