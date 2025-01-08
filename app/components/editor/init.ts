@@ -22,6 +22,7 @@ export async function liftOff(
     await wireTmGrammars(monaco, registry, grammars);
     return true;
   } catch (e) {
+    console.error(e);
     return false;
   }
 }

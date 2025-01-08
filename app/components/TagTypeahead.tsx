@@ -27,7 +27,7 @@ const TagTypeahead = ({
       renderInput={(params) => (
         <TextField
           {...params}
-          label="Find by Keyword"
+          label="Find Contracts by Keyword"
           placeholder="Search Keywords"
         />
       )}

@@ -9,6 +9,13 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY || "no key found - check your .env file",
 });
 
+const MODEL_COSTS = {
+  "gpt-4-0125-preview": {
+    input: 0.01 / 1000, // $0.01 per 1k input tokens
+    output: 0.03 / 1000, // $0.03 per 1k output tokens
+  },
+};
+
 async function getContractSource(contractId) {
   const url = `https://api.hiro.so/extended/v1/contract/${contractId}`;
   try {
@@ -54,16 +61,40 @@ async function estimateTotalCost() {
 }
 
 async function analyzeContract(source) {
+  // add line numbers to source
+  const numberedLines = source
+    .split("\n")
+    .map((line, i) => `${(i + 1).toString().padStart(4, " ")}  ${line}`)
+    .join("\n");
+
   const prompt = `Analyze this Clarity smart contract and provide your response in the following JSON format:
 
 {
   "summary": "short 1-3 sentence summary of what the contract does",
-  "explanation": "A full, detailed explanation of how the contract works and its implementation details. Include line-by-line education/analysis. Imagine that someone is reading this code to learn more about Clarity. if a block/line of code is referenced, please use the format <L120> for a single line, or <L88-96> for a block.",
-  "tags": ["tag1", "tag2", "etc"] - categorize/tag the contract based on its functionality, for example, "NFT", "fungible-token", "DeFi", "protocol", etc
+  "explanation": "Start with a high-level architectural overview, then walk through the code line-by-line:
+  
+  1. First list and explain all the contract's data vars and constants
+  2. Then analyze each function in order of appearance, explaining:
+     - The function's purpose and when it's called
+     - Each parameter and its role
+     - The exact logic/steps of what the function does
+     - Any important safety checks or error conditions
+     - How it interacts with other functions/contracts
+  
+  For EVERY code reference, use line number annotations:
+  - Single line: <L42> 
+  - Multiple lines: <L15-20>
+  
+  Example format:
+  The contract defines a data variable 'total-supply' <L12> to track the total number of tokens.
+  
+  The 'transfer' function <L45-60> handles token transfers between accounts. It first checks if the sender has sufficient balance <L47>, then updates both accounts' balances <L52-53>...",
+  
+  "tags": ["Pick 2-4 tags that best describe the contract's category/purpose: NFT, fungible-token, DeFi, DEX, lending, staking, governance, bridge, oracle, protocol, utility, game"]
 }
 
-Contract source:
-${source}`;
+Contract source, with line numbers:
+${numberedLines}`;
 
   try {
     const completion = await openai.chat.completions.create({
@@ -137,6 +168,8 @@ if (!process.env.OPENAI_API_KEY) {
   process.exit(1);
 }
 
-await estimateTotalCost();
-
-main().catch(console.error);
+estimateTotalCost()
+  .then(() => {
+    main().catch(console.error);
+  })
+  .catch(console.error);

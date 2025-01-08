@@ -7,14 +7,10 @@ import { Contract } from "./types/contract";
 import { FileCode } from "@phosphor-icons/react";
 import TagTypeahead from "./components/TagTypeahead";
 import Tag from "./components/Tag";
-import { Autocomplete, TextField } from "@mui/material";
 
 export default function ContractsPage() {
   const [contracts, setContracts] = useState<Contract[] | null>(null);
   const [allTags, setAllTags] = useState<string[]>([]);
-  const [filteredContractName, setFilteredContractName] = useState<
-    string | undefined | null
-  >("");
   const [tagsFilterValue, setTagsFilterValue] = useState<string[]>([]);
 
   useEffect(() => {
@@ -43,20 +39,6 @@ export default function ContractsPage() {
   return (
     <Flex direction="column" gap="8">
       <Flex direction="column" gap="4">
-        <Autocomplete
-          options={contracts?.map((contract) => contract.contract) || []}
-          value={filteredContractName}
-          onChange={(e, option) => {
-            setFilteredContractName(option);
-          }}
-          renderInput={(params) => (
-            <TextField
-              {...params}
-              label="Search by Contract Name/Address"
-              placeholder="Search Contracts"
-            />
-          )}
-        />
         <TagTypeahead
           allTags={allTags}
           value={tagsFilterValue}
@@ -64,15 +46,19 @@ export default function ContractsPage() {
         />
       </Flex>
       <Flex direction="column" gap="4">
+        <Box
+          textTransform="uppercase"
+          fontSize="xs"
+          fontWeight="bold"
+          letterSpacing="wide"
+        >
+          Top Contracts On Stacks Mainnet
+        </Box>
         {contracts && contracts.length === 0 ? (
           <Box>No contracts found</Box>
         ) : null}
         {contracts
           ?.filter((contract) => {
-            // Name filter takes priority
-            if (filteredContractName)
-              return contract.contract === filteredContractName;
-
             if (!tagsFilterValue || tagsFilterValue?.length === 0) return true;
             return tagsFilterValue.some((tag) =>
               contract.analysis.tags.includes(tag)
@@ -123,9 +109,12 @@ export default function ContractsPage() {
                     fontWeight="bold"
                     letterSpacing="wide"
                   >
-                    Popularity Rank
+                    Popularity
                   </Box>
-                  <Box flexGrow="2">#{contract.rank}</Box>
+                  <Box flexGrow="2" fontSize="xs">
+                    Ranked <strong>#{contract.rank}</strong>, called{" "}
+                    {contract.calls.toLocaleString()} times this month
+                  </Box>
                 </Flex>
               </LinkOverlay>
             </LinkBox>

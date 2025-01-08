@@ -34,17 +34,22 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Provider forcedTheme="light">
-          <Container maxW="container.lg" py={4}>
+          <Container maxW="container.lg" py={4} px="4">
             <Flex
               direction={{ base: "column", md: "row" }}
               justify="space-between"
               align="start"
-              mb={4}
+              mb={6}
               gap={{ base: 4, md: 0 }}
             >
               <Flex direction="column" gap="1">
                 <Link href="/">
-                  <Heading fontSize="2xl" fontFamily="mono">
+                  <Heading
+                    fontSize="2xl"
+                    fontFamily="mono"
+                    letterSpacing="widest"
+                    fontWeight="bold"
+                  >
                     CLARITY CODEX
                   </Heading>
                 </Link>
