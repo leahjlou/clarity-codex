@@ -13,6 +13,7 @@ import { FileCode } from "@phosphor-icons/react";
 import CopyButton from "@/app/components/CopyButton";
 import Tag from "@/app/components/Tag";
 import FormattedContractExplanation from "@/app/components/FormattedContractExplanation";
+import { MAX_APP_WIDTH } from "@/app/constants";
 
 export default function ContractDetailPage({
   params,
@@ -52,7 +53,7 @@ export default function ContractDetailPage({
 
   const isLargeScreen = window.innerWidth > 800;
   const availableHeight = window.innerHeight - 150 - 32;
-  const availableWidth = Math.min(1272, window.innerWidth);
+  const availableWidth = Math.min(MAX_APP_WIDTH, window.innerWidth);
   const editorHeight = availableHeight > 600 ? availableHeight : 600;
   const editorWidth = isLargeScreen
     ? availableWidth * 0.6
