@@ -55,7 +55,7 @@ const FormattedContractExplanation = ({
     }
 
     // second pass - process all text segments for bold text
-    const processBoldText = (segment) => {
+    const processBoldText = (segment: any) => {
       if (segment.type !== "text") return segment;
       const boldSegments = [];
       let textIndex = 0;
