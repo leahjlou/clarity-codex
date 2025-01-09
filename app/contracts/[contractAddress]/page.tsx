@@ -256,7 +256,7 @@ export default function ContractDetailPage({
               px="2"
               position="absolute"
               fontSize="xs"
-              top={isLargeScreen ? "168px" : 264 + editorHeight}
+              top={isLargeScreen ? "174px" : 264 + editorHeight}
               left={isLargeScreen ? editorWidth - 83 : "calc(100% - 120px)"}
               zIndex="5"
               onClick={() => clearHighlight()}
