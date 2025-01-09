@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Box, Code } from "@chakra-ui/react";
+import { Box, Code, Text } from "@chakra-ui/react";
 import { MagnifyingGlassPlus } from "@phosphor-icons/react";
 import React from "react";
 
@@ -14,51 +14,82 @@ const FormattedContractExplanation = ({
   const processText = (inputText: string) => {
     const segments = [];
     let currentIndex = 0;
-
     const codePattern = /'[a-zA-Z][a-zA-Z0-9-*]*[!?]?'/g;
-    const linePattern = /<L\d+(?:-\d+)?>/g;
+    const boldPattern = /\*\*([^*]+)\*\*/g;
+
+    // match both the full <L...> block and capture individual L## or L##-## references
+    const lineBlockPattern = /<((?:L\d+(?:-\d+)?(?:,\s*L\d+(?:-\d+)?)*))>/g;
+    const singleLinePattern = /L(\d+)(?:-(\d+))?/g;
 
     // first pass - handle line refs
     let lineMatch;
-    while ((lineMatch = linePattern.exec(inputText)) !== null) {
+    while ((lineMatch = lineBlockPattern.exec(inputText)) !== null) {
       if (lineMatch.index > currentIndex) {
-        // stash the text between matches for code processing later
         segments.push({
           type: "text",
           content: inputText.slice(currentIndex, lineMatch.index),
         });
       }
 
-      const [start, end] = lineMatch[0]
-        .slice(2, -1)
-        .split("-")
-        .map((n) => parseInt(n));
-
-      segments.push({
-        type: "lineRef",
-        content: end ? `Lines ${start}-${end}` : `Line ${start}`,
-      });
+      // process each line reference within the block
+      const lineBlock = lineMatch[1]; // the content between < >
+      let singleLineMatch;
+      while ((singleLineMatch = singleLinePattern.exec(lineBlock)) !== null) {
+        const start = parseInt(singleLineMatch[1]);
+        const end = singleLineMatch[2] ? parseInt(singleLineMatch[2]) : null;
+        segments.push({
+          type: "lineRef",
+          content: end ? `Lines ${start}-${end}` : `Line ${start}`,
+        });
+      }
 
       currentIndex = lineMatch.index + lineMatch[0].length;
     }
 
     // process remaining text for code tokens
     if (currentIndex < inputText.length) {
-      const remainingText = inputText.slice(currentIndex);
       segments.push({
         type: "text",
-        content: remainingText,
+        content: inputText.slice(currentIndex),
       });
     }
 
-    // second pass - process all text segments for code tokens
-    return segments.flatMap((segment) => {
+    // second pass - process all text segments for bold text
+    const processBoldText = (segment) => {
       if (segment.type !== "text") return segment;
+      const boldSegments = [];
+      let textIndex = 0;
+      let boldMatch;
+      while ((boldMatch = boldPattern.exec(segment.content)) !== null) {
+        if (boldMatch.index > textIndex) {
+          boldSegments.push({
+            type: "text",
+            content: segment.content.slice(textIndex, boldMatch.index),
+          });
+        }
+        boldSegments.push({
+          type: "bold",
+          content: boldMatch[1],
+        });
+        textIndex = boldMatch.index + boldMatch[0].length;
+      }
+      if (textIndex < segment.content.length) {
+        boldSegments.push({
+          type: "text",
+          content: segment.content.slice(textIndex),
+        });
+      }
+      return boldSegments;
+    };
 
+    const afterBold = segments.flatMap(processBoldText);
+
+    // third pass - process all text segments for code tokens
+    return afterBold.flatMap((segment) => {
+      if (segment.type !== "text") return segment;
       const codeSegments = [];
       let textIndex = 0;
       let codeMatch;
-
       while ((codeMatch = codePattern.exec(segment.content)) !== null) {
         if (codeMatch.index > textIndex) {
           codeSegments.push({
@@ -66,22 +97,18 @@ const FormattedContractExplanation = ({
             content: segment.content.slice(textIndex, codeMatch.index),
           });
         }
-
         codeSegments.push({
           type: "code",
           content: codeMatch[0].slice(1, -1),
         });
-
         textIndex = codeMatch.index + codeMatch[0].length;
       }
-
       if (textIndex < segment.content.length) {
         codeSegments.push({
           type: "text",
           content: segment.content.slice(textIndex),
         });
       }
-
       return codeSegments;
     });
   };
@@ -101,6 +128,7 @@ const FormattedContractExplanation = ({
           case "lineRef":
             return (
               <Button
+                mx="0.5"
                 bg="pink.400"
                 px="1.5"
                 h="18px"
@@ -125,6 +153,12 @@ const FormattedContractExplanation = ({
                 <MagnifyingGlassPlus />
                 {segment.content}
               </Button>
+            );
+          case "bold":
+            return (
+              <Text display="inline" fontWeight="bold">
+                {segment.content}
+              </Text>
             );
           default:
             return <span key={index}>{segment.content}</span>;

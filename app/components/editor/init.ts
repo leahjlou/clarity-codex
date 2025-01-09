@@ -21,8 +21,8 @@ export async function liftOff(
     grammars.set("clarity", "source.clarity");
     await wireTmGrammars(monaco, registry, grammars);
     return true;
-  } catch (e) {
-    console.error(e);
+    // eslint-disable-next-line
+  } catch (err) {
     return false;
   }
 }

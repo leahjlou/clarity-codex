@@ -9,7 +9,7 @@ import { liftOff } from "@/app/components/editor/init";
 import { claritySyntax } from "@/app/components/editor/clarity-syntax";
 import { configLanguage } from "@/app/components/editor/language";
 import { Contract } from "@/app/types/contract";
-import { FileCode } from "@phosphor-icons/react";
+import { FileCode, SortAscending } from "@phosphor-icons/react";
 import CopyButton from "@/app/components/CopyButton";
 import Tag from "@/app/components/Tag";
 import FormattedContractExplanation from "@/app/components/FormattedContractExplanation";
@@ -52,7 +52,7 @@ export default function ContractDetailPage({
   };
 
   const isLargeScreen = window.innerWidth > 800;
-  const availableHeight = window.innerHeight - 150 - 32;
+  const availableHeight = window.innerHeight - 155 - 32;
   const availableWidth = Math.min(MAX_APP_WIDTH, window.innerWidth);
   const editorHeight = availableHeight > 600 ? availableHeight : 600;
   const editorWidth = isLargeScreen
@@ -176,17 +176,38 @@ export default function ContractDetailPage({
   ) : null;
 
   return (
-    <Flex direction="column">
-      <Flex gap="1" align="center">
-        <FileCode size="18px" />
-        <Box
-          textTransform="uppercase"
-          fontSize="xs"
-          fontWeight="bold"
-          letterSpacing="wide"
+    <Flex direction="column" gap="1">
+      <Flex align="center" gap="2">
+        <Link
+          href="/"
+          color="blue.500"
+          textDecor="underline"
+          textUnderlineOffset="5px"
         >
-          Smart Contract Details
-        </Box>
+          <Flex gap="1" align="center">
+            <SortAscending size="18px" />
+            <Box
+              textTransform="uppercase"
+              fontSize="xs"
+              fontWeight="bold"
+              letterSpacing="wide"
+            >
+              Top Contracts List
+            </Box>
+          </Flex>
+        </Link>
+        /
+        <Flex gap="1" align="center">
+          <FileCode size="18px" />
+          <Box
+            textTransform="uppercase"
+            fontSize="xs"
+            fontWeight="bold"
+            letterSpacing="wide"
+          >
+            Contract Details
+          </Box>
+        </Flex>
       </Flex>
       <Text fontSize="3xl" mt="-1" fontWeight="bold" fontFamily="mono" mb="1">
         {contractAddress.split(".")[1]}

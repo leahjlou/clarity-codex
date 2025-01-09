@@ -9,6 +9,8 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY || "no key found - check your .env file",
 });
 
+const NUM_CONTRACTS_TO_ANALYZE = 50;
+
 const MODEL_COSTS = {
   "gpt-4-0125-preview": {
     input: 0.01 / 1000, // $0.01 per 1k input tokens
@@ -48,10 +50,12 @@ async function estimateTotalCost() {
     tokensPerContract * MODEL_COSTS["gpt-4-0125-preview"].input +
     outputTokens * MODEL_COSTS["gpt-4-0125-preview"].output;
 
-  const totalEstimate = costPerContract * 200;
+  const totalEstimate = costPerContract * NUM_CONTRACTS_TO_ANALYZE;
 
   console.log(
-    `\nEstimated cost for 200 contracts: $${totalEstimate.toFixed(2)}`
+    `\nEstimated cost for ${NUM_CONTRACTS_TO_ANALYZE} contracts: $${totalEstimate.toFixed(
+      2
+    )}`
   );
   console.log(`(based on first contract size of ${firstSource.length} chars)`);
 
@@ -70,7 +74,7 @@ async function analyzeContract(source) {
   const prompt = `Analyze this Clarity smart contract and provide your response in the following JSON format:
 
 {
-  "summary": "short 1-3 sentence summary of what the contract does",
+  "summary": "short 1-2 sentence summary of what the contract does",
   "explanation": "Start with a high-level architectural overview, then walk through the code line-by-line:
   
   1. First list and explain all the contract's data vars and constants
@@ -90,6 +94,10 @@ async function analyzeContract(source) {
   
   The 'transfer' function <L45-60> handles token transfers between accounts. It first checks if the sender has sufficient balance <L47>, then updates both accounts' balances <L52-53>...",
   
+  Please make sure this analysis is very thorough, using language that a non-technical audience can understand.
+
+  Finish the analysis by noting in a list any notable qualities or things that stand out about this contract which make it unique.
+
   "tags": ["Pick 2-4 tags that best describe the contract's category/purpose: NFT, fungible-token, DeFi, DEX, lending, staking, governance, bridge, oracle, protocol, utility, game"]
 }
 
@@ -124,10 +132,15 @@ async function main() {
   const contracts = JSON.parse(fs.readFileSync("popular_contracts.json"));
   const analyses = [];
 
-  // analyze top 200 contracts
-  for (let i = 0; i < Math.min(200, contracts.length); i++) {
+  for (
+    let i = 0;
+    i < Math.min(NUM_CONTRACTS_TO_ANALYZE, contracts.length);
+    i++
+  ) {
     const contract = contracts[i];
-    console.log(`\nAnalyzing ${i + 1}/200: ${contract.contract}`);
+    console.log(
+      `\nAnalyzing ${i + 1}/${NUM_CONTRACTS_TO_ANALYZE}: ${contract.contract}`
+    );
 
     const source = await getContractSource(contract.contract);
     if (!source) {
