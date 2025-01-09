@@ -98,6 +98,8 @@ async function analyzeContract(source) {
 
   Finish the analysis by noting in a list any notable qualities or things that stand out about this contract which make it unique.
 
+  Provide the analysis in text, not JSON.
+
   "tags": ["Pick 2-4 tags that best describe the contract's category/purpose: NFT, fungible-token, DeFi, DEX, lending, staking, governance, bridge, oracle, protocol, utility, game"]
 }
 
