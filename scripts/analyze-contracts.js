@@ -88,6 +88,7 @@ async function analyzeContract(source) {
   For EVERY code reference, use line number annotations:
   - Single line: <L42> 
   - Multiple lines: <L15-20>
+  - if multiple blocks are referenced, use "<L15-20> <L2-3> <L60-70>", not "<L15-20, L2-3, L60-70>"
   
   Example format:
   The contract defines a data variable 'total-supply' <L12> to track the total number of tokens.

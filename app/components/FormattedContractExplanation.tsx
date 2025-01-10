@@ -14,7 +14,7 @@ const FormattedContractExplanation = ({
   const processText = (inputText: string) => {
     const segments = [];
     let currentIndex = 0;
-    const codePattern = /'[a-zA-Z][a-zA-Z0-9-*]*[!?]?'/g;
+    const codePattern = /(?:'|`)[a-zA-Z][a-zA-Z0-9-*]*[!?]?(?:'|`)/g;
     const boldPattern = /\*\*([^*]+)\*\*/g;
 
     // match both the full <L...> block and capture individual L## or L##-## references
